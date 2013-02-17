@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<fx:Object xmlns:fx="http://ns.adobe.com/mxml/2009"
+           xmlns:presentation="com.backendless.examples.flex.login.presentation.*"
+           xmlns:domain="com.backendless.examples.flex.login.domain.*"
+           xmlns:parsley="http://www.spicefactory.org/parsley">
+
+    <fx:Script><![CDATA[
+        import com.backendless.examples.flex.login.application.commands.LoginCommand;
+        import com.backendless.examples.flex.login.application.commands.LogoutCommand;
+        import com.backendless.examples.flex.login.application.commands.NavigateToCommand;
+        import com.backendless.examples.flex.login.application.commands.RegisterCommand;
+        import com.backendless.examples.flex.login.application.commands.StartupCommand;
+        ]]></fx:Script>
+
+    <fx:Declarations>
+
+        <domain:Model />
+
+        <parsley:MapCommand type="{StartupCommand}" />
+
+        <parsley:MapCommand type="{NavigateToCommand}" />
+
+        <parsley:MapCommand type="{LoginCommand}" />
+
+        <parsley:MapCommand type="{RegisterCommand}" />
+
+        <parsley:MapCommand type="{LogoutCommand}" />
+
+        <presentation:HomePM />
+
+        <presentation:LoginPM />
+
+    </fx:Declarations>
+
+
+</fx:Object>

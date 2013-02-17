@@ -1,2 +1,2 @@
-com.backendless.examples.flex.login
+com.backendless.examples.flex.login2
 ====================

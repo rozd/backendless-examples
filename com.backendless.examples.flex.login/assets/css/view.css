@@ -1,0 +1,79 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+
+s|Application
+{
+	fontSize: 16;
+	
+	backgroundColor: #EFEFEF;
+}
+
+mx|ViewStack
+{
+    backgroundColor: #FFFFFF;
+    backgroundAlpha: 1.0;
+}
+
+s|Button
+{
+	fontFamily: MyriadProEmbedded;
+	fontWeight: normal;
+	color: #999999;
+	
+	skinClass: ClassReference("com.backendless.examples.flex.skins.ActionButtonSkin");
+}
+
+s|TextInput
+{
+	skinClass: ClassReference("com.backendless.examples.flex.skins.TextInputSkin");
+	focusSkin: ClassReference("com.backendless.examples.flex.skins.TextInputFocusSkin");
+}
+
+s|ButtonBar
+{
+	fontFamily: MyriadProEmbedded;
+	fontWeight: normal;
+	color: #999999;
+	
+	chromeColor: #FFFFFF;
+	
+	skinClass: ClassReference("com.backendless.examples.flex.skins.ButtonBarSkin");
+}
+
+s|List
+{
+	skinClass: ClassReference("com.backendless.examples.flex.skins.BeensListSkin");
+}
+
+.editableImage
+{
+	skinClass: ClassReference("com.backendless.examples.flex.skins.ImageSkin");
+}
+
+.btnBlue
+{
+	fontFamily: MyriadProEmbedded;
+	fontWeight: normal;
+	color: #FFFFFF;
+	
+	chromeColor: #5786FD;
+	
+	skinClass: ClassReference("com.backendless.examples.flex.skins.FlatButtonSkin");
+}
+
+.btnPink
+{
+	fontFamily: MyriadProEmbedded;
+	fontWeight: normal;
+	color: #FFFFFF;
+	
+	chromeColor: #BF3292;
+	
+	skinClass: ClassReference("com.backendless.examples.flex.skins.FlatButtonSkin");
+}
+
+.btnGlad
+{
+	skinClass: ClassReference("com.backendless.examples.flex.skins.FlatGreyButton");
+}
