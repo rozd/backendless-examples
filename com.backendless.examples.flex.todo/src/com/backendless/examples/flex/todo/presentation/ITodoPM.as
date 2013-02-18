@@ -23,7 +23,7 @@ public interface ITodoPM
 
     function removeTodo(todo:Todo):void;
 
-    function completeTodo(todo:Todo):void;
+    function checkTodo(todo:Todo):void;
 
     function favoriteTodo(todo:Todo):void;
 }
