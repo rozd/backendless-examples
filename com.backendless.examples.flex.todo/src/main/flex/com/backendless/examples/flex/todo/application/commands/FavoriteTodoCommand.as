@@ -1,14 +1,14 @@
 /**
  * Created with IntelliJ IDEA.
  * User: max
- * Date: 17.02.13
- * Time: 17:23
+ * Date: 19.02.13
+ * Time: 00:01
  * To change this template use File | Settings | File Templates.
  */
 package com.backendless.examples.flex.todo.application.commands
 {
 import com.backendless.Backendless;
-import com.backendless.examples.flex.todo.application.messages.RemoveTodoMessage;
+import com.backendless.examples.flex.todo.application.messages.FavoriteTodoMessage;
 import com.backendless.examples.flex.todo.domain.Todo;
 import com.backendless.examples.flex.todo.domain.Todos;
 
@@ -18,9 +18,9 @@ import mx.rpc.events.FaultEvent;
 
 import mx.rpc.events.ResultEvent;
 
-public class RemoveTodoCommand
+public class FavoriteTodoCommand
 {
-    public function RemoveTodoCommand()
+    public function FavoriteTodoCommand()
     {
     }
 
@@ -29,19 +29,21 @@ public class RemoveTodoCommand
 
     public var callback:Function;
 
-    public function execute(msg:RemoveTodoMessage):void
+    public function execute(msg:FavoriteTodoMessage):void
     {
-        model.removeTodo(msg.todo);
+        msg.todo.favorite = !msg.todo.favorite;
 
-        Backendless.PersistenceService.of(Todo).remove(msg.todo,
+        Backendless.PersistenceService.of(Todo).save(msg.todo,
             new Responder(
                 function(event:ResultEvent):void
                 {
+                    model.updateTodo(msg.todo, event.result as Todo);
+
                     callback(event.result);
                 },
                 function(event:FaultEvent):void
                 {
-                    model.addTodo(msg.todo);
+                    msg.todo.favorite = !msg.todo.favorite;
 
                     callback(event.fault);
                 }

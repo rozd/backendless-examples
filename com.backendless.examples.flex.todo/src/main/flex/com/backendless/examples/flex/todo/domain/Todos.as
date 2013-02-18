@@ -7,22 +7,33 @@
  */
 package com.backendless.examples.flex.todo.domain
 {
+import mx.collections.ArrayCollection;
 import mx.collections.ArrayList;
 import mx.collections.IList;
+
+import spark.collections.Sort;
+import spark.collections.SortField;
 
 public class Todos
 {
     public function Todos()
     {
+        super();
     }
 
     [Bindable]
     [Publish(objectId="todos")]
-    public var list:IList = new ArrayList();
+    public var list:IList;
 
-    public function setTodoList(list:IList):void
+    public function setTodoList(source:ArrayCollection):void
     {
-        this.list = list;
+        const sort:Sort = new Sort();
+        sort.fields = [new SortField("done"), new SortField("favorite", true)];
+
+        source.sort = sort;
+        source.refresh();
+
+        this.list = source;
     }
 
     public function addTodo(todo:Todo):void

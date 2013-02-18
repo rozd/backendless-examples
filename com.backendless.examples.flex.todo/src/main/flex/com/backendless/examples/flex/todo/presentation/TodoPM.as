@@ -9,6 +9,7 @@ package com.backendless.examples.flex.todo.presentation
 {
 import com.backendless.examples.flex.todo.application.messages.AddTodoMessage;
 import com.backendless.examples.flex.todo.application.messages.CheckTodoMessage;
+import com.backendless.examples.flex.todo.application.messages.FavoriteTodoMessage;
 import com.backendless.examples.flex.todo.application.messages.RemoveTodoMessage;
 import com.backendless.examples.flex.todo.domain.Todo;
 
@@ -25,12 +26,6 @@ public class TodoPM implements ITodoPM
     public function TodoPM()
     {
         super();
-
-        const sort:Sort = new Sort();
-        sort.fields = [new SortField("done")];
-
-        todoList = new ArrayCollection();
-        todoList.sort = sort;
     }
 
     [MessageDispatcher]
@@ -40,23 +35,24 @@ public class TodoPM implements ITodoPM
     public var newTodoLabel:String;
 
     [Bindable]
-    public var todoList:ArrayCollection;
-
-    private var _originalList:IList;
-
-    [Bindable]
     [Subscribe(objectId="todos")]
-    public function get originalList():IList
-    {
-        return _originalList;
-    }
+    public var todoList:IList;
 
-    public function set originalList(value:IList):void
-    {
-        _originalList = value;
-
-        todoList.source = _originalList ? _originalList.toArray() : [];
-    }
+//    private var _originalList:IList;
+//
+//    [Bindable]
+//    [Subscribe(objectId="todos")]
+//    public function get originalList():IList
+//    {
+//        return _originalList;
+//    }
+//
+//    public function set originalList(value:IList):void
+//    {
+//        _originalList = value;
+//
+//        todoList.source = _originalList ? _originalList.toArray() : [];
+//    }
 
     public function addTodo(label:String):void
     {
@@ -80,6 +76,7 @@ public class TodoPM implements ITodoPM
 
     public function favoriteTodo(todo:Todo):void
     {
+        dispatcher(new FavoriteTodoMessage(todo));
     }
 
     //----------------------------------------------------------------

@@ -45,9 +45,9 @@
 	
 	<s:RichEditableText id="textDisplay" verticalAlign="middle"
 						widthInChars="10"
-						left="2" right="2" top="1" bottom="1" />
+						left="10" right="2" top="2" bottom="1" />
 	
-	<s:Label id="promptDisplay" maxDisplayedLines="1" verticalAlign="middle" mouseEnabled="false" mouseChildren="false" left="2" right="2" top="1" bottom="1"
+	<s:Label id="promptDisplay" maxDisplayedLines="1" verticalAlign="middle" mouseEnabled="false" mouseChildren="false" left="10" right="2" top="2" bottom="1"
 			 includeIn="normalWithPrompt,disabledWithPrompt" 
 			/>
 	

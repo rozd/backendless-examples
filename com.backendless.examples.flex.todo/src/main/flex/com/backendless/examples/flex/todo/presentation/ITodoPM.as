@@ -9,15 +9,15 @@ package com.backendless.examples.flex.todo.presentation
 {
 import com.backendless.examples.flex.todo.domain.Todo;
 
-import mx.collections.ArrayCollection;
+import mx.collections.IList;
 
 public interface ITodoPM
 {
     function get newTodoLabel():String;
     function set newTodoLabel(value:String):void;
 
-    function get todoList():ArrayCollection;
-    function set todoList(value:ArrayCollection):void;
+    function get todoList():IList;
+    function set todoList(value:IList):void;
 
     function addTodo(label:String):void;
 

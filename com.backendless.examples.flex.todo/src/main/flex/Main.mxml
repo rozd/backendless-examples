@@ -39,7 +39,7 @@
         <s:Label left="10" verticalCenter="0" styleName="h2" text="Backendless / Todo" />
     </s:Group>
 
-    <view:TodoView width="320" verticalCenter="0" horizontalCenter="0" />
+    <view:TodoView top="60" width="80%" minWidth="320" horizontalCenter="0" />
 
     <s:RichText bottom="20" horizontalCenter="0">
         <s:textFlow>

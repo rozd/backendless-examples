@@ -24,11 +24,14 @@ public class Todo implements IBackendlessEntity
 
     public var done:Boolean;
 
+    public var favorite:Boolean;
+
     public function copy(that:Object):void
     {
         this.objectId = that.objectId;
         this.label = that.label;
         this.done = that.done;
+        this.favorite = that.favorite;
     }
 }
 }

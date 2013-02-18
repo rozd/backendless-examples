@@ -6,6 +6,7 @@
     <fx:Script><![CDATA[
         import com.backendless.examples.flex.todo.application.commands.AddTodoCommand;
         import com.backendless.examples.flex.todo.application.commands.CheckTodoCommand;
+        import com.backendless.examples.flex.todo.application.commands.FavoriteTodoCommand;
         import com.backendless.examples.flex.todo.application.commands.GetTodoListCommand;
         import com.backendless.examples.flex.todo.application.commands.RemoveTodoCommand;
         import com.backendless.examples.flex.todo.application.commands.StartupCommand;
@@ -21,6 +22,7 @@
         <parsley:MapCommand type="{AddTodoCommand}" />
         <parsley:MapCommand type="{CheckTodoCommand}" />
         <parsley:MapCommand type="{RemoveTodoCommand}" />
+        <parsley:MapCommand type="{FavoriteTodoCommand}" />
         <parsley:MapCommand type="{GetTodoListCommand}" />
 
         <presentation:MainPM />
