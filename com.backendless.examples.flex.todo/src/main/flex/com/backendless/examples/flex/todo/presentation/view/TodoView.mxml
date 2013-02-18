@@ -30,7 +30,7 @@
 
     <s:TextInput id="newTodo" width="100%" height="40" text="@{this.model.newTodoLabel}" enter="newTodo_enterHandler(event)" />
 
-    <s:List width="100%" dataProvider="{this.model.todos}">
+    <s:List width="100%" dataProvider="{this.model.todoList}">
         <s:layout>
             <s:VerticalLayout gap="4" requestedMaxRowCount="8" />
         </s:layout>
