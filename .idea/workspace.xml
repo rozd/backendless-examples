@@ -4,43 +4,54 @@
     <list default="true" id="3a6e9076-2239-4f82-99e3-42b8364f2eac" name="Default" comment="" />
     <ignored path="backendless-examples.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.js2" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361172338586" ignored="false" />
+    <file path="/fragment.js2" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361211787071" ignored="false" />
     <file path="/LoginPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361111851639" ignored="false" />
-    <file path="/a.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361098871749" ignored="false" />
+    <file path="/a.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361202139935" ignored="false" />
     <file path="/Model.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361110226874" ignored="false" />
     <file path="/Login.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361015246918" ignored="false" />
     <file path="/LoginView.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361112140025" ignored="false" />
     <file path="/CheckMailView.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361111783299" ignored="false" />
-    <file path="/Context.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361170727543" ignored="false" />
+    <file path="/Context.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361205867351" ignored="false" />
     <file path="/LoginCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361101853942" ignored="false" />
     <file path="/RegisterCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361053116160" ignored="false" />
-    <file path="/Main.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361170784411" ignored="false" />
+    <file path="/Main.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361202780992" ignored="false" />
     <file path="/ILoginPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361111793715" ignored="false" />
     <file path="/FrontController.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361096941500" ignored="false" />
-    <file path="/StartupCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361112323988" ignored="false" />
+    <file path="/StartupCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361207066073" ignored="false" />
     <file path="/NavigateToCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361098733079" ignored="false" />
     <file path="/LogoutCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361109511710" ignored="false" />
     <file path="/Destination.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361099954037" ignored="false" />
     <file path="/IHomePM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361110796813" ignored="false" />
     <file path="/HomePM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361110647904" ignored="false" />
-    <file path="/view.css" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361107459674" ignored="false" />
+    <file path="/view.css" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361212103746" ignored="false" />
     <file path="/a.dummy" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361105250942" ignored="false" />
     <file path="/ButtonBarButtonSkin2.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361105787902" ignored="false" />
     <file path="/ButtonBarButtonSkin3.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361105874281" ignored="false" />
     <file path="/TextInputSkin.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361107736801" ignored="false" />
     <file path="/Register.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361108881267" ignored="false" />
     <file path="/LoggedInView.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361111635451" ignored="false" />
-    <file path="/Todo.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361114539853" ignored="false" />
-    <file path="/Todos.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361172373944" ignored="false" />
-    <file path="/ITodoPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361170594315" ignored="false" />
-    <file path="/TodoView.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361172274270" ignored="false" />
-    <file path="/TodoPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361170615319" ignored="false" />
+    <file path="/Todo.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361209864273" ignored="false" />
+    <file path="/Todos.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361213675155" ignored="false" />
+    <file path="/ITodoPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361181369894" ignored="false" />
+    <file path="/TodoView.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361203247493" ignored="false" />
+    <file path="/TodoPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361181616559" ignored="false" />
     <file path="/AddTodoMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361169677087" ignored="false" />
     <file path="/RemoveTodoMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361169556667" ignored="false" />
     <file path="/CheckTodoMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361169592059" ignored="false" />
-    <file path="/AddTodoCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361169667614" ignored="false" />
-    <file path="/CheckTodoCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361170218326" ignored="false" />
-    <file path="/RemoveTodoCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361170245437" ignored="false" />
+    <file path="/AddTodoCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361208678922" ignored="false" />
+    <file path="/CheckTodoCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361210554250" ignored="false" />
+    <file path="/RemoveTodoCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361210718294" ignored="false" />
+    <file path="/TodoItemRenderer.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361186529161" ignored="false" />
+    <file path="/Assets.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361184345951" ignored="false" />
+    <file path="/fonts.css" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361185610619" ignored="false" />
+    <file path="/text.css" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361186420870" ignored="false" />
+    <file path="/IconButtonSkin.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361201337201" ignored="false" />
+    <file path="/GetTodoListCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361209970519" ignored="false" />
+    <file path="/IMainPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361202536380" ignored="false" />
+    <file path="/MainPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361202609770" ignored="false" />
+    <file path="/VScrollBarSkin.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361212203422" ignored="false" />
+    <file path="/VScrollBarThumbSkin.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361211460441" ignored="false" />
+    <file path="/ListSkin.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361213209185" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +66,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -90,6 +100,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -99,52 +111,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TodoPM.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/presentation/TodoPM.as">
+      <file leaf-file-name="ScrollerSkin.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/ScrollerSkin.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="31" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#208#286#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TodoView.mxml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/presentation/view/TodoView.mxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="-13.0">
+            <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.64">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.mxml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/Main.mxml">
+      <file leaf-file-name="Todos.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/domain/Todos.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="43" selection-start="570" selection-end="700" vertical-scroll-proportion="-12.5">
-              <folding>
-                <marker date="1361172125000" expanded="true" signature="323:401" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Context.mxml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/Context.mxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="48" selection-start="686" selection-end="686" vertical-scroll-proportion="-6.875">
-              <folding>
-                <marker date="1361172178000" expanded="true" signature="320:661" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveTodoMessage.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/messages/RemoveTodoMessage.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="38" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
+            <state line="22" column="0" selection-start="420" selection-end="420" vertical-scroll-proportion="0.45960504">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -152,48 +131,90 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckTodoMessage.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/messages/CheckTodoMessage.as">
+      <file leaf-file-name="TodoPM.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/presentation/TodoPM.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="10" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddTodoCommand.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/commands/AddTodoCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.4790419">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Todos.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/domain/Todos.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="42" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckTodoCommand.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/commands/CheckTodoCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="25" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveTodoCommand.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/commands/RemoveTodoCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="30" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+            <state line="32" column="0" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#216#297#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VScrollBarTrackSkin.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/VScrollBarTrackSkin.mxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="62" selection-start="456" selection-end="456" vertical-scroll-proportion="-10.24">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScrollerSkin.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://D:/sdks/flex/4.6.0/frameworks/projects/spark/src/spark/skins/spark/ScrollerSkin.mxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="46" selection-start="1258" selection-end="1258" vertical-scroll-proportion="-7.2">
+              <folding>
+                <marker date="1320960785000" expanded="false" signature="773:985" placeholder="/**@see spark.components.Scroller ...*/" />
+                <marker date="1320960785000" expanded="true" signature="1130:1211" placeholder="/** @copy spark.skins.spark.ApplicationSkin#hostComponent ...*/" />
+                <marker date="1320960785000" expanded="true" signature="1344:1380" placeholder="/**  @private ...*/" />
+                <marker date="1320960785000" expanded="true" signature="1462:1984" placeholder="{...}" />
+                <marker date="1320960785000" expanded="true" signature="1563:1823" placeholder="//..." />
+                <marker date="1320960785000" expanded="true" signature="2002:2038" placeholder="/**  @private ...*/" />
+                <marker date="1320960785000" expanded="true" signature="2118:2339" placeholder="{...}" />
+                <marker date="1320960785000" expanded="false" signature="2405:2637" placeholder="/**when there is too much data to fit vertically in a display area. ...*/" />
+                <marker date="1320960785000" expanded="false" signature="2785:3023" placeholder="/**when there is too much data to fit horizontally in a display area. ...*/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListSkin.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/ListSkin.mxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="9" selection-start="489" selection-end="489" vertical-scroll-proportion="-12.16">
+              <folding>
+                <marker date="1361213211527" expanded="true" signature="771:993" placeholder="/**When switching to a different layout, HorizontalLayout for example, ...*/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scroller.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://D:/sdks/flex/4.6.0/frameworks/projects/spark/src/spark/components/Scroller.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="993" column="25" selection-start="31559" selection-end="31559" vertical-scroll-proportion="-45.64706">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/resources/css/view.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="75" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VScrollBarSkin.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/VScrollBarSkin.mxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="54" selection-start="431" selection-end="433" vertical-scroll-proportion="-10.24">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/Main.mxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="0" selection-start="1560" selection-end="1560" vertical-scroll-proportion="-19.16">
+              <folding>
+                <marker date="1361202781758" expanded="false" signature="379:531" placeholder="..." />
+                <marker date="1361202781758" expanded="true" signature="686:726" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -212,30 +233,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/domain/RemoveTodoCommand.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/domain/Todo.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/commands/GetTodoListCommand.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/messages/GetTodoListMessage.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/commands/AddTodoCommand.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/messages/AddTodoMessage.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/messages/CheckTodoMessage.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/messages/RemoveTodoMessage.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/commands/CheckTodoCommand.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/commands/RemoveTodoCommand.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/presentation/ITodoPM.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/Main.mxml" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/Context.mxml" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/presentation/view/TodoView.mxml" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/domain/Todos.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/presentation/TodoPM.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/AppSettings.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/application/commands/StartupCommand.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/domain/Todo.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/application/commands/GetTodoListCommand.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/application/commands/CheckTodoCommand.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/application/commands/AddTodoCommand.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/application/commands/RemoveTodoCommand.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/ScrollerSkin.mxml" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/HScrollBarSkin.mxml" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/VScrollBarThumbSkin.mxml" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/VScrollBarTrackSkin.mxml" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/resources/css/view.css" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/VScrollBarSkin.mxml" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/ListSkin.mxml" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/presentation/TodoPM.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/domain/Todos.as" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="9" />
-    <option name="y" value="30" />
-    <option name="width" value="1900" />
-    <option name="height" value="1040" />
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -323,6 +344,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -342,6 +365,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -373,6 +398,14 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -385,6 +418,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.backendless.examples.flex.todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.backendless.examples.flex.todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flex" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -403,6 +492,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flex" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -428,29 +525,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="presentation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backendless-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.backendless.examples.flex.todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="flex" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -468,23 +547,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com.backendless.examples.flex.todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messages" />
+              <option name="myItemId" value="com.backendless.examples.flex.shared" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -494,7 +557,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="com.backendless.examples.flex.todo" />
+              <option name="myItemId" value="com.backendless.examples.flex.shared" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -502,7 +565,167 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="todo" />
+              <option name="myItemId" value="flex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.backendless.examples.flex.shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.backendless.examples.flex.login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.backendless.examples.flex.login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.backendless.examples.flex.login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.backendless.examples.flex.login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.backendless.examples.flex.login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.backendless.examples.flex.login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.backendless.examples.flex.login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -514,170 +737,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backendless-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.backendless.examples.flex.shared" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backendless-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.backendless.examples.flex.shared" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backendless-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.backendless.examples.flex.shared" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backendless-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.backendless.examples.flex.login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backendless-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.backendless.examples.flex.login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backendless-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.backendless.examples.flex.login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backendless-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.backendless.examples.flex.login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flex" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="backendless-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.backendless.examples.flex.login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_directory_selection" value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="preferences.sourceCode.ActionScript" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/com.backendless.examples.flex.todo/libs" />
-    <property name="project.structure.side.proportion" value="0.3169145" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.side.proportion" value="0.3065268" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="com.backendless.examples.flex.todo.application.messages" />
-      <recent name="com.backendless.examples.flex.todo.presentation" />
-      <recent name="com.backendless.examples.flex.todo" />
-      <recent name="com.backendless.examples.flex.todo.application.commands" />
-      <recent name="com.backendless.examples.flex.todo.presentation.view" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/com.backendless.examples.flex.shared/assets/css" />
-      <recent name="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins" />
-      <recent name="$PROJECT_DIR$/com.backendless.examples.flex.todo/libs" />
-      <recent name="$PROJECT_DIR$/com.backendless.examples.flex.login/libs" />
-      <recent name="$PROJECT_DIR$/com.backendless.examples.flex.login/src/com/backendless/examples/flex/skins" />
+      <recent name="D:\labs\backendless-examples\backendless-examples\com.backendless.examples.flex.todo\libs" />
+      <recent name="D:\labs\backendless-examples\backendless-examples\com.backendless.examples.flex.shared\src\com\backendless\examples\flex" />
+      <recent name="D:\labs\backendless-examples\backendless-examples\com.backendless.examples.flex.todo\src\main\resources\fonts" />
+      <recent name="D:\labs\backendless-examples\backendless-examples\com.backendless.examples.flex.login\assets\fonts" />
+      <recent name="D:\labs\backendless-examples\backendless-examples\com.backendless.examples.flex.todo\src\main\flex" />
+    </key>
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="com.backendless.examples.flex.skins" />
+      <recent name="com.backendless.examples.flex.todo.presentation" />
+      <recent name="com.backendless.examples.flex.todo.application.messages" />
+      <recent name="com.backendless.examples.flex.todo.application.commands" />
+      <recent name="com.backendless.examples.flex" />
     </key>
     <key name="com.intellij.javascript.flex.refactoring.moveClass.FlexMoveClassDialog.target_package">
       <recent name="com.backendless.examples.flex.todo.domain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\labs\backendless-examples\backendless-examples\com.backendless.examples.flex.todo\src\main\flex" />
       <recent name="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/commands" />
       <recent name="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/domain" />
       <recent name="$PROJECT_DIR$/com.backendless.examples.flex.login/src/com/backendless/examples/flex/login/presentation" />
@@ -685,12 +787,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Flash App.com.backendless.examples.flex.todo">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -725,34 +821,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -766,27 +834,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -936,32 +983,52 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="9" y="30" width="1900" height="1040" extended-state="0" />
+    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29925454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17546849" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16521738" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25720385" sideWeight="0.6208733" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37912673" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973032" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1031,8 +1098,13 @@
           <line>260</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://D:/sdks/flex/4.6.0/frameworks/projects/spark/src/spark/components/supportClasses/SkinnableTextBase.as</url>
+          <line>1395</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="45" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1040,127 +1112,166 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/domain/Todo.as">
+    <entry file="file://D:/sdks/flex/4.6.0/frameworks/projects/spark/src/spark/skins/spark/HScrollBarSkin.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="58" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+        <state line="76" column="66" selection-start="2722" selection-end="2722" vertical-scroll-proportion="0.726477">
+          <folding>
+            <marker date="1320960796000" expanded="false" signature="-1:-1" placeholder="/**HScrollBarThumbSkin and HScrollBarTrackSkin classes, respectively. ...*/" />
+            <marker date="1320960796000" expanded="true" signature="-1:-1" placeholder="/** @copy spark.skins.spark.ApplicationSkin#hostComponent ...*/" />
+            <marker date="1320960796000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1320960796000" expanded="true" signature="-1:-1" placeholder="/** @private ...*/" />
+            <marker date="1320960796000" expanded="true" signature="-1:-1" placeholder="/** @private ...*/" />
+            <marker date="1320960796000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1320960796000" expanded="false" signature="-1:-1" placeholder="/**@copy spark.components.supportClasses.TrackBase#track ...*/" />
+            <marker date="1320960796000" expanded="false" signature="-1:-1" placeholder="/**@copy spark.components.supportClasses.TrackBase#thumb ...*/" />
+            <marker date="1320960796000" expanded="false" signature="-1:-1" placeholder="/**@copy spark.components.supportClasses.ScrollBarBase#decrementButton ...*/" />
+            <marker date="1320960796000" expanded="false" signature="-1:-1" placeholder="/**@copy spark.components.supportClasses.ScrollBarBase#incrementButton ...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/sdks/flex/4.6.0/frameworks/projects/spark/src/spark/skins/spark/VScrollBarTrackSkin.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="544" selection-end="544" vertical-scroll-proportion="9.24">
+          <folding>
+            <marker date="1320960791000" expanded="false" signature="-1:-1" placeholder="/**@see spark.components.VScrollBar ...*/" />
+            <marker date="1320960791000" expanded="true" signature="-1:-1" placeholder="/** @copy spark.skins.spark.ApplicationSkin#hostComponent ...*/" />
+            <marker date="1320960791000" expanded="true" signature="-1:-1" placeholder="/** @private ...*/" />
+            <marker date="1320960791000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/sdks/flex/4.6.0/frameworks/projects/spark/src/spark/skins/spark/VScrollBarSkin.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="19" selection-start="1863" selection-end="1996" vertical-scroll-proportion="-12.96">
+          <folding>
+            <marker date="1320960828000" expanded="false" signature="-1:-1" placeholder="/**VScrollBarThumbSkin and VScrollBarTrackSkin classes, respectively. ...*/" />
+            <marker date="1320960828000" expanded="true" signature="-1:-1" placeholder="/** @copy spark.skins.spark.ApplicationSkin#hostComponent ...*/" />
+            <marker date="1320960828000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1320960828000" expanded="true" signature="-1:-1" placeholder="/** @private ...*/" />
+            <marker date="1320960828000" expanded="true" signature="-1:-1" placeholder="/** @private ...*/" />
+            <marker date="1320960828000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1320960828000" expanded="false" signature="-1:-1" placeholder="/**@copy spark.components.supportClasses.TrackBase#track ...*/" />
+            <marker date="1320960828000" expanded="false" signature="-1:-1" placeholder="/**@copy spark.components.supportClasses.TrackBase#thumb ...*/" />
+            <marker date="1320960828000" expanded="false" signature="-1:-1" placeholder="/**@copy spark.components.supportClasses.ScrollBarBase#decrementButton ...*/" />
+            <marker date="1320960828000" expanded="false" signature="-1:-1" placeholder="/**@copy spark.components.supportClasses.ScrollBarBase#incrementButton ...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/sdks/flex/4.6.0/frameworks/projects/spark/src/spark/skins/spark/VScrollBarThumbSkin.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="53" selection-start="1060" selection-end="1060" vertical-scroll-proportion="-11.04">
+          <folding>
+            <marker date="1320960850000" expanded="false" signature="-1:-1" placeholder="/**@see spark.components.VScrollBar ...*/" />
+            <marker date="1320960850000" expanded="true" signature="-1:-1" placeholder="/** @copy spark.skins.spark.ApplicationSkin#hostComponent ...*/" />
+            <marker date="1320960850000" expanded="true" signature="-1:-1" placeholder="/** @private ...*/" />
+            <marker date="1320960850000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/VScrollBarThumbSkin.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="27" selection-start="274" selection-end="274" vertical-scroll-proportion="-6.4">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/commands/GetTodoListCommand.as">
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/VScrollBarTrackSkin.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+        <state line="16" column="62" selection-start="456" selection-end="456" vertical-scroll-proportion="-10.24">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/messages/AddTodoMessage.as">
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/Main.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="10" selection-start="409" selection-end="415" vertical-scroll-proportion="0.0">
+        <state line="50" column="0" selection-start="1560" selection-end="1560" vertical-scroll-proportion="-19.16">
+          <folding>
+            <marker date="1361202781758" expanded="false" signature="379:531" placeholder="..." />
+            <marker date="1361202781758" expanded="true" signature="686:726" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/resources/css/view.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="75" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/messages/GetTodoListMessage.as">
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/VScrollBarSkin.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+        <state line="16" column="54" selection-start="431" selection-end="433" vertical-scroll-proportion="-10.24">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/messages/CheckTodoMessage.as">
+    <entry file="file://D:/sdks/flex/4.6.0/frameworks/projects/spark/src/spark/components/VScrollBar.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="10" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+        <state line="256" column="34" selection-start="8280" selection-end="8280" vertical-scroll-proportion="0.49011856">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/messages/RemoveTodoMessage.as">
+    <entry file="file://D:/sdks/flex/4.6.0/frameworks/projects/spark/src/spark/skins/spark/ScrollerSkin.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="38" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0">
+        <state line="41" column="46" selection-start="1258" selection-end="1258" vertical-scroll-proportion="-7.2">
+          <folding>
+            <marker date="1320960785000" expanded="false" signature="773:985" placeholder="/**@see spark.components.Scroller ...*/" />
+            <marker date="1320960785000" expanded="true" signature="1130:1211" placeholder="/** @copy spark.skins.spark.ApplicationSkin#hostComponent ...*/" />
+            <marker date="1320960785000" expanded="true" signature="1344:1380" placeholder="/**  @private ...*/" />
+            <marker date="1320960785000" expanded="true" signature="1462:1984" placeholder="{...}" />
+            <marker date="1320960785000" expanded="true" signature="1563:1823" placeholder="//..." />
+            <marker date="1320960785000" expanded="true" signature="2002:2038" placeholder="/**  @private ...*/" />
+            <marker date="1320960785000" expanded="true" signature="2118:2339" placeholder="{...}" />
+            <marker date="1320960785000" expanded="false" signature="2405:2637" placeholder="/**when there is too much data to fit vertically in a display area. ...*/" />
+            <marker date="1320960785000" expanded="false" signature="2785:3023" placeholder="/**when there is too much data to fit horizontally in a display area. ...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/sdks/flex/4.6.0/frameworks/projects/spark/src/spark/components/Scroller.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="993" column="25" selection-start="31559" selection-end="31559" vertical-scroll-proportion="-45.64706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/ListSkin.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="489" selection-end="489" vertical-scroll-proportion="-12.16">
+          <folding>
+            <marker date="1361213211527" expanded="true" signature="771:993" placeholder="/**When switching to a different layout, HorizontalLayout for example, ...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/ScrollerSkin.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/presentation/TodoPM.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/commands/CheckTodoCommand.as">
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/domain/Todos.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/commands/RemoveTodoCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="30" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+        <state line="22" column="0" selection-start="420" selection-end="420" vertical-scroll-proportion="0.45960504">
           <folding>
-            <element signature="e#216#297#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/Main.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="43" selection-start="570" selection-end="700" vertical-scroll-proportion="-12.5">
-          <folding>
-            <marker date="1361172125000" expanded="true" signature="323:401" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/Context.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="48" selection-start="686" selection-end="686" vertical-scroll-proportion="-6.875">
-          <folding>
-            <marker date="1361172178000" expanded="true" signature="320:661" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Adobe Flash Builder 4.7/sdks/4.6.0/frameworks/projects/spark/src/spark/components/TextInput.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="7" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/presentation/ITodoPM.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="500" selection-end="500" vertical-scroll-proportion="0.31380752">
-          <folding>
-            <element signature="e#208#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/domain/Todos.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="42" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/presentation/TodoPM.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="31" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#208#286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/presentation/view/TodoView.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="-13.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/com/backendless/examples/flex/todo/application/commands/AddTodoCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="533" selection-end="533" vertical-scroll-proportion="0.4790419">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1204,11 +1315,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>4.6.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3065268" />
               </list>
             </option>
           </splitter-proportions>
@@ -1220,7 +1331,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.14335664" />
+                <option value="0.3065268" />
               </list>
             </option>
           </splitter-proportions>

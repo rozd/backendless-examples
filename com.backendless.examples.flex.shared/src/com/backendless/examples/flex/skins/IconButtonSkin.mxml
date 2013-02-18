@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<s:Skin xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark">
+
+    <fx:Script>
+        <![CDATA[
+        import mx.utils.ColorUtil;
+        ]]>
+    </fx:Script>
+
+    <fx:Metadata>
+        [HostComponent("spark.components.Button")]
+    </fx:Metadata>
+
+    <s:states>
+        <s:State name="disabled"/>
+        <s:State name="down"/>
+        <s:State name="over"/>
+        <s:State name="up"/>
+    </s:states>
+
+    <s:Label id="labelDisplay" color.over="{ColorUtil.adjustBrightness2(getStyle('color'), -0xF)}" horizontalCenter="0" verticalCenter="0" maxDisplayedLines="1" verticalAlign="middle" />
+
+</s:Skin>
