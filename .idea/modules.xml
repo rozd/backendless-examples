@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/com.backendless.examples.flex.login/backendless-examples.iml" filepath="$PROJECT_DIR$/com.backendless.examples.flex.login/backendless-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.backendless.examples.flex.login/com.backendless.examples.flex.login.iml" filepath="$PROJECT_DIR$/com.backendless.examples.flex.login/com.backendless.examples.flex.login.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/com.backendless.examples.flex.shared.iml" filepath="$PROJECT_DIR$/com.backendless.examples.flex.shared/com.backendless.examples.flex.shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/com.backendless.examples.flex.todo.iml" filepath="$PROJECT_DIR$/com.backendless.examples.flex.todo/com.backendless.examples.flex.todo.iml" />
     </modules>
   </component>
 </project>

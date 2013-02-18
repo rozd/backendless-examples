@@ -1,0 +1,40 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+
+.h2
+{
+	fontFamily: LobsterEmbedded;
+	color: #FFFFFF;
+	fontWeight: normal;
+	
+	fontSize: 24;
+}
+
+.h3
+{
+	color: #666666;
+	
+	fontFamily: GeorgiaEmbedded;
+	fontWeight: normal;
+	fontStyle: italic;
+	fontSize: 18;
+}
+
+.h4
+{
+	color: #333333;
+	
+	fontFamily: LobsterEmbedded;
+	fontWeight: normal;
+	fontSize: 18;
+}
+
+.h5
+{
+	color: #666666	;
+	
+	fontFamily: MyriadProEmbedded;
+	fontStyle: italic;
+	fontWeight: normal;
+	fontSize: 14;
+}
