@@ -48,6 +48,18 @@ public class GetGalleryCommand
 
         const query:BackendlessDataQuery = new BackendlessDataQuery();
 
+        const urls:Array =
+            [
+                "http://www.helpexamples.com/flash/images/image1.jpg",
+                "http://www.helpexamples.com/flash/images/image2.jpg",
+                "http://www.helpexamples.com/flash/images/image3.jpg",
+                "http://www.helpexamples.com/flash/images/image4.jpg",
+                "http://www.helpexamples.com/flash/images/gallery1/images/pic11.jpg",
+                "http://www.helpexamples.com/flash/images/gallery1/images/pic14.jpg",
+                "http://www.helpexamples.com/flash/images/gallery2/images/IMG_1592.jpg",
+                "http://www.helpexamples.com/images/montreal/images/IMG_5057.jpg",
+            ];
+
 //        db.find(query,
 //            new Responder(
 //                function(event:ResultEvent):void

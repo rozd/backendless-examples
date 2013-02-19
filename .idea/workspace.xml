@@ -88,7 +88,7 @@
     <file path="/IEditorPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361296723511" ignored="false" />
     <file path="/AddNewItemCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361306413527" ignored="false" />
     <file path="/DetailsView.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361308225589" ignored="false" />
-    <file path="/GetGalleryCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361300762949" ignored="false" />
+    <file path="/GetGalleryCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361312852297" ignored="false" />
     <file path="/GalleryPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361301270277" ignored="false" />
     <file path="/UpdateItemMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361308467824" ignored="false" />
     <file path="/Dummy.txt" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361310392775" ignored="false" />
@@ -173,13 +173,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UploadFileCommand.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UploadFileCommand.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/UploadFileCommand.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="46" selection-start="1990" selection-end="1990" vertical-scroll-proportion="0.58762884">
+            <state line="58" column="59" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#219#254#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetGalleryCommand.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/GetGalleryCommand.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="86" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.72164947">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -244,15 +253,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BrowseFileCommand.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/BrowseFileCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="79" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -271,7 +271,6 @@
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/AppSettings.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/AddNewItemCommand.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/SelectItemCommand.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/GetGalleryCommand.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/assets/css/view.css" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/Main.mxml" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/domain/Item.as" />
@@ -282,6 +281,7 @@
         <option value="$PROJECT_DIR$/backendless/tests/com/backendless/BackendlessTestBase.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/Context.mxml" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/UploadFileCommand.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/GetGalleryCommand.as" />
       </list>
     </option>
   </component>
@@ -892,21 +892,6 @@
           <line>210</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="flex">
-          <url>file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/UploadFileCommand.as</url>
-          <line>58</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="flex">
-          <url>file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/UploadFileCommand.as</url>
-          <line>65</line>
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="flex">
-          <url>file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/UploadFileCommand.as</url>
-          <line>72</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="77" />
     </breakpoint-manager>
@@ -916,13 +901,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/Adobe Flash Builder 4.7/sdks/4.6.0/frameworks/projects/framework/src/mx/events/PropertyChangeEvent.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="64" selection-start="3441" selection-end="3455" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/view/DetailsView.mxml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="81" selection-start="879" selection-end="879" vertical-scroll-proportion="-15.0">
@@ -1035,10 +1013,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/UploadFileCommand.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="46" selection-start="1990" selection-end="1990" vertical-scroll-proportion="0.58762884">
+        <state line="58" column="59" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#219#254#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/GetGalleryCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="86" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.72164947">
+          <folding />
         </state>
       </provider>
     </entry>
