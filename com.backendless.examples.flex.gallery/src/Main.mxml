@@ -1,7 +1,62 @@
 <?xml version="1.0"?>
-<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark">
-    <fx:Script><![CDATA[
-        import mx.controls.Alert;
-        ]]></fx:Script>
-    <s:Button click="Alert.show('Hello, world')" label="Say Hello"/>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
+               xmlns:parsley="http://www.spicefactory.org/parsley"
+               xmlns:view="com.backendless.examples.flex.galery.presentation.view.*" currentState="{model.destination}" applicationComplete="applicationCompleteHandler(event)">
+
+    <fx:Script>
+        <![CDATA[
+        import com.backendless.examples.flex.galery.Context;
+        import com.backendless.examples.flex.galery.presentation.IMainPM;
+
+        import mx.events.FlexEvent;
+
+        [Inject]
+        [Bindable]
+        public var model:IMainPM;
+
+        private function applicationCompleteHandler(event:FlexEvent):void
+        {
+            model.startup();
+        }
+        ]]>
+    </fx:Script>
+
+    <fx:Style source="/css/fonts.css" />
+    <fx:Style source="/css/text.css" />
+    <fx:Style source="/css/view.css" />
+
+    <fx:Declarations>
+        <parsley:Configure />
+        <parsley:ContextBuilder config="{Context}" />
+    </fx:Declarations>
+
+    <s:states>
+        <s:State name="loading" />
+        <s:State name="gallery" />
+        <s:State name="details" />
+    </s:states>
+
+    <s:Group left="0" top="0" right="0" height="40">
+        <s:Rect width="100%" height="100%">
+            <s:fill>
+                <s:SolidColor color="#333333" />
+            </s:fill>
+        </s:Rect>
+        <s:Label left="10" verticalCenter="0" styleName="h2" text="Backendless / Gallery" />
+    </s:Group>
+
+    <view:GalleryView width="80%" height="80%" minWidth="320" minHeight="320" />
+
+    <s:PopUpAnchor displayPopUp.details="true">
+        <view:DetailsView />
+    </s:PopUpAnchor>
+
+    <s:RichText bottom="20" horizontalCenter="0">
+        <s:textFlow>
+            <s:TextFlow>
+
+            </s:TextFlow>
+        </s:textFlow>
+    </s:RichText>
+
 </s:Application>

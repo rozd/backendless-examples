@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
+         xmlns:parsley="http://www.spicefactory.org/parsley">
+
+    <fx:Script>
+        <![CDATA[
+        import com.backendless.examples.flex.galery.presentation.IGalleryPM;
+
+        [Inject]
+        [Bindable]
+        public var model:IGalleryPM;
+
+        ]]>
+    </fx:Script>
+
+    <fx:Declarations>
+        <parsley:Configure />
+    </fx:Declarations>
+
+    <s:Rect left="0" top="0" right="0" bottom="0">
+        <s:fill>
+            <s:SolidColor color="#FFFFFF" />
+        </s:fill>
+    </s:Rect>
+
+    <s:VGroup width="100%" height="100%" horizontalAlign="right">
+        <s:Button styleName="btnBlue" label="Add Photo" click="model.addNew()" />
+
+        <s:List width="100%" height="100%" dataProvider="{model.gallery}" selectedItem="{model.selectedItem}" change="{model.select(event.target.selectedItem)}" />
+    </s:VGroup>
+
+</s:Group>
