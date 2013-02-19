@@ -47,9 +47,7 @@
 
     <view:GalleryView width="80%" height="80%" minWidth="320" minHeight="320" />
 
-    <s:PopUpAnchor displayPopUp.details="true">
-        <view:DetailsView />
-    </s:PopUpAnchor>
+    <view:DetailsView width="400" height="300" />
 
     <s:RichText bottom="20" horizontalCenter="0">
         <s:textFlow>

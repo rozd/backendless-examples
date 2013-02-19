@@ -48,31 +48,31 @@ public class GetGalleryCommand
 
         const query:BackendlessDataQuery = new BackendlessDataQuery();
 
-        db.find(query,
-            new Responder(
-                function(event:ResultEvent):void
-                {
-                    const list:Array = []; // event.result as IList;
-
-                    for each (var o:Object in event.result.data)
-                    {
-                        var todo:Item = new Item();
-                        todo.copy(o);
-
-                        list.push(todo);
-                    }
-
-                    gallery.setList(new ArrayList(list));
-
-                    dispatcher(new NavigateToMessage(Destiantion.GALLERY));
-
-                    callback(event.result);
-                },
-                function(event:FaultEvent):void
-                {
-                    callback(event.fault);
-                }
-            ));
+//        db.find(query,
+//            new Responder(
+//                function(event:ResultEvent):void
+//                {
+//                    const list:Array = []; // event.result as IList;
+//
+//                    for each (var o:Object in event.result.data)
+//                    {
+//                        var todo:Item = new Item();
+//                        todo.copy(o);
+//
+//                        list.push(todo);
+//                    }
+//
+//                    gallery.setList(new ArrayList(list));
+//
+//                    dispatcher(new NavigateToMessage(Destiantion.GALLERY));
+//
+//                    callback(event.result);
+//                },
+//                function(event:FaultEvent):void
+//                {
+//                    callback(event.fault);
+//                }
+//            ));
     }
 }
 }

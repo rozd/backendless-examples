@@ -11,6 +11,9 @@
             <entry module-name="com.backendless.examples.flex.shared" build-configuration-name="com.backendless.examples.flex.shared">
               <dependency linkage="Merged" />
             </entry>
+            <entry module-name="backendless" build-configuration-name="backendless">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
           <sdk name="4.6.0" />
         </dependencies>
@@ -42,6 +45,7 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="com.backendless.examples.flex.shared" exported="" />
+    <orderEntry type="module" module-name="backendless" exported="" />
   </component>
 </module>
 

@@ -8,6 +8,7 @@
 package com.backendless.examples.flex.galery.application.commands
 {
 import com.backendless.Backendless;
+import com.backendless.examples.flex.galery.application.messages.UpdateItemMessage;
 import com.backendless.examples.flex.galery.application.messages.UploadFileMessage;
 
 import flash.events.DataEvent;
@@ -24,11 +25,19 @@ public class UploadFileCommand
 
     public var callback:Function;
 
-    public function execute(msg:UploadFileMessage):void
+    public function execute(msg:UpdateItemMessage):void
     {
         addListeners(msg.item.fileREF);
 
-        Backendless.FileService.upload(msg.item.fileREF, "backendless-examples-gallery");
+
+        try
+        {
+            Backendless.FileService.upload(msg.item.fileREF, "folder");
+        }
+        catch (e:Error)
+        {
+            trace(e);
+        }
     }
 
     private function addListeners(target:IEventDispatcher):void

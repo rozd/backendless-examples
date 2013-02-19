@@ -7,6 +7,7 @@
  */
 package com.backendless.examples.flex.galery.presentation
 {
+import com.backendless.examples.flex.galery.application.messages.UpdateItemMessage;
 import com.backendless.examples.flex.galery.application.messages.UploadFileMessage;
 import com.backendless.examples.flex.galery.application.messages.BrowseFileMessage;
 import com.backendless.examples.flex.galery.domain.Item;
@@ -23,6 +24,7 @@ public class DetailsPM implements IDetailsPM
     public var dispatcher:Function;
 
     [Bindable]
+    [Subscribe(objectId="selectedItem")]
     public var item:Item;
 
     public function back():void
@@ -43,7 +45,7 @@ public class DetailsPM implements IDetailsPM
 
     public function submit():void
     {
-        dispatcher(new UploadFileMessage(item));
+        dispatcher(new UpdateItemMessage(item));
     }
 }
 }

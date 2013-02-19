@@ -7,10 +7,16 @@
  */
 package com.backendless.examples.flex.galery.application.messages
 {
+import com.backendless.examples.flex.galery.domain.Item;
+
 public class UpdateItemMessage
 {
-    public function UpdateItemMessage()
+    public function UpdateItemMessage(item:Item)
     {
+        super();
+
+        this.item = item;
     }
+    public var item:Item;
 }
 }

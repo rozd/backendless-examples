@@ -7,6 +7,7 @@
  */
 package com.backendless.examples.flex.galery.application.commands
 {
+import com.backendless.examples.flex.galery.application.messages.AddNewItemMessage;
 import com.backendless.examples.flex.galery.domain.Gallery;
 import com.backendless.examples.flex.galery.domain.Item;
 
@@ -23,7 +24,7 @@ public class AddNewItemCommand
     [Inject]
     public var gallery:Gallery;
 
-    public function execute():void
+    public function execute(msg:AddNewItemMessage):void
     {
         const item:Item = new Item();
 

@@ -46,6 +46,11 @@ s|List
 	skinClass: ClassReference("com.backendless.examples.flex.skins.ListSkin");
 }
 
+s|Image
+{
+    skinClass: ClassReference("com.backendless.examples.flex.skins.ImageSkin");
+}
+
 s|VScrollBar
 {
     skinClass: ClassReference("com.backendless.examples.flex.skins.VScrollBarSkin");
