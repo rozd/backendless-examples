@@ -29,6 +29,11 @@ s|TextInput
 	skinClass: ClassReference("com.backendless.examples.flex.skins.TextInputSkin");
 	focusSkin: ClassReference("com.backendless.examples.flex.skins.TextInputFocusSkin");
 }
+s|TextArea
+{
+    skinClass: ClassReference("com.backendless.examples.flex.skins.TextAreaSkin");
+    focusSkin: ClassReference("com.backendless.examples.flex.skins.TextInputFocusSkin");
+}
 
 s|ButtonBar
 {

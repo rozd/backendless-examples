@@ -14,5 +14,7 @@ public class Destiantion
     public static const GALLERY:String   = "gallery";
 
     public static const DETAILS:String   = "details";
+
+    public static const NEWITEM:String   = "newitem";
 }
 }

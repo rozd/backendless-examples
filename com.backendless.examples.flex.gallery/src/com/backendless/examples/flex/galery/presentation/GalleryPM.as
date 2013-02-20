@@ -24,7 +24,7 @@ public class GalleryPM implements IGalleryPM
     public var dispatcher:Function;
 
     [Bindable]
-    [Subscribe(objectId="items")]
+    [Subscribe(objectId="galleryList")]
     public var gallery:IList;
 
     [Bindable]

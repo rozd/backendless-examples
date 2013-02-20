@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a6e9076-2239-4f82-99e3-42b8364f2eac" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/backendless/src/com/backendless/logging/targets/FileTarget.as" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backendless/.actionScriptProperties" afterPath="$PROJECT_DIR$/backendless/.actionScriptProperties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backendless/.flexLibProperties" afterPath="$PROJECT_DIR$/backendless/.flexLibProperties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backendless/src/com/backendless/Backendless.as" afterPath="$PROJECT_DIR$/backendless/src/com/backendless/Backendless.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backendless/tests/com/backendless/BackendlessTestBase.as" afterPath="$PROJECT_DIR$/backendless/tests/com/backendless/BackendlessTestBase.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backendless/tests/com/backendless/service/messaging/MessagingServiceDeviceTest.as" afterPath="$PROJECT_DIR$/backendless/tests/com/backendless/service/messaging/MessagingServiceDeviceTest.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backendless/src/com/backendless/messaging/PushNotification.as" afterPath="$PROJECT_DIR$/backendless/src/com/backendless/messaging/PushNotification.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backendless/src/com/backendless/media/RecordingControl.as" afterPath="$PROJECT_DIR$/backendless/src/com/backendless/media/RecordingControl.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backendless/src/com/backendless/service/_FileService.as" afterPath="$PROJECT_DIR$/backendless/src/com/backendless/service/_FileService.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backendless/src/com/backendless/service/_MediaService.as" afterPath="$PROJECT_DIR$/backendless/src/com/backendless/service/_MediaService.as" />
+    <list default="true" readonly="true" id="3a6e9076-2239-4f82-99e3-42b8364f2eac" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../backendless/.actionScriptProperties" afterPath="$PROJECT_DIR$/../../backendless/.actionScriptProperties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../backendless/.flexLibProperties" afterPath="$PROJECT_DIR$/../../backendless/.flexLibProperties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../backendless/src/com/backendless/Backendless.as" afterPath="$PROJECT_DIR$/../../backendless/src/com/backendless/Backendless.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../backendless/tests/com/backendless/BackendlessTestBase.as" afterPath="$PROJECT_DIR$/../../backendless/tests/com/backendless/BackendlessTestBase.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../backendless/src/com/backendless/media/BackendlessVideoDisplay.as" afterPath="$PROJECT_DIR$/../../backendless/src/com/backendless/media/BackendlessVideoDisplay.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../backendless/src/com/backendless/media/BackendlessVideoPlayer.as" afterPath="$PROJECT_DIR$/../../backendless/src/com/backendless/media/BackendlessVideoPlayer.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../backendless/src/com/backendless/media/BackendlessVideoSource.as" afterPath="$PROJECT_DIR$/../../backendless/src/com/backendless/media/BackendlessVideoSource.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../backendless/src/com/backendless/logging/targets/FileTarget.as" afterPath="$PROJECT_DIR$/../../backendless/src/com/backendless/logging/targets/FileTarget.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../backendless/tests/com/backendless/service/messaging/MessagingServiceDeviceTest.as" afterPath="$PROJECT_DIR$/../../backendless/tests/com/backendless/service/messaging/MessagingServiceDeviceTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../backendless/src/com/backendless/messaging/PushNotification.as" afterPath="$PROJECT_DIR$/../../backendless/src/com/backendless/messaging/PushNotification.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../backendless/src/com/backendless/media/RecordingControl.as" afterPath="$PROJECT_DIR$/../../backendless/src/com/backendless/media/RecordingControl.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../backendless/src/com/backendless/media/StreamSettings.as" afterPath="$PROJECT_DIR$/../../backendless/src/com/backendless/media/StreamSettings.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../backendless/src/com/backendless/service/_FileService.as" afterPath="$PROJECT_DIR$/../../backendless/src/com/backendless/service/_FileService.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../backendless/src/com/backendless/service/_MediaService.as" afterPath="$PROJECT_DIR$/../../backendless/src/com/backendless/service/_MediaService.as" />
     </list>
     <ignored path="backendless-examples.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.js2" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361311567187" ignored="false" />
+    <file path="/fragment.js2" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361387992228" ignored="false" />
     <file path="/LoginPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361111851639" ignored="false" />
     <file path="/a.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361202139935" ignored="false" />
     <file path="/Model.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361299541765" ignored="false" />
     <file path="/Login.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361015246918" ignored="false" />
     <file path="/LoginView.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361112140025" ignored="false" />
     <file path="/CheckMailView.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361111783299" ignored="false" />
-    <file path="/Context.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361301806628" ignored="false" />
+    <file path="/Context.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361375943956" ignored="false" />
     <file path="/LoginCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361101853942" ignored="false" />
     <file path="/RegisterCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361053116160" ignored="false" />
-    <file path="/Main.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361306618686" ignored="false" />
+    <file path="/Main.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361379940293" ignored="false" />
     <file path="/ILoginPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361111793715" ignored="false" />
     <file path="/FrontController.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361096941500" ignored="false" />
     <file path="/StartupCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361298059060" ignored="false" />
@@ -34,7 +38,7 @@
     <file path="/Destination.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361099954037" ignored="false" />
     <file path="/IHomePM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361110796813" ignored="false" />
     <file path="/HomePM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361110647904" ignored="false" />
-    <file path="/view.css" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361307058315" ignored="false" />
+    <file path="/view.css" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361380736088" ignored="false" />
     <file path="/a.dummy" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361299760926" ignored="false" />
     <file path="/ButtonBarButtonSkin2.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361105787902" ignored="false" />
     <file path="/ButtonBarButtonSkin3.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361105874281" ignored="false" />
@@ -65,7 +69,7 @@
     <file path="/ListSkin.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361213209185" ignored="false" />
     <file path="/FavoriteTodoMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361224971049" ignored="false" />
     <file path="/FavoriteTodoCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361225108523" ignored="false" />
-    <file path="/IGalleryPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361296767338" ignored="false" />
+    <file path="/IGalleryPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361350275558" ignored="false" />
     <file path="/GalleryItem.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361263857450" ignored="false" />
     <file path="/SelectFileMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361275714878" ignored="false" />
     <file path="/UploadFileCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361310070264" ignored="false" />
@@ -77,22 +81,33 @@
     <file path="/DetailsPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361308401511" ignored="false" />
     <file path="/IDetailsPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361277556312" ignored="false" />
     <file path="/SelectItemMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361277647623" ignored="false" />
-    <file path="/Gallery.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361299767678" ignored="false" />
-    <file path="/Destiantion.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361278864112" ignored="false" />
-    <file path="/SelectItemCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361306562075" ignored="false" />
+    <file path="/Gallery.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361350906315" ignored="false" />
+    <file path="/Destiantion.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361376582264" ignored="false" />
+    <file path="/SelectItemCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361376728767" ignored="false" />
     <file path="D:/dev/infovista/svn/vista360/branches/2.2-HF/vdb.server/src/com/infovista/vdb/tools/RawCounter.java" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361281452854" ignored="false" />
     <file path="/RawCounter.java" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361281434170" ignored="false" />
-    <file path="D:/dev/infovista/vista360/trunk/src/vdb.server/src/com/infovista/vdb/tools/RawCounter.java" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361294186108" ignored="false" />
-    <file path="/fragment.java" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361284801389" ignored="false" />
-    <file path="/GalleryView.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361297052117" ignored="false" />
+    <file path="D:/dev/infovista/vista360/trunk/src/vdb.server/src/com/infovista/vdb/tools/RawCounter.java" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361358909810" ignored="false" />
+    <file path="/fragment.java" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361354791947" ignored="false" />
+    <file path="/GalleryView.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361380600098" ignored="false" />
     <file path="/IEditorPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361296723511" ignored="false" />
-    <file path="/AddNewItemCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361306413527" ignored="false" />
+    <file path="/AddNewItemCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361376762500" ignored="false" />
     <file path="/DetailsView.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361308225589" ignored="false" />
-    <file path="/GetGalleryCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361312852297" ignored="false" />
-    <file path="/GalleryPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361301270277" ignored="false" />
+    <file path="/GetGalleryCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361350534629" ignored="false" />
+    <file path="/GalleryPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361350471641" ignored="false" />
     <file path="/UpdateItemMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361308467824" ignored="false" />
     <file path="/Dummy.txt" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361310392775" ignored="false" />
-    <file path="/PushNotification.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361310544067" ignored="false" />
+    <file path="/PushNotification.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361383910631" ignored="false" />
+    <file path="D:/dev/infovista/vista360/trunk/src/vdb.client/src/com/infovista/vdb/ui/dashboardEditor/analytics/instanceHolder/AnalyticChartInstanceHolderController.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361359748929" ignored="false" />
+    <file path="/INewItemPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361377274458" ignored="false" />
+    <file path="/NewItemView.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361380653791" ignored="false" />
+    <file path="/NewItemPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361377370673" ignored="false" />
+    <file path="/UpdateItemCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361381632697" ignored="false" />
+    <file path="/_MessagingService.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361382956858" ignored="false" />
+    <file path="/FileTarget.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361383626888" ignored="false" />
+    <file path="/BackendlessTestBase.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361383708677" ignored="false" />
+    <file path="/_FileService.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361388834406" ignored="false" />
+    <file path="/HttpFileStream.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361387783336" ignored="false" />
+    <file path="/FilePart.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361387821787" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +122,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -121,8 +137,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -137,11 +153,11 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -151,104 +167,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DetailsPM.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/DetailsPM.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#211#294#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Context.mxml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/Context.mxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="70" selection-start="1851" selection-end="1851" vertical-scroll-proportion="-10.375">
-              <folding>
-                <marker date="1361311103000" expanded="true" signature="344:1245" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UploadFileCommand.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/UploadFileCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="59" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#219#254#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GetGalleryCommand.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/GetGalleryCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="86" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.72164947">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_FileService.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backendless/src/com/backendless/service/_FileService.as">
+        <entry file="file://$PROJECT_DIR$/../../backendless/src/com/backendless/service/_FileService.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="0" selection-start="8242" selection-end="8242" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArgumentValidator.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backendless/src/com/backendless/validators/ArgumentValidator.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Item.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/domain/Item.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.0">
+            <state line="152" column="0" selection-start="8037" selection-end="8037" vertical-scroll-proportion="-3.1568627">
               <folding>
-                <element signature="e#206#253#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#2806#2831#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Backendless.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backendless/src/com/backendless/Backendless.as">
+      <file leaf-file-name="HttpDataListener.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/events/HttpDataListener.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="52" selection-start="6639" selection-end="6639" vertical-scroll-proportion="0.0">
+            <state line="11" column="44" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PushNotification.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backendless/src/com/backendless/messaging/PushNotification.as">
+      <file leaf-file-name="HttpListener.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/events/HttpListener.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="54" selection-start="556" selection-end="556" vertical-scroll-proportion="-7.5">
-              <folding>
-                <element signature="e#37#73#0" expanded="true" />
-              </folding>
+            <state line="18" column="15" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BackendlessTestBase.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backendless/tests/com/backendless/BackendlessTestBase.as">
+      <file leaf-file-name="HttpClient.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/HttpClient.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="58" selection-start="4334" selection-end="4334" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2899#2932#0" expanded="true" />
-              </folding>
+            <state line="50" column="65" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpSocket.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/HttpSocket.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="280" column="0" selection-start="8973" selection-end="8973" vertical-scroll-proportion="0.33271027">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpFileStream.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/io/HttpFileStream.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="15" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilePart.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/http/multipart/FilePart.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="25" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpClientAppImpl.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/ui/HttpClientAppImpl.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="38" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -266,29 +255,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/domain/Gallery.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/GalleryPM.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/AppSettings.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/AddNewItemCommand.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/SelectItemCommand.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/assets/css/view.css" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/Main.mxml" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/domain/Item.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/view/DetailsView.mxml" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/DetailsPM.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/messages/UpdateItemMessage.as" />
-        <option value="$PROJECT_DIR$/backendless/src/com/backendless/messaging/PushNotification.as" />
-        <option value="$PROJECT_DIR$/backendless/tests/com/backendless/BackendlessTestBase.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/Context.mxml" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/UploadFileCommand.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/NewItemPM.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/GetGalleryCommand.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/Main.mxml" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/skins/TextAreaSkin.mxml" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/assets/css/view.css" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/view/GalleryView.mxml" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/view/NewItemView.mxml" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/UpdateItemCommand.as" />
+        <option value="$PROJECT_DIR$/../../backendless/src/com/backendless/media/BackendlessVideoSource.as" />
+        <option value="$PROJECT_DIR$/../../backendless/tests/com/backendless/BackendlessTestBase.as" />
+        <option value="$PROJECT_DIR$/../../backendless/src/com/backendless/logging/targets/FileTarget.as" />
+        <option value="$PROJECT_DIR$/../../backendless/src/com/backendless/messaging/PushNotification.as" />
+        <option value="$PROJECT_DIR$/../../backendless/src/com/backendless/Backendless.as" />
+        <option value="$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/io/HttpFileStream.as" />
+        <option value="$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/http/multipart/FilePart.as" />
+        <option value="$PROJECT_DIR$/../../backendless/src/com/backendless/service/_FileService.as" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="1054" />
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -378,7 +368,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -393,7 +383,7 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
     </navigator>
     <panes>
@@ -404,29 +394,15 @@
               <option name="myItemId" value="backendless-examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="backendless-examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.backendless.examples.flex.gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="backendless-examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.backendless.examples.flex.gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -449,14 +425,140 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="as3httpclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="as3httpclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="as3httpclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="as3httpclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="as3httpclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="httpclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="events" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -468,7 +570,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode.ActionScript" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backendless" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../as3httpclient/lib" />
     <property name="project.structure.side.proportion" value="0.3065268" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -476,23 +578,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\labs\backendless\libs" />
+      <recent name="D:\labs\backendless-examples\backendless-examples\com.backendless.examples.flex.gallery\libs" />
       <recent name="$PROJECT_DIR$/com.backendless.examples.flex.gallery/libs" />
       <recent name="D:\labs\backendless-examples\backendless-examples\com.backendless.examples.flex.login\libs" />
       <recent name="D:\labs\backendless-examples\backendless-examples\com.backendless.examples.flex.gallery\src\com\backendless\examples\flex\galery\application\messages" />
-      <recent name="D:\labs\backendless-examples\backendless-examples\com.backendless.examples.flex.gallery\src\com\backendless\examples\flex\galery\application\commands" />
-      <recent name="D:\labs\backendless-examples\backendless-examples\com.backendless.examples.flex.gallery\assets" />
     </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="com.backendless.examples.flex.skins" />
       <recent name="com.backendless.examples.flex.galery.presentation" />
+      <recent name="com.backendless.examples.flex.galery.presentation.view" />
       <recent name="com.backendless.examples.flex.galery.application.message" />
       <recent name="com.backendless.examples.flex.galery.application.commands" />
-      <recent name="com.backendless.examples.flex.galery.application.messages" />
-      <recent name="com.backendless.examples.flex.galery.presentation.view" />
     </key>
     <key name="com.intellij.javascript.flex.refactoring.moveClass.FlexMoveClassDialog.target_package">
       <recent name="com.backendless.examples.flex.todo.domain" />
@@ -553,6 +655,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -698,7 +807,9 @@
       <option name="url" value="http://" />
       <option name="usbDebugPort" value="7936" />
       <RunnerSettings RunnerId="FlexDebugRunner" />
+      <RunnerSettings RunnerId="FlexRunner" />
       <ConfigurationWrapper RunnerId="FlexDebugRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
     <list size="3">
@@ -730,21 +841,22 @@
     <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="SvnFileUrlMappingImpl">
     <option name="myMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$/backendless" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$/backendless" />
+          <option name="myVcsRoot" value="D:\labs\backendless" />
+          <option name="myCopyRoot" value="D:\labs\backendless" />
         </SvnCopyRootSimple>
       </list>
     </option>
     <option name="myMoreRealMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$/backendless" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$/backendless" />
+          <option name="myVcsRoot" value="D:\labs\backendless" />
+          <option name="myCopyRoot" value="D:\labs\backendless" />
         </SvnCopyRootSimple>
       </list>
     </option>
@@ -778,31 +890,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1054" extended-state="6" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32762313" sideWeight="0.49359658" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258786" sideWeight="0.4878788" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3222698" sideWeight="0.69797224" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3222698" sideWeight="0.29829243" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4025559" sideWeight="0.6219697" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32197616" sideWeight="0.37272727" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29657388" sideWeight="0.44450372" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17546849" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38125667" sideWeight="0.39242426" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17465389" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.255603" sideWeight="0.6777302" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28335112" sideWeight="0.5974441" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -883,17 +995,105 @@
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="flex">
-          <url>file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/NavigateToCommand.as</url>
-          <line>17</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="flex">
           <url>file:///Applications/Adobe Flash Builder 4.7/sdks/4.6.0/frameworks/projects/spark/src/spark/components/PopUpAnchor.as</url>
           <line>210</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://D:/sdks/flex/4.6.0/frameworks/projects/spark/src/spark/components/supportClasses/ItemRenderer.as</url>
+          <line>577</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/UpdateItemCommand.as</url>
+          <line>36</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/UpdateItemCommand.as</url>
+          <line>44</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../backendless/src/com/backendless/service/_FileService.as</url>
+          <line>153</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/HttpSocket.as</url>
+          <line>308</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/HttpSocket.as</url>
+          <line>312</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/HttpSocket.as</url>
+          <line>327</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/HttpSocket.as</url>
+          <line>333</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../backendless/src/com/backendless/service/_FileService.as</url>
+          <line>138</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../backendless/src/com/backendless/service/_FileService.as</url>
+          <line>142</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../backendless/src/com/backendless/service/_FileService.as</url>
+          <line>146</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../backendless/src/com/backendless/service/_FileService.as</url>
+          <line>150</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/HttpSocket.as</url>
+          <line>270</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/HttpSocket.as</url>
+          <line>280</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/HttpSocket.as</url>
+          <line>284</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/HttpSocket.as</url>
+          <line>289</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/HttpSocket.as</url>
+          <line>293</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/HttpSocket.as</url>
+          <line>298</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="77" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="116" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -901,128 +1101,127 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/view/DetailsView.mxml">
+    <entry file="file://$PROJECT_DIR$/../../backendless/src/com/backendless/Backendless.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="81" selection-start="879" selection-end="879" vertical-scroll-proportion="-15.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Applications/Adobe Flash Builder 4.7/sdks/4.6.0/frameworks/projects/spark/src/spark/components/PopUpAnchor.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="13" selection-start="2589" selection-end="2589" vertical-scroll-proportion="1.4132231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/BrowseFileCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="79" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/DetailsPM.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1102" selection-end="1102" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#211#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/com.backendless.examples.flex.gallery/libs/Backendless.swc!/library.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4392" column="81" selection-start="206695" selection-end="206695" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/messages/UpdateItemMessage.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="15" selection-start="430" selection-end="430" vertical-scroll-proportion="0.47107437">
+        <state line="36" column="65" selection-start="3471" selection-end="3471" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Adobe Flash Builder 4.7/sdks/4.6.0/frameworks/projects/framework/src/mx/logging/Log.as">
+    <entry file="file://$PROJECT_DIR$/../../backendless/src/com/backendless/service/_PersistenceService.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="27" selection-start="7678" selection-end="7678" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backendless/tests/com/backendless/BackendlessTestBase.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="58" selection-start="4334" selection-end="4334" vertical-scroll-proportion="0.0">
+        <state line="35" column="63" selection-start="3375" selection-end="3375" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2899#2932#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backendless/src/com/backendless/messaging/PushNotification.as">
+    <entry file="file://$PROJECT_DIR$/../../backendless/src/com/backendless/messaging/PushNotification.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="54" selection-start="556" selection-end="556" vertical-scroll-proportion="-7.5">
+        <state line="44" column="112" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#37#73#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/Context.mxml">
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/view/GalleryView.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="70" selection-start="1851" selection-end="1851" vertical-scroll-proportion="-10.375">
-          <folding>
-            <marker date="1361311103000" expanded="true" signature="344:1245" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/domain/Item.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#206#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backendless/src/com/backendless/validators/ArgumentValidator.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
+        <state line="48" column="129" selection-start="2302" selection-end="2302" vertical-scroll-proportion="-10.72">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backendless/src/com/backendless/Backendless.as">
+    <entry file="file://$PROJECT_DIR$/../../backendless/src/com/backendless/logging/targets/FileTarget.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="52" selection-start="6639" selection-end="6639" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backendless/src/com/backendless/service/_FileService.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="0" selection-start="8242" selection-end="8242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/UploadFileCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="59" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.0">
+        <state line="33" column="63" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#219#254#0" expanded="true" />
+            <element signature="e#42#94#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/GetGalleryCommand.as">
+    <entry file="file://$PROJECT_DIR$/../../backendless/tests/com/backendless/BackendlessTestBase.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="86" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.72164947">
+        <state line="68" column="52" selection-start="4506" selection-end="4506" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2799#2842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../backendless/libs/as3httpclientlib-1_0_6.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="439" column="25" selection-start="18837" selection-end="18837" vertical-scroll-proportion="0.7958237">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/io/HttpFileStream.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="15" selection-start="724" selection-end="724" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/http/multipart/FilePart.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/ui/HttpClientAppImpl.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="38" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/io/HttpResponseBuffer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="20" selection-start="1834" selection-end="1834" vertical-scroll-proportion="1.4056075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/events/HttpListener.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="15" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/HttpClient.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="65" selection-start="1843" selection-end="1843" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/events/HttpDataListener.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="44" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../backendless/src/com/backendless/service/_FileService.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="152" column="0" selection-start="8037" selection-end="8037" vertical-scroll-proportion="-3.1568627">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2806#2831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../as3httpclient/src/org/httpclient/HttpSocket.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="280" column="0" selection-start="8973" selection-end="8973" vertical-scroll-proportion="0.33271027">
           <folding />
         </state>
       </provider>
@@ -1079,11 +1278,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>com.backendless.examples.flex.gallery|com.backendless.examples.flex.gallery</last-edited>
+          <last-edited>as3httpclient|as3httpclient</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.3169145" />
+                <option value="0.3065268" />
               </list>
             </option>
           </splitter-proportions>
@@ -1091,10 +1290,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>libs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.3065268" />
               </list>
             </option>
           </splitter-proportions>

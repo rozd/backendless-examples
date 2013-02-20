@@ -8,6 +8,7 @@
 package com.backendless.examples.flex.galery.application.commands
 {
 import com.backendless.examples.flex.galery.application.enum.Destiantion;
+import com.backendless.examples.flex.galery.application.messages.NavigateToMessage;
 import com.backendless.examples.flex.galery.application.messages.SelectItemMessage;
 import com.backendless.examples.flex.galery.domain.Gallery;
 import com.backendless.examples.flex.galery.domain.Model;
@@ -17,6 +18,9 @@ public class SelectItemCommand
     public function SelectItemCommand()
     {
     }
+
+    [MessageDispatcher]
+    public var dispatcher:Function;
 
     [Inject]
     public var model:Model;
@@ -28,7 +32,10 @@ public class SelectItemCommand
     {
         gallery.select(msg.item);
 
-        model.destination = msg.item ? Destiantion.DETAILS : Destiantion.GALLERY;
+        if (msg.item)
+            dispatcher(new NavigateToMessage(Destiantion.DETAILS));
+        else
+            dispatcher(new NavigateToMessage(Destiantion.GALLERY));
     }
 
 }

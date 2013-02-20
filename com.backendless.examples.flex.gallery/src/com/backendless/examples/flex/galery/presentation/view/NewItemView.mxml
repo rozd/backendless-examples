@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
+         xmlns:parsley="http://www.spicefactory.org/parsley">
+
+    <fx:Script>
+        <![CDATA[
+        import com.backendless.examples.flex.galery.presentation.INewItemPM;
+
+        [Inject]
+        [Bindable]
+        public var model:INewItemPM;
+
+        ]]>
+    </fx:Script>
+
+    <fx:Declarations>
+        <parsley:Configure />
+    </fx:Declarations>
+
+    <s:Rect left="0" top="0" right="0" bottom="0">
+        <s:fill>
+            <s:RadialGradient scaleX="120.0" scaleY="120.0">
+                <s:GradientEntry color="#000000" ratio="0.00" alpha="0.1"/>
+                <s:GradientEntry color="#000000" ratio="0.35" alpha="0.2"/>
+                <s:GradientEntry color="#000000" ratio="1.00" alpha="0.4"/>
+            </s:RadialGradient>
+        </s:fill>
+    </s:Rect>
+
+    <s:Group width="400" horizontalCenter="0" verticalCenter="0">
+        <s:Rect left="0" top="0" right="0" bottom="0">
+            <s:fill>
+                <s:SolidColor color="#FFFFFF" />
+            </s:fill>
+        </s:Rect>
+        <s:VGroup width="100%" height="100%" paddingLeft="10" paddingTop="10" paddingRight="10" paddingBottom="10">
+            <s:HGroup width="100%">
+                <s:TextInput width="100%" height="40" text="{this.model.fileName}" prompt="Click Browse to select image." />
+                <s:Button styleName="btnPink" label="Browse" height="40" click="model.browse()" />
+            </s:HGroup>
+            <s:TextArea width="100%" heightInLines="2" prompt="Otinal Description" text="@{this.model.item.description}" />
+            <s:HGroup width="100%" height="40" verticalAlign="middle">
+                <s:Label styleName="iconLabel" text="&#xf0c1;" />
+                <s:TextInput width="100%" height="100%" text="@{this.model.item.reference}" />
+            </s:HGroup>
+            <s:HGroup width="100%" height="40">
+                <s:Button styleName="btnBlue" width="50%" height="100%" label="Save" click="model.submit()" />
+                <s:Button styleName="btnPink" width="50%" height="100%" label="Back" click="model.cancel()" />
+            </s:HGroup>
+        </s:VGroup>
+    </s:Group>
+
+</s:Group>

@@ -52,6 +52,8 @@
 
         <presentation:DetailsPM />
 
+        <presentation:NewItemPM />
+
     </fx:Declarations>
 
 </fx:Object>

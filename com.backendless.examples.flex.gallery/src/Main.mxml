@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
                xmlns:parsley="http://www.spicefactory.org/parsley"
-               xmlns:view="com.backendless.examples.flex.galery.presentation.view.*" currentState="{model.destination}" applicationComplete="applicationCompleteHandler(event)">
+               xmlns:view="com.backendless.examples.flex.galery.presentation.view.*" currentState="{this.model.destination}" applicationComplete="applicationCompleteHandler(event)">
 
     <fx:Script>
         <![CDATA[
@@ -34,6 +34,7 @@
         <s:State name="loading" />
         <s:State name="gallery" />
         <s:State name="details" />
+        <s:State name="newitem" />
     </s:states>
 
     <s:Group left="0" top="0" right="0" height="40">
@@ -45,9 +46,13 @@
         <s:Label left="10" verticalCenter="0" styleName="h2" text="Backendless / Gallery" />
     </s:Group>
 
-    <view:GalleryView width="80%" height="80%" minWidth="320" minHeight="320" />
+    <s:Group left="0" top="60" right="0" bottom="0">
+        <view:GalleryView verticalCenter="0" horizontalCenter="0" />
+    </s:Group>
 
-    <view:DetailsView width="400" height="300" />
+    <view:NewItemView left="0" top="0" right="0" bottom="0" includeIn="newitem"/>
+
+    <!--<view:DetailsView width="400" height="300" />-->
 
     <s:RichText bottom="20" horizontalCenter="0">
         <s:textFlow>

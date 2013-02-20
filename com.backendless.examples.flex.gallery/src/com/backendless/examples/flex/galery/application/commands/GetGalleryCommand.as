@@ -17,6 +17,8 @@ import com.backendless.examples.flex.galery.domain.Gallery;
 import com.backendless.examples.flex.galery.domain.Item;
 import com.backendless.examples.flex.galery.domain.Model;
 
+import mx.collections.ArrayCollection;
+
 import mx.collections.ArrayList;
 import mx.rpc.Responder;
 
@@ -54,11 +56,24 @@ public class GetGalleryCommand
                 "http://www.helpexamples.com/flash/images/image2.jpg",
                 "http://www.helpexamples.com/flash/images/image3.jpg",
                 "http://www.helpexamples.com/flash/images/image4.jpg",
-                "http://www.helpexamples.com/flash/images/gallery1/images/pic11.jpg",
-                "http://www.helpexamples.com/flash/images/gallery1/images/pic14.jpg",
-                "http://www.helpexamples.com/flash/images/gallery2/images/IMG_1592.jpg",
-                "http://www.helpexamples.com/images/montreal/images/IMG_5057.jpg",
+//                "http://www.helpexamples.com/flash/images/gallery1/images/pic11.jpg",
+//                "http://www.helpexamples.com/flash/images/gallery1/images/pic14.jpg",
+//                "http://www.helpexamples.com/flash/images/gallery2/images/IMG_1592.jpg",
+//                "http://www.helpexamples.com/images/montreal/images/IMG_5057.jpg",
             ];
+
+        const list:Array = []; // event.result as IList;
+
+        for each (var url:String in urls)
+        {
+            var item:Item = new Item();
+            item.fileURL = url;
+
+            list.push(item);
+        }
+
+        gallery.setList(new ArrayCollection(list));
+
 
 //        db.find(query,
 //            new Responder(
