@@ -9,12 +9,6 @@ s|Application
 	backgroundColor: #EFEFEF;
 }
 
-mx|ViewStack
-{
-    backgroundColor: #FFFFFF;
-    backgroundAlpha: 1.0;
-}
-
 s|Button
 {
 	fontFamily: MyriadProEmbedded;

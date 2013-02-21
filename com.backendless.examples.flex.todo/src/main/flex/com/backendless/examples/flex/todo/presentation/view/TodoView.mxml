@@ -5,8 +5,7 @@
     <fx:Script>
         <![CDATA[
         import com.backendless.examples.flex.todo.presentation.ITodoPM;
-        import com.backendless.examples.flex.todo.presentation.renderers.TodoItemRenderer;
-
+        
         import mx.events.FlexEvent;
 
         [Inject]
@@ -43,10 +42,6 @@
                         ]]>
                     </fx:Script>
 
-                    <s:states>
-
-                    </s:states>
-
                     <s:Rect left="0" top="0" right="0" bottom="0">
                         <s:fill>
                             <s:SolidColor color="{data.done ? 0xF9F9F9 : 0xFFFFFF}" />
@@ -55,26 +50,18 @@
 
                     <s:HGroup left="0" top="0" right="0" bottom="0" verticalAlign="middle" gap="10" paddingRight="10">
                         <s:Group width="40" height="40">
-                            <!--<s:Line top="0" right="0" bottom="0">-->
-                                <!--<s:stroke>-->
-                                    <!--<s:SolidColorStroke-->
-                                <!--</s:stroke>-->
-                            <!--</s:Line>-->
                             <s:Rect left="0" top="0" right="0" bottom="0">
                                 <s:fill>
                                     <s:SolidColor color="{data.done ? 0xDDDDDD : 0xffade5}" alpha="1.0" />
                                 </s:fill>
                             </s:Rect>
-                            <s:Button styleName="iconButton" color="{data.done ? 0xEEEEEE : 0xFFFFFF}" label="&#xF00C;" horizontalCenter="0" verticalCenter="0" click="outerDocument.model.checkTodo(data as Todo);">
-                                <s:filters>
-                                    <s:GlowFilter color="#000000" inner="true" blurX="2" blurY="2" alpha="0.6" />
-                                </s:filters>
-                            </s:Button>
+                            <s:ToggleButton styleName="iconToggleButton" selected="{data.done}" color="{data.done ? 0xEEEEEE : 0xFFFFFF}" label="&#xF00C;" horizontalCenter="0" verticalCenter="0" click="outerDocument.model.checkTodo(data as Todo);">
+                            </s:ToggleButton>
                         </s:Group>
 
                         <s:Label text="{data.label}" lineThrough="{data.done}" width="100%" />
 
-                        <s:Button styleName="iconButton" label="{data.favorite ? '&#xf005;' : '&#xf006;'}" color="#ffab2e" horizontalCenter="0" verticalCenter="0" click="outerDocument.model.favoriteTodo(data as Todo);" />
+                        <s:Button styleName="iconButton" label="{data.favorite ? '&#xf005;' : '&#xf006;'}" color="{data.done ? 0xCCCCCC : 0xFFAB2E}" horizontalCenter="0" verticalCenter="0" click="outerDocument.model.favoriteTodo(data as Todo);" />
 
                         <s:Button styleName="iconButton" label="&#xF00D;" horizontalCenter="0" verticalCenter="0" click="outerDocument.model.removeTodo(data as Todo);" />
                     </s:HGroup>

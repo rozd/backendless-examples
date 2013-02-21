@@ -12,8 +12,6 @@ import com.backendless.examples.flex.todo.application.messages.AddTodoMessage;
 import com.backendless.examples.flex.todo.domain.Todo;
 import com.backendless.examples.flex.todo.domain.Todos;
 
-import mx.rpc.AsyncToken;
-import mx.rpc.Fault;
 import mx.rpc.Responder;
 import mx.rpc.events.FaultEvent;
 import mx.rpc.events.ResultEvent;
