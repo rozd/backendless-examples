@@ -8,7 +8,7 @@
 package com.backendless.examples.flex.login.application.commands
 {
 import com.backendless.Backendless;
-import com.backendless.examples.flex.login.application.AppSettings;
+import com.backendless.examples.flex.AppSettings;
 import com.backendless.examples.flex.login.application.enum.Destination;
 import com.backendless.examples.flex.login.application.messages.NavigateToMessage;
 import com.backendless.examples.flex.login.application.messages.StartupMessage;

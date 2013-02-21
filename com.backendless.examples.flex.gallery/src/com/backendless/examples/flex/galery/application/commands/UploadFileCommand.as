@@ -1,15 +1,8 @@
-/**
- * Created with IntelliJ IDEA.
- * User: Max
- * Date: 2/19/13
- * Time: 2:27 PM
- * To change this template use File | Settings | File Templates.
- */
 package com.backendless.examples.flex.galery.application.commands
 {
 import com.backendless.Backendless;
-import com.backendless.examples.flex.galery.application.messages.UpdateItemMessage;
 import com.backendless.examples.flex.galery.application.messages.UploadFileMessage;
+import com.backendless.examples.flex.galery.domain.vo.UploadResult;
 
 import flash.events.DataEvent;
 import flash.events.IEventDispatcher;
@@ -23,21 +16,16 @@ public class UploadFileCommand
         super();
     }
 
+    [MessageDispatcher]
+    public var dispatcher:Function;
+
     public var callback:Function;
 
-    public function execute(msg:UpdateItemMessage):void
+    public function execute(msg:UploadFileMessage):void
     {
-        addListeners(msg.item.fileREF);
+        addListeners(msg.file);
 
-
-        try
-        {
-            Backendless.FileService.upload(msg.item.fileREF, "folder");
-        }
-        catch (e:Error)
-        {
-            trace(e);
-        }
+        Backendless.FileService.upload(msg.file, msg.path);
     }
 
     private function addListeners(target:IEventDispatcher):void
@@ -58,7 +46,7 @@ public class UploadFileCommand
     {
         removeListeners(event.target as IEventDispatcher);
 
-        callback(event.data);
+        callback(new UploadResult(JSON.parse(event.data).fileURL));
     }
 
     private function ioErrorHandler(event:IOErrorEvent):void

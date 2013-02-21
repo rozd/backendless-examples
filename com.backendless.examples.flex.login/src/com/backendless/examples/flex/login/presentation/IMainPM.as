@@ -7,11 +7,11 @@
  */
 package com.backendless.examples.flex.login.presentation
 {
-    public interface IHomePM
+    public interface IMainPM
     {
         function startup():void;
 
-        function get selectedIndex():int;
-        function set selectedIndex(value:int):void;
+        function get destination():String;
+        function set destination(value:String):void;
     }
 }

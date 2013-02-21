@@ -15,7 +15,9 @@
 	
 	<s:Rect left="0" top="0" right="0" bottom="0">
 		<s:fill>
-			<s:SolidColor color="{getStyle('chromeColor')}" />
+			<s:SolidColor color="{getStyle('chromeColor')}"
+                          color.over="{ColorUtil.adjustBrightness2(getStyle('chromeColor'), 0xF)}"
+                          color.down="{ColorUtil.adjustBrightness2(getStyle('chromeColor'), -0xF)}" />
 		</s:fill>
 	</s:Rect>
 	
@@ -25,4 +27,7 @@
 	name=iconDisplay, type=spark.primitives.BitmapImage, required=false
 	name=labelDisplay, type=spark.core.IDisplayText, required=false
 	-->
+    <fx:Script><![CDATA[
+        import mx.utils.ColorUtil;
+        ]]></fx:Script>
 </s:Skin>

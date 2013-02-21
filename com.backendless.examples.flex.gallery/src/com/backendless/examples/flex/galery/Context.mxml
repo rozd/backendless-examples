@@ -11,11 +11,14 @@
         import com.backendless.examples.flex.galery.application.commands.GetGalleryCommand;
         import com.backendless.examples.flex.galery.application.commands.NavigateToCommand;
         import com.backendless.examples.flex.galery.application.commands.RemoveItemCommand;
+        import com.backendless.examples.flex.galery.application.commands.SaveItemCommand;
+        import com.backendless.examples.flex.galery.application.commands.SaveItemFileCommand;
         import com.backendless.examples.flex.galery.application.commands.StartupCommand;
         import com.backendless.examples.flex.galery.application.commands.UploadFileCommand;
         import com.backendless.examples.flex.galery.application.commands.SelectItemCommand;
-        import com.backendless.examples.flex.galery.application.commands.UpdateItemCommand;
-        import com.backendless.examples.flex.galery.application.messages.UpdateItemMessage;
+        import com.backendless.examples.flex.galery.application.commands.SaveItemCommand;
+        import com.backendless.examples.flex.galery.application.messages.SaveItemMessage;
+        import com.backendless.examples.flex.galery.application.messages.SaveItemMessage;
         ]]>
     </fx:Script>
 
@@ -33,10 +36,10 @@
 
         <parsley:MapCommand type="{BrowseFileCommand}" />
 
-        <parsley:MapCommand messageType="{UpdateItemMessage}">
+        <parsley:MapCommand messageType="{SaveItemMessage}">
             <parsley:CommandSequence>
-                <parsley:Command type="{UploadFileCommand}" />
-                <parsley:Command type="{UpdateItemCommand}" />
+                <parsley:Command type="{SaveItemFileCommand}" />
+                <parsley:Command type="{SaveItemCommand}" />
             </parsley:CommandSequence>
         </parsley:MapCommand>
 

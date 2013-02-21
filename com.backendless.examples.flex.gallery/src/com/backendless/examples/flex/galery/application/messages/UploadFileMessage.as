@@ -1,24 +1,20 @@
-/**
- * Created with IntelliJ IDEA.
- * User: Max
- * Date: 2/19/13
- * Time: 2:28 PM
- * To change this template use File | Settings | File Templates.
- */
 package com.backendless.examples.flex.galery.application.messages
 {
-import com.backendless.examples.flex.galery.domain.Item;
+import flash.net.FileReference;
 
 public class UploadFileMessage
 {
-    public function UploadFileMessage(item:Item)
+    public function UploadFileMessage(file:FileReference, path:String, uploadId:String=null)
     {
         super();
 
-        this.item = item;
+        this.file = file;
+        this.path = path;
+        this.uploadId = uploadId;
     }
 
-    public var item:Item;
-
+    public var file:FileReference;
+    public var path:String
+    public var uploadId:String;
 }
 }

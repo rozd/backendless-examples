@@ -8,6 +8,12 @@
             <entry library-id="4dc85c52-c46d-4984-a01a-7caa18800f92">
               <dependency linkage="Merged" />
             </entry>
+            <entry module-name="com.backendless.examples.flex.shared" build-configuration-name="com.backendless.examples.flex.shared">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry module-name="backendless" build-configuration-name="backendless">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
           <sdk name="4.6.0" />
         </dependencies>
@@ -38,6 +44,8 @@
         <jarDirectory url="file://$MODULE_DIR$/libs" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="com.backendless.examples.flex.shared" exported="" />
+    <orderEntry type="module" module-name="backendless" exported="" />
   </component>
 </module>
 

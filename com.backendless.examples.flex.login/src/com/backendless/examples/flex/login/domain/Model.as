@@ -8,8 +8,9 @@
 package com.backendless.examples.flex.login.domain
 {
     import com.backendless.BackendlessUser;
+import com.backendless.examples.flex.login.application.enum.Destination;
 
-    public class Model
+public class Model
     {
         public function Model()
         {
@@ -17,7 +18,7 @@ package com.backendless.examples.flex.login.domain
 
         [Bindable]
         [Publish(objectId="destination")]
-        public var destination:String;
+        public var destination:String = Destination.LOADING;
 
         [Publish]
         [Bindable]

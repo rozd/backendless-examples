@@ -29,7 +29,6 @@ public class RegisterCommand
         user.password = msg.register.password;
         user.setProperty("email", msg.register.email);
         user.setProperty("name", msg.register.name);
-        user.setProperty("login", msg.register.name);
 
 	    return Backendless.UserService.register(user);
 

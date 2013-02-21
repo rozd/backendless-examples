@@ -50,9 +50,9 @@
         <view:GalleryView verticalCenter="0" horizontalCenter="0" />
     </s:Group>
 
-    <view:NewItemView left="0" top="0" right="0" bottom="0" includeIn="newitem"/>
+    <view:NewItemView left="0" top="0" right="0" bottom="0" includeIn="newitem" />
 
-    <!--<view:DetailsView width="400" height="300" />-->
+    <view:DetailsView verticalCenter="0" horizontalCenter="0" includeIn="details" />
 
     <s:RichText bottom="20" horizontalCenter="0">
         <s:textFlow>

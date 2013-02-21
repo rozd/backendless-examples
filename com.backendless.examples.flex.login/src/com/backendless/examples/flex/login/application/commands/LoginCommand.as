@@ -27,9 +27,6 @@ public class LoginCommand
     public function execute(msg:LoginMessage):AsyncToken
     {
         return Backendless.UserService.login(msg.login.email, msg.login.password);
-
-//			return ServiceStub.result(Backendless.UserService.currentUser);
-//			return ServiceStub.fault(new Fault("0000", "Bla bla bla"));
     }
 
     public function result(user:Object):void

@@ -7,7 +7,7 @@
  */
 package com.backendless.examples.flex.galery.presentation
 {
-import com.backendless.examples.flex.galery.application.messages.UpdateItemMessage;
+import com.backendless.examples.flex.galery.application.messages.SaveItemMessage;
 import com.backendless.examples.flex.galery.application.messages.UploadFileMessage;
 import com.backendless.examples.flex.galery.application.messages.BrowseFileMessage;
 import com.backendless.examples.flex.galery.domain.Item;
@@ -45,7 +45,7 @@ public class DetailsPM implements IDetailsPM
 
     public function submit():void
     {
-        dispatcher(new UpdateItemMessage(item));
+        dispatcher(new SaveItemMessage(item));
     }
 }
 }

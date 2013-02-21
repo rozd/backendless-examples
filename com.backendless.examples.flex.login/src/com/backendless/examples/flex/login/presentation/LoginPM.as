@@ -83,8 +83,46 @@ public class LoginPM implements ILoginPM
             return true;
         }
 
+        private function verifyRegister():Boolean
+        {
+            if (!userRegister.email || !userRegister.password)
+            {
+                this.registerErrorString = "The email and password fields both are required.";
+
+                return false;
+            }
+
+            if (userRegister.password != userRegister.passwordVerify)
+            {
+                this.registerErrorString = "These passwords don't match.";
+
+                return false;
+            }
+
+            this.registerErrorString = "";
+
+            return true;
+        }
+
+        private function verifyLogin():Boolean
+        {
+            if (!userLogin.email || !userLogin.password)
+            {
+                this.loginErrorString = "The email and password fields are required.";
+
+                return false;
+            }
+
+            this.loginErrorString = "";
+
+            return true;
+        }
+
         public function login():void
         {
+            if (!verifyLogin())
+                return;
+
             dispatcher(new LoginMessage(userLogin));
         }
 
@@ -95,11 +133,10 @@ public class LoginPM implements ILoginPM
 
         public function register():void
         {
-            if (verify())
-            {
-                dispatcher(new RegisterMessage(userRegister));
-            }
+            if (!verifyRegister())
+                return;
 
+            dispatcher(new RegisterMessage(userRegister));
         }
 
         public function ok():void

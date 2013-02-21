@@ -2,8 +2,8 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="com.backendless.examples.flex.gallery">
     <configurations>
-      <configuration name="com.backendless.examples.flex.gallery" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/../out/production/com.backendless.examples.flex.gallery">
-        <dependencies target-player="11.1">
+      <configuration name="com.backendless.examples.flex.gallery" target-platform="Desktop" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/../out/production/com.backendless.examples.flex.gallery">
+        <dependencies>
           <entries>
             <entry library-id="491b8dec-bbb6-484f-878c-ceb67ecc9c07">
               <dependency linkage="Merged" />
@@ -18,7 +18,7 @@
           <sdk name="4.6.0" />
         </dependencies>
         <compiler-options />
-        <packaging-air-desktop />
+        <packaging-air-desktop package-file-name="com_backendless_examples_flex_gallery" />
         <packaging-android />
         <packaging-ios />
       </configuration>

@@ -9,9 +9,9 @@ package com.backendless.examples.flex.galery.application.messages
 {
 import com.backendless.examples.flex.galery.domain.Item;
 
-public class UpdateItemMessage
+public class SaveItemMessage
 {
-    public function UpdateItemMessage(item:Item)
+    public function SaveItemMessage(item:Item)
     {
         super();
 

@@ -2,28 +2,28 @@
 <s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
     xmlns:mx="library://ns.adobe.com/flex/mx"
     xmlns:view="com.backendless.examples.flex.login.presentation.view.*"
-    xmlns:ns="http://www.spicefactory.org/parsley" width="600" height="600"
+    xmlns:ns="http://www.spicefactory.org/parsley"
+    currentState="{this.model.destination}"
     applicationComplete="applicationCompleteHandler(event)">
 
     <fx:Script>
         <![CDATA[
         import com.backendless.examples.flex.login.domain.Model;
         import com.backendless.examples.flex.login.Context;
-        import com.backendless.examples.flex.login.presentation.HomePM;
-        import com.backendless.examples.flex.login.presentation.IHomePM;
+        import com.backendless.examples.flex.login.presentation.MainPM;
+        import com.backendless.examples.flex.login.presentation.IMainPM;
 
         import mx.controls.Alert;
         import mx.events.FlexEvent;
 
         [Inject]
         [Bindable]
-        public var model:IHomePM;
+        public var model:IMainPM;
 
         private function applicationCompleteHandler(event:FlexEvent):void
         {
             model.startup();
         }
-
         ]]>
     </fx:Script>
 
@@ -36,31 +36,32 @@
         <ns:ContextBuilder config="{Context}" />
     </fx:Declarations>
 
-    <s:Group left="0" top="0" right="0" height="40">
+    <s:states>
+        <s:State name="loading" />
+        <s:State name="login" />
+        <s:State name="checkMail" />
+        <s:State name="loggedIn" />
+    </s:states>
+
+    <s:Group width="100%" height="40">
         <s:Rect width="100%" height="100%">
             <s:fill>
                 <s:SolidColor color="#333333" />
             </s:fill>
         </s:Rect>
-        <s:Label left="10" verticalCenter="0" styleName="h2" text="Backendless / Login" />
+        <s:Label left="10" verticalCenter="0" styleName="h2" text="Backendless Login Example" />
     </s:Group>
 
-    <mx:ViewStack width="320" height="480" horizontalCenter="0" verticalCenter="20" selectedIndex="{this.model.selectedIndex}">
-        <s:NavigatorContent>
-            <view:LoginView width="100%" height="100%"/>
-        </s:NavigatorContent>
-        <s:NavigatorContent>
-            <view:CheckMailView width="100%" height="100%"/>
-        </s:NavigatorContent>
-        <s:NavigatorContent>
-            <view:LoggedInView width="100%" height="100%"/>
-        </s:NavigatorContent>
-    </mx:ViewStack>
+    <s:Group left="0" top="60" right="0" bottom="40">
+        <view:LoginView width="320" height="420" verticalCenter="0" horizontalCenter="0" includeIn="login" />
+        <view:CheckMailView width="320" height="420" verticalCenter="0" horizontalCenter="0" includeIn="checkMail" />
+        <view:LoggedInView width="320" height="420" verticalCenter="0" horizontalCenter="0" includeIn="loggedIn" />
+    </s:Group>
 
-    <s:RichText bottom="20" horizontalCenter="0">
+    <s:RichText styleName="h5" bottom="20" horizontalCenter="0">
         <s:textFlow>
             <s:TextFlow>
-
+                This is a sample application that demonstrates working with Backendless's UserService.
             </s:TextFlow>
         </s:textFlow>
     </s:RichText>

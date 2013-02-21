@@ -36,7 +36,7 @@ public class GetGalleryCommand
     [MessageDispatcher]
     public var dispatcher:Function;
 
-    public var callback:Function;
+//    public var callback:Function;
 
     [Inject]
     public var gallery:Gallery;
@@ -62,17 +62,17 @@ public class GetGalleryCommand
 //                "http://www.helpexamples.com/images/montreal/images/IMG_5057.jpg",
             ];
 
-        const list:Array = []; // event.result as IList;
+//        const list:Array = []; // event.result as IList;
+//
+//        for each (var url:String in urls)
+//        {
+//            var item:Item = new Item();
+//            item.fileURL = url;
+//
+//            list.push(item);
+//        }
 
-        for each (var url:String in urls)
-        {
-            var item:Item = new Item();
-            item.fileURL = url;
-
-            list.push(item);
-        }
-
-        gallery.setList(new ArrayCollection(list));
+        gallery.setList(db.find(query));
 
 
 //        db.find(query,

@@ -9,10 +9,12 @@ package com.backendless.examples.flex.login.application.enum
 {
     public class Destination
     {
-        public static const LOGIN:String		= "user.login";
+        public static const LOADING:String      = "loading";
 
-        public static const CHECKMAIL:String	= "user.checkMail";
+        public static const LOGIN:String		= "login";
 
-        public static const LOGGEDIN:String	    = "user.loggedIn";
+        public static const CHECKMAIL:String	= "checkMail";
+
+        public static const LOGGEDIN:String	    = "loggedIn";
     }
 }

@@ -17,6 +17,12 @@
         <ns:Configure />
     </fx:Declarations>
 
+    <s:Rect left="0" right="0" top="0" bottom="0">
+        <s:fill>
+            <s:SolidColor color="#FFFFFF" />
+        </s:fill>
+    </s:Rect>
+
     <s:Label left="20" right="20" verticalCenter="-30" text="You are sucessfully logged in. This concludes the example. Use the button below to logout." />
 
     <s:Button styleName="btnBlue" left="0" right="0" bottom="0" height="60" label="Logout" click="model.logout();" />
