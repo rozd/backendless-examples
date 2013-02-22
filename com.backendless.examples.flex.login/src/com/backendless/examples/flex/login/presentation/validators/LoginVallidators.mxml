@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<cairngorm:ValidatorGroup xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:mx="library://ns.adobe.com/flex/mx" xmlns:cairngorm="http://ns.adobe.com/cairngorm"
+                          xmlns:parsley="http://www.spicefactory.org/parsley">
+
+    <fx:Script>
+        <![CDATA[
+        import com.backendless.examples.flex.login.presentation.ILoginPM;
+
+        [Bindable]
+        public var model:ILoginPM;
+
+        ]]>
+    </fx:Script>
+
+    <fx:Declarations>
+
+    </fx:Declarations>
+
+    <cairngorm:validators>
+        <mx:EmailValidator id="emailValidator" source="{model.userLogin}" property="email" triggerEvent="propertyChange" />
+        <mx:Validator id="passwordValidator" source="{model.userLogin}" property="password" triggerEvent="propertyChange" />
+    </cairngorm:validators>
+
+</cairngorm:ValidatorGroup>

@@ -2,6 +2,7 @@ package com.backendless.examples.flex.login.application.commands
 {
 import com.backendless.Backendless;
 import com.backendless.BackendlessUser;
+import com.backendless.examples.flex.logging.Logger;
 import com.backendless.examples.flex.login.application.enum.Destination;
 import com.backendless.examples.flex.login.application.messages.LoginMessage;
 import com.backendless.examples.flex.login.application.messages.NavigateToMessage;
@@ -26,11 +27,15 @@ public class LoginCommand
 
     public function execute(msg:LoginMessage):AsyncToken
     {
+        Logger.get.info("Login");
+
         return Backendless.UserService.login(msg.login.email, msg.login.password);
     }
 
     public function result(user:Object):void
     {
+        Logger.get.info("Login success");
+
         model.setUser(Backendless.UserService.currentUser);
 
         dispatcher(new NavigateToMessage(Destination.LOGGEDIN));
@@ -39,6 +44,8 @@ public class LoginCommand
     public function error(fault:Fault):void
     {
         // handled at presentation level
+
+        Logger.get.error(fault.toString());
     }
 }
 }

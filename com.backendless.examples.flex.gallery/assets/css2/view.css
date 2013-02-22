@@ -104,3 +104,15 @@ s|VScrollBar
 
     skinClass: ClassReference("com.backendless.examples.flex.skins.IconButtonSkin");
 }
+
+.iconToggleButton
+{
+    fontFamily: FontAwesomeEmbedded;
+    fontStyle: normal;
+    fontWeight: normal;
+    fontSize: 20px;
+
+    color: #999;
+
+    skinClass: ClassReference("com.backendless.examples.flex.skins.IconToggleButtonSkin");
+}

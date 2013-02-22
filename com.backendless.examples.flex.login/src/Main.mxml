@@ -1,18 +1,22 @@
 <?xml version="1.0"?>
 <s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
-			   xmlns:s="library://ns.adobe.com/flex/spark"
-			   xmlns:mx="library://ns.adobe.com/flex/mx"
-			   xmlns:view="com.backendless.examples.flex.login.presentation.view.*"
-			   xmlns:ns="http://www.spicefactory.org/parsley"
-			   applicationComplete="applicationCompleteHandler(event)"
-			   currentState="{this.model.destination}" viewSourceURL="srcview/index.html">
+               xmlns:s="library://ns.adobe.com/flex/spark"
+               xmlns:mx="library://ns.adobe.com/flex/mx"
+               xmlns:view="com.backendless.examples.flex.login.presentation.view.*"
+               xmlns:ns="http://www.spicefactory.org/parsley"
+               xmlns:components="com.backendless.examples.flex.components.*"
+               applicationComplete="applicationCompleteHandler(event)"
+               currentState="{this.model.destination}" viewSourceURL="srcview/index.html">
 
     <fx:Script>
         <![CDATA[
         import com.backendless.examples.flex.login.Context;
         import com.backendless.examples.flex.login.presentation.IMainPM;
-        
+
         import mx.events.FlexEvent;
+
+        [Bindable]
+        private var showOutput:Boolean = false;
 
         [Inject]
         [Bindable]
@@ -25,9 +29,9 @@
         ]]>
     </fx:Script>
 
-    <fx:Style source="/css/fonts.css" />
-    <fx:Style source="/css/text.css" />
-    <fx:Style source="/css/view.css" />
+    <fx:Style source="css/font.css" />
+    <fx:Style source="css/text.css" />
+    <fx:Style source="css/view.css" />
 
     <fx:Declarations>
         <ns:Configure />
@@ -41,14 +45,7 @@
         <s:State name="loggedIn" />
     </s:states>
 
-    <s:Group width="100%" height="40">
-        <s:Rect width="100%" height="100%">
-            <s:fill>
-                <s:SolidColor color="#333333" />
-            </s:fill>
-        </s:Rect>
-        <s:Label left="10" verticalCenter="0" styleName="h2" text="Backendless Login Example" />
-    </s:Group>
+    <components:Header id="header" width="100%" height="40" title="Backendless Login Example" />
 
     <s:Group left="0" top="60" right="0" bottom="40">
         <view:LoginView width="320" height="420" verticalCenter="0" horizontalCenter="0" includeIn="login" />
@@ -63,5 +60,7 @@
             </s:TextFlow>
         </s:textFlow>
     </s:RichText>
+
+    <components:Output left="0" right="0" bottom="0" height="100" visible="{this.header.outputShown}" includeInLayout="{this.header.outputShown}" />
 
 </s:Application>

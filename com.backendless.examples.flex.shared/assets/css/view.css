@@ -24,6 +24,12 @@ s|Button
 	skinClass: ClassReference("com.backendless.examples.flex.skins.ActionButtonSkin");
 }
 
+s|TextArea
+{
+    skinClass: ClassReference("com.backendless.examples.flex.skins.TextAreaSkin");
+    focusSkin: ClassReference("com.backendless.examples.flex.skins.TextInputFocusSkin");
+}
+
 s|TextInput
 {
 	skinClass: ClassReference("com.backendless.examples.flex.skins.TextInputSkin");
@@ -76,4 +82,28 @@ s|List
 .btnGlad
 {
 	skinClass: ClassReference("com.backendless.examples.flex.skins.FlatGreyButton");
+}
+
+.iconButton
+{
+    fontFamily: FontAwesomeEmbedded;
+    fontStyle: normal;
+    fontWeight: normal;
+    fontSize: 20px;
+
+    color: #999;
+
+    skinClass: ClassReference("com.backendless.examples.flex.skins.IconButtonSkin");
+}
+
+.iconToggleButton
+{
+    fontFamily: FontAwesomeEmbedded;
+    fontStyle: normal;
+    fontWeight: normal;
+    fontSize: 20px;
+
+    color: #999;
+
+    skinClass: ClassReference("com.backendless.examples.flex.skins.IconToggleButtonSkin");
 }

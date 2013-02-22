@@ -2,6 +2,7 @@ package com.backendless.examples.flex.login.application.commands
 {
 import com.backendless.Backendless;
 import com.backendless.BackendlessUser;
+import com.backendless.examples.flex.logging.Logger;
 import com.backendless.examples.flex.login.application.enum.Destination;
 import com.backendless.examples.flex.login.application.messages.NavigateToMessage;
 import com.backendless.examples.flex.login.application.messages.RegisterMessage;
@@ -31,14 +32,13 @@ public class RegisterCommand
         user.setProperty("name", msg.register.name);
 
 	    return Backendless.UserService.register(user);
-
-//      return ServiceStub.result(user);
-//	    return ServiceStub.fault(new Fault("0000", "Bla bla bla"));
     }
 
 
     public function result(data:Object):void
     {
+        Logger.get.error("Register success");
+
         model.setUser(Backendless.UserService.currentUser);
 
         dispatcher(new NavigateToMessage(Destination.CHECKMAIL));
@@ -47,6 +47,8 @@ public class RegisterCommand
     public function error(fault:Fault):void
     {
         // handled at presentation layer
+
+        Logger.get.error(fault.toString());
     }
 }
 }

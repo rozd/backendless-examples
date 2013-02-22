@@ -14,6 +14,8 @@ import com.backendless.examples.flex.login.application.messages.NavigateToMessag
 import com.backendless.examples.flex.login.application.messages.RegisterMessage;
 import com.backendless.examples.flex.login.domain.vo.Login;
 import com.backendless.examples.flex.login.domain.vo.Register;
+import com.backendless.examples.flex.login.presentation.validators.LoginVallidators;
+import com.backendless.examples.flex.login.presentation.validators.RegisterValidators;
 
 import mx.rpc.Fault;
 
@@ -24,6 +26,16 @@ public class LoginPM implements ILoginPM
             super();
 
             reset();
+
+            loginValidators = new LoginVallidators();
+            loginValidators.model = this;
+            loginValidators.initialized(this,  "loginValidators");
+            loginValidators.validate(true);
+
+            registerValidators = new RegisterValidators();
+            registerValidators.model = this;
+            registerValidators.initialized(this,  "registerValidators");
+            registerValidators.validate(true);
         }
 
         //---------------------------------------------------------------------
@@ -65,6 +77,12 @@ public class LoginPM implements ILoginPM
         [CommandStatus(type="com.backendless.examples.flex.login.application.messages.RegisterMessage")]
         public var isRegistering:Boolean;
 
+        [Bindable]
+        public var loginValidators:LoginVallidators;
+
+        [Bindable]
+        public var registerValidators:RegisterValidators;
+
         //---------------------------------------------------------------------
         //
         //  Methods
@@ -78,49 +96,9 @@ public class LoginPM implements ILoginPM
             this.userRegister = new Register();
         }
 
-        public function verify():Boolean
-        {
-            return true;
-        }
-
-        private function verifyRegister():Boolean
-        {
-            if (!userRegister.email || !userRegister.password)
-            {
-                this.registerErrorString = "The email and password fields both are required.";
-
-                return false;
-            }
-
-            if (userRegister.password != userRegister.passwordVerify)
-            {
-                this.registerErrorString = "These passwords don't match.";
-
-                return false;
-            }
-
-            this.registerErrorString = "";
-
-            return true;
-        }
-
-        private function verifyLogin():Boolean
-        {
-            if (!userLogin.email || !userLogin.password)
-            {
-                this.loginErrorString = "The email and password fields are required.";
-
-                return false;
-            }
-
-            this.loginErrorString = "";
-
-            return true;
-        }
-
         public function login():void
         {
-            if (!verifyLogin())
+            if (!loginValidators.validate())
                 return;
 
             dispatcher(new LoginMessage(userLogin));
@@ -133,7 +111,7 @@ public class LoginPM implements ILoginPM
 
         public function register():void
         {
-            if (!verifyRegister())
+            if (!registerValidators.validate())
                 return;
 
             dispatcher(new RegisterMessage(userRegister));

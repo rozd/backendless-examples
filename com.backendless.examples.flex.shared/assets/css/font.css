@@ -1,0 +1,62 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+
+@font-face
+{
+    src: url("fonts/Lobster 1.4.otf");
+    fontFamily: LobsterEmbedded;
+
+    embed-as-cff: true;
+}
+
+@font-face
+{
+    src: url("fonts/Georgia.ttf");
+    fontFamily: GeorgiaEmbedded;
+    fontStyle: normal;
+    fontWeight: normal;
+
+    embed-as-cff: true;
+}
+
+@font-face
+{
+    src: url("fonts/Georgia Italic.ttf");
+    fontFamily: GeorgiaEmbedded;
+    fontStyle: italic;
+    fontWeight: normal;
+
+    embed-as-cff: true;
+}
+
+@font-face
+{
+    src: url("fonts/MyriadPro-Regular.otf");
+    fontFamily: MyriadProEmbedded;
+    fontStyle: normal;
+    fontWeight: normal;
+
+    embed-as-cff: true;
+}
+
+@font-face
+{
+    src: url("fonts/MyriadPro-It.otf");
+    fontFamily: MyriadProEmbedded;
+    fontStyle: italic;
+    fontWeight: normal;
+
+    embed-as-cff: true;
+}
+
+
+@font-face
+{
+    src: url("fonts/FontAwesome.otf");
+    fontFamily: FontAwesomeEmbedded;
+    fontStyle: normal;
+    fontWeight: normal;
+
+    unicodeRange:
+        U+F000-U+F112 /* Font Awesome Range */
+}

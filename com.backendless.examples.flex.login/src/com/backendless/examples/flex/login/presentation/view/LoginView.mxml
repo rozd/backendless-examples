@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <s:Group xmlns:fx="http://ns.adobe.com/mxml/2009"
-         xmlns:s="library://ns.adobe.com/flex/spark" xmlns:mx="library://ns.adobe.com/flex/mx" currentState="login"
-         xmlns:ns="http://www.spicefactory.org/parsley">
+         xmlns:s="library://ns.adobe.com/flex/spark" xmlns:mx="library://ns.adobe.com/flex/mx"
+         xmlns:cairngorm="http://ns.adobe.com/cairngorm" currentState="login"
+         xmlns:ns="http://www.spicefactory.org/parsley" show="viewActivateHandler(event);">
 	
 	<fx:Script>
 		<![CDATA[
@@ -34,6 +35,17 @@
 	
 	<fx:Declarations>
         <ns:Configure />
+        <cairngorm:ValidatorGroupSubscriber>
+            <cairngorm:ValidatorSubscriber validator="{this.model.loginValidators.emailValidator}" listener="{loginEmailInput}" />
+            <cairngorm:ValidatorSubscriber validator="{this.model.loginValidators.passwordValidator}" listener="{loginPasswordInput}" />
+        </cairngorm:ValidatorGroupSubscriber>
+        <cairngorm:ValidatorGroupSubscriber>
+            <cairngorm:ValidatorSubscriber validator="{this.model.registerValidators.nameValidator}" listener="{nameInput}" />
+            <cairngorm:ValidatorSubscriber validator="{this.model.registerValidators.emailValidator}" listener="{registerEmailInput}" />
+            <cairngorm:ValidatorSubscriber validator="{this.model.registerValidators.passwordValidator}" listener="{registerPasswordInput}" />
+            <cairngorm:ValidatorSubscriber validator="{this.model.registerValidators.verifyPasswordValidator}" listener="{verifyPasswordInput}" />
+            <cairngorm:ValidatorSubscriber validator="{this.model.registerValidators.passwordsMatchValidator}" listener="{verifyPasswordInput}" />
+        </cairngorm:ValidatorGroupSubscriber>
 	</fx:Declarations>
 	
 	<s:states>
@@ -46,12 +58,14 @@
             <s:SolidColor color="#FFFFFF" />
         </s:fill>
     </s:Rect>
+
+    <!-- Login Form -->
 	
 	<s:VGroup left="0" right="0" top="0" paddingLeft="20" paddingTop="20" paddingRight="20" paddingBottom="20" gap="10" includeIn="login">
-		<s:TextInput width="100%" height="40" prompt="Email Address" text="@{this.model.userLogin.email}" />
-		<s:TextInput id="passwordInput" width="100%" height="40" prompt="Password" displayAsPassword="true" text="@{this.model.userLogin.password}" />
+		<s:TextInput id="loginEmailInput" width="100%" height="40" prompt="Email Address" text="@{this.model.userLogin.email}" />
+		<s:TextInput id="loginPasswordInput" width="100%" height="40" prompt="Password" displayAsPassword="true" text="@{this.model.userLogin.password}" />
 		<s:HGroup width="100%" gap="10">
-			<s:Button styleName="btnPink" width="50%" height="40" label="Show Password" click="passwordInput.displayAsPassword = !passwordInput.displayAsPassword" />
+			<s:Button styleName="btnPink" width="50%" height="40" label="Show Password" click="loginPasswordInput.displayAsPassword = !loginPasswordInput.displayAsPassword" />
 			<s:Button styleName="btnPink" width="50%" height="40" label="Remember Me" />
 		</s:HGroup>
 		<s:Button styleName="btnBlue" width="100%" height="50" label="Login" click="model.login();" />
@@ -67,12 +81,16 @@
 			<s:Label left="10" top="10" right="10" bottom="10" color="#BB4A46" width="100%" maxDisplayedLines="4" text="{this.model.loginErrorString}" />
 		</s:Group>
 	</s:VGroup>
-	
-	<s:VGroup left="0" top="0" right="0" paddingLeft="20" paddingTop="20" paddingRight="20" paddingBottom="20" gap="10" includeIn="register">
-		<s:TextInput width="100%" height="40" prompt="Name" text="@{this.model.userRegister.name}" />
-		<s:TextInput width="100%" height="40" prompt="Password" displayAsPassword="true" text="@{this.model.userRegister.password}" />
-		<s:TextInput width="100%" height="40" prompt="Verify Password" displayAsPassword="true" text="@{this.model.userRegister.passwordVerify}" />
-		<s:TextInput width="100%" height="40" prompt="Email" text="@{this.model.userRegister.email}"/>
+
+    <s:Label horizontalCenter="0" bottom="80" text="Singning In..." includeInLayout="{this.model.isSigningIn}" visible="{this.model.isSigningIn}" />
+
+    <!-- Register Form -->
+
+    <s:VGroup left="0" top="0" right="0" paddingLeft="20" paddingTop="20" paddingRight="20" paddingBottom="20" gap="10" includeIn="register">
+		<s:TextInput id="nameInput" width="100%" height="40" prompt="Name" text="@{this.model.userRegister.name}" />
+		<s:TextInput id="registerPasswordInput" width="100%" height="40" prompt="Password" displayAsPassword="true" text="@{this.model.userRegister.password}" />
+		<s:TextInput id="verifyPasswordInput" width="100%" height="40" prompt="Verify Password" displayAsPassword="true" text="@{this.model.userRegister.passwordVerify}" />
+		<s:TextInput id="registerEmailInput" width="100%" height="40" prompt="Email" text="@{this.model.userRegister.email}"/>
 		<s:HGroup width="100%" gap="10">
 			<s:Button styleName="btnPink" width="50%" height="50" label="Reset" click="model.reset();" includeIn="register" />
 			<s:Button styleName="btnBlue" width="50%" height="50" label="Submit" click="model.register();" includeIn="register" />
@@ -89,11 +107,11 @@
 			<s:Label left="10" top="10" right="10" bottom="10" color="#BB4A46" width="100%" maxDisplayedLines="4" text="{this.model.registerErrorString}" />
 		</s:Group>
 	</s:VGroup>
-	
-	<s:Label horizontalCenter="0" bottom="80" text="Singning In..." includeInLayout="{this.model.isSigningIn}" visible="{this.model.isSigningIn}" />
-	
+
 	<s:Label horizontalCenter="0" bottom="80" text="Registering..." includeInLayout="{this.model.isRegistering}" visible="{this.model.isRegistering}" />
-	
+
+    <!-- Control Bar -->
+
 	<s:ButtonBar id="buttonbar" left="0" right="0" bottom="0" height="60" requireSelection="true" selectedIndex.login="0" selectedIndex.register="1" change="buttonbar_changeHandler(event)">
 		<s:dataProvider>
 			<s:ArrayList>

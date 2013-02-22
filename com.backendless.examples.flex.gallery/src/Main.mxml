@@ -21,9 +21,9 @@
         ]]>
     </fx:Script>
 
-    <fx:Style source="/css/fonts.css" />
-    <fx:Style source="/css/text.css" />
-    <fx:Style source="/css/view.css" />
+    <fx:Style source="css/font.css" />
+    <fx:Style source="css/text.css" />
+    <fx:Style source="css/view.css" />
 
     <fx:Declarations>
         <parsley:Configure />

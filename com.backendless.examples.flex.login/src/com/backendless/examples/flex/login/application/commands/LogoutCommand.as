@@ -8,7 +8,8 @@
 package com.backendless.examples.flex.login.application.commands
 {
     import com.backendless.Backendless;
-    import com.backendless.examples.flex.login.application.enum.Destination;
+import com.backendless.examples.flex.logging.Logger;
+import com.backendless.examples.flex.login.application.enum.Destination;
 import com.backendless.examples.flex.login.application.messages.LogoutMessage;
 import com.backendless.examples.flex.login.application.messages.NavigateToMessage;
 
@@ -31,12 +32,16 @@ import com.backendless.examples.flex.login.application.messages.NavigateToMessag
 
         public function result(user:Object):void
         {
+            Logger.get.info("Logout success");
+
             dispatcher(new NavigateToMessage(Destination.LOGIN));
         }
 
         public function error(fault:Fault):void
         {
             // handled at presentation level
+
+            Logger.get.error(fault.faultString);
         }
 
     }

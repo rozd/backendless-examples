@@ -6,7 +6,9 @@
         <dependencies target-player="11.1">
           <sdk name="4.6.0" />
         </dependencies>
-        <compiler-options />
+        <compiler-options>
+          <option name="filesToIncludeInSWC" value="$MODULE_DIR$/assets/css/font.css&#10;$MODULE_DIR$/assets/css/text.css&#10;$MODULE_DIR$/assets/css/view.css&#10;$MODULE_DIR$/assets/fonts/Georgia Italic.ttf&#10;$MODULE_DIR$/assets/fonts/Georgia.ttf&#10;$MODULE_DIR$/assets/fonts/Lobster 1.4.otf&#10;$MODULE_DIR$/assets/fonts/MyriadPro-It.otf&#10;$MODULE_DIR$/assets/fonts/MyriadPro-Regular.otf&#10;$MODULE_DIR$/assets/fonts/FontAwesome.otf" />
+        </compiler-options>
         <packaging-air-desktop />
         <packaging-android />
         <packaging-ios />
