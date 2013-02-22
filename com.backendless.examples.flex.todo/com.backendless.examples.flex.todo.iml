@@ -11,6 +11,9 @@
             <entry library-id="ac530073-8f65-45d5-b495-993e33d0edfb">
               <dependency linkage="Merged" />
             </entry>
+            <entry module-name="backendless" build-configuration-name="backendless">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
           <sdk name="4.6.0" />
         </dependencies>
@@ -42,6 +45,7 @@
         <jarDirectory url="file://$MODULE_DIR$/libs" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="backendless" exported="" />
   </component>
 </module>
 
