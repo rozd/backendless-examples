@@ -17,11 +17,11 @@
     </fx:Declarations>
 
     <cairngorm:validators>
-        <mx:Validator id="nameValidator" source="{model.userRegister}" property="name" triggerEvent="propertyChange" />
-        <mx:Validator id="passwordValidator" source="{model.userRegister}" property="password" triggerEvent="propertyChange" />
-        <mx:Validator id="verifyPasswordValidator" source="{model.userRegister}" property="email" triggerEvent="propertyChange" />
-        <mx:EmailValidator id="emailValidator" source="{model.userRegister}" property="email" triggerEvent="propertyChange" />
-        <cairngorm:FieldComparisonValidator id="passwordsMatchValidator" source="{model.userRegister}" property="password" triggerEvent="propertyChange" destination="{model.userRegister}" destinationProperty="passwordVerify" destinationTriggerEvent="propertyChange" requiredFieldError="These passwords don't match." />
+        <mx:Validator id="nameValidator" source="{this.model.userRegister}" property="name" triggerEvent="propertyChange" />
+        <mx:Validator id="passwordValidator" source="{this.model.userRegister}" property="password" triggerEvent="propertyChange" />
+        <mx:Validator id="verifyPasswordValidator" source="{this.model.userRegister}" property="email" triggerEvent="propertyChange" />
+        <mx:EmailValidator id="emailValidator" source="{this.model.userRegister}" property="email" triggerEvent="propertyChange" />
+        <cairngorm:FieldComparisonValidator id="passwordsMatchValidator" source="{this.model.userRegister}" property="password" triggerEvent="propertyChange" destination="{model.userRegister}" destinationProperty="passwordVerify" destinationTriggerEvent="propertyChange" requiredFieldError="These passwords don't match." />
     </cairngorm:validators>
 
 </cairngorm:ValidatorGroup>

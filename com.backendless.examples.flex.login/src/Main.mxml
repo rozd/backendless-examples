@@ -63,4 +63,8 @@
 
     <components:Output left="0" right="0" bottom="0" height="100" visible="{this.header.outputShown}" includeInLayout="{this.header.outputShown}" />
 
+    <s:PopUpAnchor verticalCenter="0" horizontalCenter="0" displayPopUp="{this.header.settingsShown}" popUpPosition="center">
+        <components:Settings width="400" close="this.header.settingsShown = false;" />
+    </s:PopUpAnchor>
+
 </s:Application>

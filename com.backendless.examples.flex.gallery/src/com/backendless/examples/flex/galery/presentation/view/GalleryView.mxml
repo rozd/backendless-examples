@@ -25,9 +25,9 @@
                     <s:SolidColor color="#FFFFFF" />
                 </s:fill>
             </s:Rect>
-            <s:List maxHeight="600" dataProvider="{model.gallery}" selectedItem="{model.selectedItem}" change="{model.select(event.target.selectedItem)}">
+            <s:List maxHeight="600" dataProvider="{this.model.gallery}" selectedItem="{this.model.selectedItem}" change="{model.select(event.target.selectedItem)}">
                 <s:layout>
-                    <s:TileLayout rowAlign="justifyUsingHeight" columnWidth="200" rowHeight="150" requestedColumnCount="3" orientation="rows" paddingLeft="4" paddingTop="4" paddingRight="4" paddingBottom="4" verticalGap="4" horizontalGap="4" />
+                    <s:TileLayout rowAlign="justifyUsingHeight" columnWidth="200" rowHeight="150" requestedColumnCount="3" requestedRowCount="2" orientation="rows" paddingLeft="3" paddingTop="3" paddingRight="3" paddingBottom="3" verticalGap="4" horizontalGap="4" />
                 </s:layout>
                 <s:itemRenderer>
                     <fx:Component>
@@ -38,7 +38,7 @@
                                 <s:State name="normal" />
                             </s:states>
 
-                            <s:Image width="100%" height="100%" source="{this.data.getFileSource()}" fillMode="clip" horizontalAlign="center" verticalAlign="middle" skinClass="spark.skins.spark.ImageSkin" />
+                            <s:Image width="100%" height="100%" source="{this.data.getFileSource()}" fillMode="scale" scaleMode="zoom" horizontalAlign="center" verticalAlign="middle" skinClass="spark.skins.spark.ImageSkin" />
 
                             <s:Rect width="100%" height="100%" includeIn="hovered">
                                 <s:fill>
@@ -46,7 +46,7 @@
                                 </s:fill>
                             </s:Rect>
 
-                            <s:Label styleName="iconLabel" horizontalCenter="0" verticalCenter="0" text="&#xf00e;" color="#666666" fontSize="40" includeIn="hovered" />
+                            <s:Label styleName="iconLabel" horizontalCenter="0" verticalCenter="0" text="&#xf00e;" color="#999999" fontSize="40" includeIn="hovered" />
 
                             <s:Group bottom="0" width="100%">
                                 <s:Rect width="100%" height="100%" includeIn="hovered">

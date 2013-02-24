@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <s:Group xmlns:fx="http://ns.adobe.com/mxml/2009"
          xmlns:s="library://ns.adobe.com/flex/spark" xmlns:mx="library://ns.adobe.com/flex/mx"
-         xmlns:cairngorm="http://ns.adobe.com/cairngorm" currentState="login"
+         xmlns:cairngorm="http://ns.adobe.com/cairngorm" xmlns:components="com.backendless.examples.flex.components.*"
+         currentState="login"
          xmlns:ns="http://www.spicefactory.org/parsley" show="viewActivateHandler(event);">
 	
 	<fx:Script>
@@ -69,17 +70,7 @@
 			<s:Button styleName="btnPink" width="50%" height="40" label="Remember Me" />
 		</s:HGroup>
 		<s:Button styleName="btnBlue" width="100%" height="50" label="Login" click="model.login();" />
-		<s:Group width="100%" includeInLayout="{this.model.loginErrorString}" visible="{this.model.loginErrorString}">
-			<s:Rect left="0" top="0" right="0" bottom="0">
-				<s:stroke>
-					<s:SolidColorStroke color="#EED2D7" />
-				</s:stroke>
-				<s:fill>
-					<s:SolidColor color="#F2DEDD" />
-				</s:fill>
-			</s:Rect>
-			<s:Label left="10" top="10" right="10" bottom="10" color="#BB4A46" width="100%" maxDisplayedLines="4" text="{this.model.loginErrorString}" />
-		</s:Group>
+        <components:Message width="100%" severity="error" text="{this.model.loginErrorString}" />
 	</s:VGroup>
 
     <s:Label horizontalCenter="0" bottom="80" text="Singning In..." includeInLayout="{this.model.isSigningIn}" visible="{this.model.isSigningIn}" />
@@ -95,17 +86,7 @@
 			<s:Button styleName="btnPink" width="50%" height="50" label="Reset" click="model.reset();" includeIn="register" />
 			<s:Button styleName="btnBlue" width="50%" height="50" label="Submit" click="model.register();" includeIn="register" />
 		</s:HGroup>
-		<s:Group width="100%" includeInLayout="{this.model.registerErrorString}" visible="{this.model.registerErrorString}">
-			<s:Rect left="0" top="0" right="0" bottom="0">
-				<s:stroke>
-					<s:SolidColorStroke color="#EED2D7" />
-				</s:stroke>
-				<s:fill>
-					<s:SolidColor color="#F2DEDD" />
-				</s:fill>
-			</s:Rect>
-			<s:Label left="10" top="10" right="10" bottom="10" color="#BB4A46" width="100%" maxDisplayedLines="4" text="{this.model.registerErrorString}" />
-		</s:Group>
+        <components:Message width="100%" severity="error" text="{this.model.registerErrorString}" />
 	</s:VGroup>
 
 	<s:Label horizontalCenter="0" bottom="80" text="Registering..." includeInLayout="{this.model.isRegistering}" visible="{this.model.isRegistering}" />

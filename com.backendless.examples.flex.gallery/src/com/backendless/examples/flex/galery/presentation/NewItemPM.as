@@ -13,6 +13,8 @@ import com.backendless.examples.flex.galery.application.messages.NavigateToMessa
 import com.backendless.examples.flex.galery.application.messages.SaveItemMessage;
 import com.backendless.examples.flex.galery.domain.Item;
 
+import flash.events.ErrorEvent;
+
 import flash.events.Event;
 
 import flash.events.EventDispatcher;
@@ -20,11 +22,13 @@ import flash.events.EventDispatcher;
 import flash.net.FileReference;
 
 import mx.events.PropertyChangeEvent;
+import mx.rpc.Fault;
 
 public class NewItemPM extends EventDispatcher implements INewItemPM
 {
     public function NewItemPM()
     {
+        super();
     }
 
     [MessageDispatcher]
@@ -34,44 +38,35 @@ public class NewItemPM extends EventDispatcher implements INewItemPM
     [Subscribe(objectId="selectedItem")]
     public var item:Item;
 
-    private var _fileName:String;
-
     [Bindable]
-    public function get fileName():String
-    {
-        return _fileName;
-    }
-
-    public function set fileName(value:String):void
-    {
-        _fileName = value;
-    }
+    public var saveErrorString:String;
 
     public function browse():void
     {
         if (!item.fileREF)
-        {
             item.fileREF = new FileReference();
-            item.fileREF.addEventListener(Event.SELECT, fileREF_selectHandler, false, 0, true);
-        }
 
         dispatcher(new BrowseFileMessage(item.fileREF));
     }
 
     public function submit():void
     {
+        this.saveErrorString = null;
+
         dispatcher(new SaveItemMessage(item));
     }
 
     public function cancel():void
     {
+        this.saveErrorString = null;
+
         dispatcher(new NavigateToMessage(Destiantion.GALLERY));
     }
 
-    private function fileREF_selectHandler(event:Event):void
+    [CommandError(type="com.backendless.examples.flex.galery.application.messages.SaveItemMessage")]
+    public function registerError(event:ErrorEvent, trigger:SaveItemMessage):void
     {
-        this.fileName = item.fileREF.name;
+        this.saveErrorString = event.text;
     }
-
 }
 }

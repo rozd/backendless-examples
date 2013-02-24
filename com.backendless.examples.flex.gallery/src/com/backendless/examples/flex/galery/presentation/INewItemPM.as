@@ -14,12 +14,13 @@ public interface INewItemPM
     function get item():Item;
     function set item(value:Item):void;
 
-    function get fileName():String;
-
     function browse():void;
 
     function submit():void;
 
     function cancel():void;
+
+    function get saveErrorString():String;
+    function set saveErrorString(value:String):void;
 }
 }

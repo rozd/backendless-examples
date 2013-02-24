@@ -60,3 +60,13 @@
     unicodeRange:
         U+F000-U+F112 /* Font Awesome Range */
 }
+
+@font-face
+{
+    src: url("fonts/MesloLGS-Regular.ttf");
+    fontFamily: MesloEmbedded;
+    fontStyle: normal;
+    fontWeight: normal;
+
+    embed-as-cff: true;
+}

@@ -37,7 +37,7 @@ public class RegisterCommand
 
     public function result(data:Object):void
     {
-        Logger.get.error("Register success");
+        Logger.info("Register success");
 
         model.setUser(Backendless.UserService.currentUser);
 
@@ -48,7 +48,7 @@ public class RegisterCommand
     {
         // handled at presentation layer
 
-        Logger.get.error(fault.toString());
+        Logger.error(fault.toString());
     }
 }
 }

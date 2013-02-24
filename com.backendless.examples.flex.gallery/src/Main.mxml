@@ -1,7 +1,9 @@
 <?xml version="1.0"?>
 <s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
                xmlns:parsley="http://www.spicefactory.org/parsley"
-               xmlns:view="com.backendless.examples.flex.galery.presentation.view.*" currentState="{this.model.destination}" applicationComplete="applicationCompleteHandler(event)">
+               xmlns:view="com.backendless.examples.flex.galery.presentation.view.*"
+               xmlns:components="com.backendless.examples.flex.components.*" currentState="{this.model.destination}"
+               applicationComplete="applicationCompleteHandler(event)">
 
     <fx:Script>
         <![CDATA[
@@ -37,14 +39,7 @@
         <s:State name="newitem" />
     </s:states>
 
-    <s:Group left="0" top="0" right="0" height="40">
-        <s:Rect width="100%" height="100%">
-            <s:fill>
-                <s:SolidColor color="#333333" />
-            </s:fill>
-        </s:Rect>
-        <s:Label left="10" verticalCenter="0" styleName="h2" text="Backendless / Gallery" />
-    </s:Group>
+    <components:Header id="header" width="100%" height="40" title="Backendless Gallery Example" />
 
     <s:Group left="0" top="60" right="0" bottom="0">
         <view:GalleryView verticalCenter="0" horizontalCenter="0" />
@@ -54,12 +49,14 @@
 
     <view:DetailsView verticalCenter="0" horizontalCenter="0" includeIn="details" />
 
-    <s:RichText bottom="20" horizontalCenter="0">
+    <s:RichText styleName="h5" bottom="20" horizontalCenter="0">
         <s:textFlow>
             <s:TextFlow>
-
+                This is a sample application that demonstrates working with <s:span color="#5786FD">Backendless</s:span> FileService and PersistenceService services.
             </s:TextFlow>
         </s:textFlow>
     </s:RichText>
+
+    <components:Output left="0" right="0" bottom="0" height="100" visible="{this.header.outputShown}" includeInLayout="{this.header.outputShown}" />
 
 </s:Application>

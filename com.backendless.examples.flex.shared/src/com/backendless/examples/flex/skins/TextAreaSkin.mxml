@@ -43,9 +43,9 @@
         </s:stroke>
     </s:Line>
 
-    <s:RichEditableText id="textDisplay" verticalAlign="middle"
-                        widthInChars="10"
-                        left="10" right="2" top="2" bottom="1" />
+    <s:Scroller id="scroller" left="1" top="1" right="0" bottom="1" minViewportInset="1" measuredSizeIncludesScrollBars="false" hasFocusableChildren="false">
+        <s:RichEditableText id="textDisplay" />
+    </s:Scroller>
 
     <s:Label id="promptDisplay" maxDisplayedLines="1" verticalAlign="middle" mouseEnabled="false" mouseChildren="false" left="10" right="2" top="2" bottom="1"
              includeIn="normalWithPrompt,disabledWithPrompt"

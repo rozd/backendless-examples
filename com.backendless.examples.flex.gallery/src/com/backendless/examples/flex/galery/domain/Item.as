@@ -14,6 +14,7 @@ import flash.events.Event;
 import flash.events.EventDispatcher;
 import flash.events.IEventDispatcher;
 import flash.net.FileReference;
+import flash.net.FileReference;
 
 import mx.events.PropertyChangeEvent;
 
@@ -32,33 +33,10 @@ public class Item extends EventDispatcher implements IBackendlessEntity
 
     public var reference:String;
 
-    public function copy(that:Object):void
-    {
-        this.objectId = that.objectId;
-        this.description = that.description;
-        this.reference = that.reference;
-        this._fileURL = that.fileREF;
-    }
+    public var fileURL:String;
 
-    private var _fileURL:String;
-
-    [Bindable(event="propertyChange")]
-    public function get fileURL():String
-    {
-        return _fileURL;
-    }
-
-    public function set fileURL(value:String):void
-    {
-        if (_fileURL == value) return;
-
-        const oldValue:Object = _fileURL;
-
-        _fileURL = value;
-
-        dispatchEvent(PropertyChangeEvent.createUpdateEvent(this, "fileURL", oldValue, value));
-        dispatchEvent(new Event("fileSourceChanged"));
-    }
+    [Transient]
+    public var fileName:String;
 
     private var _fileREF:FileReference;
 
@@ -89,11 +67,21 @@ public class Item extends EventDispatcher implements IBackendlessEntity
     [Bindable(event="fileSourceChanged")]
     public function getFileSource():Object
     {
-        return _fileREF ? _fileREF.data : _fileURL;
+        return _fileREF ? _fileREF.data : fileURL;
+    }
+
+    public function copy(that:Object):void
+    {
+        this.objectId = that.objectId;
+        this.description = that.description;
+        this.reference = that.reference;
+        this.fileURL = that.fileREF;
     }
 
     private function fileREF_completeHandler(event:Event):void
     {
+        this.fileName = FileReference(event.target).name;
+
         dispatchEvent(new Event("fileSourceChanged"));
     }
 }

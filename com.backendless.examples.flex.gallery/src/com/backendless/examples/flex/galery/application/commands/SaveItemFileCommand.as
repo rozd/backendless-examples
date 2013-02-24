@@ -10,6 +10,9 @@ package com.backendless.examples.flex.galery.application.commands
 import com.backendless.examples.flex.galery.application.messages.SaveItemMessage;
 import com.backendless.examples.flex.galery.application.messages.UploadFileMessage;
 import com.backendless.examples.flex.galery.domain.vo.UploadResult;
+import com.backendless.examples.flex.logging.Logger;
+
+import flash.events.ErrorEvent;
 
 import org.spicefactory.lib.command.builder.Commands;
 import org.spicefactory.lib.command.events.CommandFailure;
@@ -36,12 +39,16 @@ public class SaveItemFileCommand
     public function result(result:UploadResult):void
     {
 //        msg.item.fileURL = data.fileURL;
+        Logger.info("File saved");
+
         callback(result.url);
     }
 
-    public function error(failure:CommandFailure):void
+    public function error(failure:ErrorEvent):void
     {
-        callback(new Error(failure.message));
+        Logger.error(failure.toString());
+
+        callback(failure);
     }
 }
 

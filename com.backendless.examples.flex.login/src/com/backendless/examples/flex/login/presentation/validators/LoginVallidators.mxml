@@ -17,8 +17,8 @@
     </fx:Declarations>
 
     <cairngorm:validators>
-        <mx:EmailValidator id="emailValidator" source="{model.userLogin}" property="email" triggerEvent="propertyChange" />
-        <mx:Validator id="passwordValidator" source="{model.userLogin}" property="password" triggerEvent="propertyChange" />
+        <mx:EmailValidator id="emailValidator" source="{this.model.userLogin}" property="email" triggerEvent="propertyChange" />
+        <mx:Validator id="passwordValidator" source="{this.model.userLogin}" property="password" triggerEvent="propertyChange" />
     </cairngorm:validators>
 
 </cairngorm:ValidatorGroup>

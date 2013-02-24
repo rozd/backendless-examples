@@ -1,8 +1,9 @@
 package com.backendless.examples.flex.galery.application.commands
 {
     import com.backendless.examples.flex.galery.application.messages.BrowseFileMessage;
+import com.backendless.examples.flex.logging.Logger;
 
-	import flash.events.Event;
+import flash.events.Event;
 	import flash.net.FileFilter;
 	import flash.net.FileReference;
 
@@ -17,19 +18,21 @@ package com.backendless.examples.flex.galery.application.commands
 		
 		public function execute(msg:BrowseFileMessage):void
 		{
-			msg.file.addEventListener(Event.SELECT, iconFile_selectHandler);
-			msg.file.addEventListener(Event.CANCEL, iconFile_cancelHandler);
+			msg.file.addEventListener(Event.SELECT, file_selectHandler);
+			msg.file.addEventListener(Event.CANCEL, file_cancelHandler);
 			
 			const filter:FileFilter = new FileFilter("Images", ".gif;*.jpeg;*.jpg;*.png");
 			msg.file.browse([filter]);
 		}
 		
-		private function iconFile_selectHandler(event:Event):void
+		private function file_selectHandler(event:Event):void
 		{
+            Logger.info("File selected");
+
 			const file:FileReference = event.target as FileReference;
 			
-			file.removeEventListener(Event.SELECT, iconFile_selectHandler);
-			file.removeEventListener(Event.CANCEL, iconFile_cancelHandler);
+			file.removeEventListener(Event.SELECT, file_selectHandler);
+			file.removeEventListener(Event.CANCEL, file_cancelHandler);
 			
 			file.addEventListener(Event.COMPLETE, completeHandler);
 			file.load();
@@ -37,15 +40,17 @@ package com.backendless.examples.flex.galery.application.commands
 		
 		private function completeHandler(event:Event):void
 		{
+            Logger.info("File loaded into memory.");
+
 			event.target.removeEventListener(Event.COMPLETE, completeHandler);
 			
 			callback(event.target);
 		}
 		
-		private function iconFile_cancelHandler(event:Event):void
+		private function file_cancelHandler(event:Event):void
 		{
-			event.target.removeEventListener(Event.SELECT, iconFile_selectHandler);
-			event.target.removeEventListener(Event.CANCEL, iconFile_cancelHandler);
+			event.target.removeEventListener(Event.SELECT, file_selectHandler);
+			event.target.removeEventListener(Event.CANCEL, file_cancelHandler);
 			
 			callback(false);
 		}

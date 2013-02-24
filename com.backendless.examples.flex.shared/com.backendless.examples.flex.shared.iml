@@ -4,10 +4,15 @@
     <configurations>
       <configuration name="com.backendless.examples.flex.shared" output-type="Library" output-file="com_backendless_examples_flex_shared.swc" output-folder="$MODULE_DIR$/../out/production/com.backendless.examples.flex.shared">
         <dependencies target-player="11.1">
+          <entries>
+            <entry module-name="backendless" build-configuration-name="backendless">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
           <sdk name="4.6.0" />
         </dependencies>
         <compiler-options>
-          <option name="filesToIncludeInSWC" value="$MODULE_DIR$/assets/css/font.css&#10;$MODULE_DIR$/assets/css/text.css&#10;$MODULE_DIR$/assets/css/view.css&#10;$MODULE_DIR$/assets/fonts/Georgia Italic.ttf&#10;$MODULE_DIR$/assets/fonts/Georgia.ttf&#10;$MODULE_DIR$/assets/fonts/Lobster 1.4.otf&#10;$MODULE_DIR$/assets/fonts/MyriadPro-It.otf&#10;$MODULE_DIR$/assets/fonts/MyriadPro-Regular.otf&#10;$MODULE_DIR$/assets/fonts/FontAwesome.otf" />
+          <option name="filesToIncludeInSWC" value="$MODULE_DIR$/assets/css/font.css&#10;$MODULE_DIR$/assets/css/text.css&#10;$MODULE_DIR$/assets/css/view.css&#10;$MODULE_DIR$/assets/fonts/Georgia Italic.ttf&#10;$MODULE_DIR$/assets/fonts/Georgia.ttf&#10;$MODULE_DIR$/assets/fonts/Lobster 1.4.otf&#10;$MODULE_DIR$/assets/fonts/MyriadPro-It.otf&#10;$MODULE_DIR$/assets/fonts/MyriadPro-Regular.otf&#10;$MODULE_DIR$/assets/fonts/FontAwesome.otf&#10;$MODULE_DIR$/assets/fonts/MesloLGS-Regular.ttf" />
         </compiler-options>
         <packaging-air-desktop />
         <packaging-android />
@@ -24,6 +29,7 @@
     </content>
     <orderEntry type="jdk" jdkName="4.6.0" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="backendless" exported="" />
   </component>
 </module>
 

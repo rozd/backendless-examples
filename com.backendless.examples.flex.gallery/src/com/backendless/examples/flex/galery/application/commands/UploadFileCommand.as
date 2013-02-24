@@ -1,10 +1,14 @@
 package com.backendless.examples.flex.galery.application.commands
 {
 import com.backendless.Backendless;
+import com.backendless.examples.flex.galery.application.messages.SaveItemMessage;
 import com.backendless.examples.flex.galery.application.messages.UploadFileMessage;
 import com.backendless.examples.flex.galery.domain.vo.UploadResult;
+import com.backendless.examples.flex.logging.Logger;
 
 import flash.events.DataEvent;
+import flash.events.ErrorEvent;
+import flash.events.ErrorEvent;
 import flash.events.IEventDispatcher;
 import flash.events.IOErrorEvent;
 import flash.events.SecurityErrorEvent;
@@ -21,11 +25,11 @@ public class UploadFileCommand
 
     public var callback:Function;
 
-    public function execute(msg:UploadFileMessage):void
+    public function execute(msg:SaveItemMessage):void
     {
-        addListeners(msg.file);
+        addListeners(msg.item.fileREF);
 
-        Backendless.FileService.upload(msg.file, msg.path);
+        Backendless.FileService.upload(msg.item.fileREF, "backendless-examples-gallery");
     }
 
     private function addListeners(target:IEventDispatcher):void
@@ -46,11 +50,26 @@ public class UploadFileCommand
     {
         removeListeners(event.target as IEventDispatcher);
 
-        callback(new UploadResult(JSON.parse(event.data).fileURL));
+        const response:Object = JSON.parse(event.data);
+
+        if (response.hasOwnProperty("message"))
+        {
+            Logger.error(response.message);
+
+            callback(new ErrorEvent(ErrorEvent.ERROR, false, false, response.message));
+        }
+        else
+        {
+            Logger.info("File uploaded");
+
+            callback(response.fileURL);
+        }
     }
 
     private function ioErrorHandler(event:IOErrorEvent):void
     {
+        Logger.error(event.toString());
+
         removeListeners(event.target as IEventDispatcher);
 
         callback(event);
@@ -58,6 +77,8 @@ public class UploadFileCommand
 
     private function securityErrorHandler(event:SecurityErrorEvent):void
     {
+        Logger.error(event.toString());
+
         removeListeners(event.target as IEventDispatcher);
 
         callback(event);

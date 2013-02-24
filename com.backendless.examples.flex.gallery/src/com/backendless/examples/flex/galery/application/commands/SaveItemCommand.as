@@ -13,6 +13,7 @@ import com.backendless.examples.flex.galery.application.messages.NavigateToMessa
 import com.backendless.examples.flex.galery.application.messages.SaveItemMessage;
 import com.backendless.examples.flex.galery.domain.Gallery;
 import com.backendless.examples.flex.galery.domain.Item;
+import com.backendless.examples.flex.logging.Logger;
 
 import mx.rpc.Responder;
 import mx.rpc.events.FaultEvent;
@@ -36,23 +37,29 @@ public class SaveItemCommand
     {
         gallery.addItem(msg.item);
 
+        msg.item.fileURL = fileURL;
+
         Backendless.PersistenceService.of(Item).save(msg.item,
             new Responder(
                 function(event:ResultEvent):void
                 {
+                    Logger.info("Item saved successfully.");
+
                     msg.item.copy(event.result as Item);
 
-                    callback(event.result);
-
                     dispatcher(new NavigateToMessage(Destiantion.GALLERY));
+
+                    callback(event.result);
                 },
                 function(event:FaultEvent):void
                 {
-                    callback(event.fault);
+                    Logger.error(event.toString());
 
                     gallery.removeItem(msg.item);
 
                     dispatcher(new NavigateToMessage(Destiantion.GALLERY));
+
+                    callback(event.fault);
                 }
             )
         );

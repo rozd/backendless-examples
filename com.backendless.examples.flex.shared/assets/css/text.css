@@ -38,3 +38,21 @@
 	fontWeight: normal;
 	fontSize: 14;
 }
+
+.log
+{
+    color: #666666;
+
+    fontFamily: MesloEmbedded;
+    fontWeight: normal;
+    fontSize: 10;
+}
+
+.settings
+{
+    color: #333333;
+
+    fontFamily: MesloEmbedded;
+    fontWeight: normal;
+    fontSize: 10;
+}

@@ -38,8 +38,9 @@
 
         <parsley:MapCommand messageType="{SaveItemMessage}">
             <parsley:CommandSequence>
-                <parsley:Command type="{SaveItemFileCommand}" />
+                <parsley:Command type="{UploadFileCommand}" />
                 <parsley:Command type="{SaveItemCommand}" />
+                <parsley:Command type="{GetGalleryCommand}" />
             </parsley:CommandSequence>
         </parsley:MapCommand>
 

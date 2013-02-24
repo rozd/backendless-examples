@@ -7,16 +7,16 @@
  */
 package com.backendless.examples.flex.login.application.commands
 {
-    import com.backendless.Backendless;
+import com.backendless.Backendless;
 import com.backendless.examples.flex.logging.Logger;
 import com.backendless.examples.flex.login.application.enum.Destination;
 import com.backendless.examples.flex.login.application.messages.LogoutMessage;
 import com.backendless.examples.flex.login.application.messages.NavigateToMessage;
 
-    import mx.rpc.AsyncToken;
-    import mx.rpc.Fault;
+import mx.rpc.AsyncToken;
+import mx.rpc.Fault;
 
-    public class LogoutCommand
+public class LogoutCommand
     {
         public function LogoutCommand()
         {
@@ -32,7 +32,7 @@ import com.backendless.examples.flex.login.application.messages.NavigateToMessag
 
         public function result(user:Object):void
         {
-            Logger.get.info("Logout success");
+            Logger.info("Logout success");
 
             dispatcher(new NavigateToMessage(Destination.LOGIN));
         }
@@ -41,7 +41,7 @@ import com.backendless.examples.flex.login.application.messages.NavigateToMessag
         {
             // handled at presentation level
 
-            Logger.get.error(fault.faultString);
+            Logger.error(fault.faultString);
         }
 
     }

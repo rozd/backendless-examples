@@ -7,7 +7,10 @@
  */
 package com.backendless.examples.flex.galery.presentation
 {
+import com.backendless.examples.flex.galery.application.enum.Destiantion;
+import com.backendless.examples.flex.galery.application.messages.NavigateToMessage;
 import com.backendless.examples.flex.galery.application.messages.SaveItemMessage;
+import com.backendless.examples.flex.galery.application.messages.SelectItemMessage;
 import com.backendless.examples.flex.galery.application.messages.UploadFileMessage;
 import com.backendless.examples.flex.galery.application.messages.BrowseFileMessage;
 import com.backendless.examples.flex.galery.domain.Item;
@@ -29,6 +32,7 @@ public class DetailsPM implements IDetailsPM
 
     public function back():void
     {
+        dispatcher(new SelectItemMessage(null));
     }
 
     public function remove():void

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark" addedToStage="addedToStageHandler(event)">
+
+    <fx:Metadata>
+        [Event(name="close", type="mx.events.CloseEvent")]
+    </fx:Metadata>
+
+    <fx:Script>
+        <![CDATA[
+        import com.backendless.Backendless;
+
+        import mx.events.CloseEvent;
+
+        [Bindable]
+        private var appId:String;
+
+        [Bindable]
+        private var devKey:String;
+
+        [Bindable]
+        private var version:String;
+
+        private function close():void
+        {
+            dispatchEvent(new CloseEvent(CloseEvent.CLOSE));
+        }
+
+        private function addedToStageHandler(event:Event):void
+        {
+            appId = Backendless.appId;
+            devKey = Backendless.headers[Backendless.SECRET_KEY_HEADER];
+            version = Backendless.version;
+        }
+        ]]>
+    </fx:Script>
+
+    <fx:Declarations>
+
+    </fx:Declarations>
+
+    <s:Rect left="0" top="0" right="0" bottom="0">
+        <s:fill>
+            <s:SolidColor color="#FFFFFF" />
+        </s:fill>
+    </s:Rect>
+
+    <s:VGroup width="100%" paddingLeft="10" paddingTop="10" paddingRight="10" paddingBottom="10" gap="10">
+        <s:HGroup width="100%" height="22" verticalAlign="middle">
+            <s:Label width="120" text="Application Id:" />
+            <s:TextInput id="appIdInput" styleName="settings" width="100%" height="100%" text="@{appId}" />
+        </s:HGroup>
+        <s:HGroup width="100%" height="22" verticalAlign="middle">
+            <s:Label width="120" text="Secret Key:" />
+            <s:TextInput id="devKeyInput" styleName="settings" width="100%" height="100%" text="@{devKey}" />
+        </s:HGroup>
+        <s:HGroup width="100%" height="22" verticalAlign="middle">
+            <s:Label width="120" text="Version:" />
+            <s:TextInput id="versInput" styleName="settings" width="100%" height="100%" text="@{version}" />
+        </s:HGroup>
+        <s:HGroup width="100%" height="40" horizontalAlign="center">
+            <s:Button id="submitButton" styleName="btnBlue" width="100%" height="100%" label="Update" click="Backendless.initApp(appId, devKey, version);close();" />
+            <s:Button styleName="btnPink" width="100%" height="100%" label="Cancel" click="close();" />
+        </s:HGroup>
+    </s:VGroup>
+
+    <!--<s:Form width="100%" defaultButton="{submitButton}">-->
+        <!--<s:FormItem label="Application Id" fontSize="12">-->
+            <!--<s:TextInput id="appIdInput" styleName="settings" width="100%" height="22" text="@{appId}" />-->
+        <!--</s:FormItem>-->
+        <!--<s:FormItem label="Secret Key" fontSize="12">-->
+            <!--<s:TextInput id="devKeyInput" styleName="settings" width="100%" text="@{devKey}" />-->
+        <!--</s:FormItem>-->
+        <!--<s:FormItem label="Version" fontSize="12">-->
+            <!--<s:TextInput id="versInput" styleName="settings" width="100%" text="@{version}" />-->
+        <!--</s:FormItem>-->
+        <!--<s:HGroup width="100%" height="40" horizontalAlign="center">-->
+            <!--<s:Button id="submitButton" styleName="btnBlue" width="100%" height="100%" label="Update" click="Backendless.initApp(appId, devKey, version);close();" />-->
+            <!--<s:Button styleName="btnPink" width="100%" height="100%" label="Cancel" click="close();" />-->
+        <!--</s:HGroup>-->
+    <!--</s:Form>-->
+
+</s:Group>

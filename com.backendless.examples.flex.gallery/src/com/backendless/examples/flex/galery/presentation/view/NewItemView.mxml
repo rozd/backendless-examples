@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
-         xmlns:parsley="http://www.spicefactory.org/parsley">
+         xmlns:parsley="http://www.spicefactory.org/parsley"
+         xmlns:components="com.backendless.examples.flex.components.*">
 
     <fx:Script>
         <![CDATA[
@@ -35,7 +36,7 @@
         </s:Rect>
         <s:VGroup width="100%" height="100%" paddingLeft="10" paddingTop="10" paddingRight="10" paddingBottom="10">
             <s:HGroup width="100%">
-                <s:TextInput width="100%" height="40" text="{this.model.fileName}" prompt="Click Browse to select image." />
+                <s:TextInput width="100%" height="40" text="{this.model.item.fileName}" prompt="Click Browse to select image." />
                 <s:Button styleName="btnPink" label="Browse" height="40" click="model.browse()" />
             </s:HGroup>
             <s:TextArea width="100%" heightInLines="2" prompt="Otinal Description" text="@{this.model.item.description}" />
@@ -47,6 +48,7 @@
                 <s:Button styleName="btnBlue" width="50%" height="100%" label="Save" click="model.submit()" />
                 <s:Button styleName="btnPink" width="50%" height="100%" label="Back" click="model.cancel()" />
             </s:HGroup>
+            <components:Message width="100%" severity="error" text="{this.model.saveErrorString}" />
         </s:VGroup>
     </s:Group>
 
