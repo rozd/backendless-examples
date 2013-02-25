@@ -27,7 +27,7 @@
 
     <s:HGroup right="10" verticalCenter="0" verticalAlign="middle">
         <s:Button styleName="iconButton" color="{Logger.get.hasErrors ? 0xDD6666 : 0x5786FD}" label="{Logger.get.hasErrors ? '&#xf071;' : '&#xf05a;'}" click="outputShown = !outputShown" />
-        <s:Button styleName="iconButton" color="#BF3292" label="&#xf085;" click="settingsShown = !settingsShown" />
+        <s:Button styleName="iconButton" color="#EEEEEE" label="&#xf085;" click="settingsShown = !settingsShown" />
         <!--<s:ToggleButton styleName="iconToggleButton" selected="{this.outputShown}" color="#CCCCCC" label="&#xf022;" click="outputShown = !outputShown" />-->
     </s:HGroup>
 
