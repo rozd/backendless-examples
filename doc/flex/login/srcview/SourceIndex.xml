@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<title>Source of com.backendless.examples.flex.login</title>
+	<nodes>
+		<node icon="classpathIcon" label="assets" expanded="true">
+			<node label="css">
+				<node icon="cssIcon" label="fonts.css" url="source/assets/css/fonts.css.html"/>
+				<node icon="cssIcon" label="text.css" url="source/assets/css/text.css.html"/>
+				<node icon="cssIcon" label="view.css" url="source/assets/css/view.css.html"/>
+			</node>
+			<node label="fonts">
+				<node label="FontAwesome.otf" url="source/assets/fonts/FontAwesome.otf"/>
+				<node label="Georgia Italic.ttf" url="source/assets/fonts/Georgia Italic.ttf"/>
+				<node label="Georgia.ttf" url="source/assets/fonts/Georgia.ttf"/>
+				<node label="Lobster 1.4.otf" url="source/assets/fonts/Lobster 1.4.otf"/>
+				<node label="MyriadPro-It.otf" url="source/assets/fonts/MyriadPro-It.otf"/>
+				<node label="MyriadPro-Regular.otf" url="source/assets/fonts/MyriadPro-Regular.otf"/>
+			</node>
+		</node>
+		<node label="html-template">
+			<node label="history">
+				<node icon="cssIcon" label="history.css" url="source/html-template/history/history.css.html"/>
+				<node label="history.js" url="source/html-template/history/history.js.txt"/>
+				<node icon="htmlIcon" label="historyFrame.html" url="source/html-template/history/historyFrame.html"/>
+			</node>
+			<node icon="htmlIcon" label="index.template.html" url="source/html-template/index.template.html"/>
+			<node icon="swfIcon" label="playerProductInstall.swf" url="source/html-template/playerProductInstall.swf"/>
+			<node label="swfobject.js" url="source/html-template/swfobject.js.txt"/>
+		</node>
+		<node label="libs">
+			<node label="Backendless.swc" url="source/libs/Backendless.swc"/>
+			<node label="parsley-core-3.0.0.swc" url="source/libs/parsley-core-3.0.0.swc"/>
+			<node label="parsley-flex-3.0.0.swc" url="source/libs/parsley-flex-3.0.0.swc"/>
+			<node label="parsley-xml-3.0.0.swc" url="source/libs/parsley-xml-3.0.0.swc"/>
+			<node label="spicelib-commands-3.1.1.swc" url="source/libs/spicelib-commands-3.1.1.swc"/>
+			<node label="spicelib-logging-3.0.0.swc" url="source/libs/spicelib-logging-3.0.0.swc"/>
+			<node label="spicelib-reflect-3.0.0.swc" url="source/libs/spicelib-reflect-3.0.0.swc"/>
+			<node label="spicelib-util-3.1.0.swc" url="source/libs/spicelib-util-3.1.0.swc"/>
+			<node label="spicelib-xml-mapper-3.0.2.swc" url="source/libs/spicelib-xml-mapper-3.0.2.swc"/>
+		</node>
+		<node label="src">
+			<node icon="packageIcon" label="com.backendless.examples.flex.login" expanded="true">
+				<node icon="mxmlIcon" label="Context.mxml" url="source/com/backendless/examples/flex/login/Context.mxml.html"/>
+			</node>
+			<node icon="packageIcon" label="com.backendless.examples.flex.login.application.commands" expanded="true">
+				<node icon="actionScriptIcon" label="LoginCommand.as" url="source/com/backendless/examples/flex/login/application/commands/LoginCommand.as.html"/>
+				<node icon="actionScriptIcon" label="LogoutCommand.as" url="source/com/backendless/examples/flex/login/application/commands/LogoutCommand.as.html"/>
+				<node icon="actionScriptIcon" label="NavigateToCommand.as" url="source/com/backendless/examples/flex/login/application/commands/NavigateToCommand.as.html"/>
+				<node icon="actionScriptIcon" label="RegisterCommand.as" url="source/com/backendless/examples/flex/login/application/commands/RegisterCommand.as.html"/>
+				<node icon="actionScriptIcon" label="StartupCommand.as" url="source/com/backendless/examples/flex/login/application/commands/StartupCommand.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.backendless.examples.flex.login.application.enum" expanded="true">
+				<node icon="actionScriptIcon" label="Destination.as" url="source/com/backendless/examples/flex/login/application/enum/Destination.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.backendless.examples.flex.login.application.messages" expanded="true">
+				<node icon="actionScriptIcon" label="LoginMessage.as" url="source/com/backendless/examples/flex/login/application/messages/LoginMessage.as.html"/>
+				<node icon="actionScriptIcon" label="LogoutMessage.as" url="source/com/backendless/examples/flex/login/application/messages/LogoutMessage.as.html"/>
+				<node icon="actionScriptIcon" label="NavigateToMessage.as" url="source/com/backendless/examples/flex/login/application/messages/NavigateToMessage.as.html"/>
+				<node icon="actionScriptIcon" label="RegisterMessage.as" url="source/com/backendless/examples/flex/login/application/messages/RegisterMessage.as.html"/>
+				<node icon="actionScriptIcon" label="StartupMessage.as" url="source/com/backendless/examples/flex/login/application/messages/StartupMessage.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.backendless.examples.flex.login.domain" expanded="true">
+				<node icon="actionScriptIcon" label="Model.as" url="source/com/backendless/examples/flex/login/domain/Model.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.backendless.examples.flex.login.domain.vo" expanded="true">
+				<node icon="actionScriptIcon" label="Login.as" url="source/com/backendless/examples/flex/login/domain/vo/Login.as.html"/>
+				<node icon="actionScriptIcon" label="Register.as" url="source/com/backendless/examples/flex/login/domain/vo/Register.as.html"/>
+			</node>
+			<node label="com.backendless.examples.flex.login.infrastructure">
+			</node>
+			<node icon="packageIcon" label="com.backendless.examples.flex.login.presentation" expanded="true">
+				<node icon="actionScriptIcon" label="ILoginPM.as" url="source/com/backendless/examples/flex/login/presentation/ILoginPM.as.html"/>
+				<node icon="actionScriptIcon" label="IMainPM.as" url="source/com/backendless/examples/flex/login/presentation/IMainPM.as.html"/>
+				<node icon="actionScriptIcon" label="LoginPM.as" url="source/com/backendless/examples/flex/login/presentation/LoginPM.as.html"/>
+				<node icon="actionScriptIcon" label="MainPM.as" url="source/com/backendless/examples/flex/login/presentation/MainPM.as.html"/>
+			</node>
+			<node icon="packageIcon" label="com.backendless.examples.flex.login.presentation.view" expanded="true">
+				<node icon="mxmlIcon" label="CheckMailView.mxml" url="source/com/backendless/examples/flex/login/presentation/view/CheckMailView.mxml.html"/>
+				<node icon="mxmlIcon" label="LoggedInView.mxml" url="source/com/backendless/examples/flex/login/presentation/view/LoggedInView.mxml.html"/>
+				<node icon="mxmlIcon" label="LoginView.mxml" url="source/com/backendless/examples/flex/login/presentation/view/LoginView.mxml.html"/>
+			</node>
+			<node icon="mxmlAppIcon" selected="true" label="Main.mxml" url="source/Main.mxml.html"/>
+			<node icon="actionScriptIcon" label="ServiceStub.as" url="source/ServiceStub.as.html"/>
+		</node>
+		<node label="com.backendless.examples.flex.login.iml" url="source/com.backendless.examples.flex.login.iml"/>
+		<node label="README.md" url="source/README.md"/>
+	</nodes>
+	<zipfile label="Download source (ZIP, 1006K)" url="com.backendless.examples.flex.login.zip">
+	</zipfile>
+	<sdklink label="Download Flex SDK" url="http://www.adobe.com/go/flex451_sdk_download">
+	</sdklink>
+</index>

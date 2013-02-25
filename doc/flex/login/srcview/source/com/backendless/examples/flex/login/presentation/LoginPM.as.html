@@ -1,0 +1,167 @@
+<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>LoginPM.as</title>
+<link rel="stylesheet" type="text/css" href="../../../../../../../SourceStyles.css"/>
+</head>
+
+<body><pre><span class="ActionScriptASDoc">/**
+ * Created with IntelliJ IDEA.
+ * User: max
+ * Date: 17.02.13
+ * Time: 12:41
+ * To change this template use File | Settings | File Templates.
+ */</span>
+<span class="ActionScriptpackage">package</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">examples</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">flex</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">login</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">presentation</span>
+<span class="ActionScriptBracket/Brace">{</span>
+<span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">examples</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">flex</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">login</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">application</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">enum</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">Destination</span>;
+<span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">examples</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">flex</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">login</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">application</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">messages</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">LoginMessage</span>;
+<span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">examples</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">flex</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">login</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">application</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">messages</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">LogoutMessage</span>;
+<span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">examples</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">flex</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">login</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">application</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">messages</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">NavigateToMessage</span>;
+<span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">examples</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">flex</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">login</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">application</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">messages</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">RegisterMessage</span>;
+<span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">examples</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">flex</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">login</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">domain</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">vo</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">Login</span>;
+<span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">examples</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">flex</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">login</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">domain</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">vo</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">Register</span>;
+
+<span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">mx</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">rpc</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">Fault</span>;
+
+<span class="ActionScriptReserved">public</span> <span class="ActionScriptclass">class</span> <span class="ActionScriptDefault_Text">LoginPM</span> <span class="ActionScriptReserved">implements</span> <span class="ActionScriptDefault_Text">ILoginPM</span>
+    <span class="ActionScriptBracket/Brace">{</span>
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">LoginPM</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptReserved">super</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>;
+
+            <span class="ActionScriptDefault_Text">reset</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+
+        <span class="ActionScriptComment">//---------------------------------------------------------------------
+</span>        <span class="ActionScriptComment">//
+</span>        <span class="ActionScriptComment">//  Variables
+</span>        <span class="ActionScriptComment">//
+</span>        <span class="ActionScriptComment">//---------------------------------------------------------------------
+</span>
+        <span class="ActionScriptBracket/Brace">[</span><span class="ActionScriptMetadata">MessageDispatcher</span><span class="ActionScriptBracket/Brace">]</span><span class="ActionScriptReserved">public</span> <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">dispatcher</span>:<span class="ActionScriptDefault_Text">Function</span>;
+
+        <span class="ActionScriptComment">//---------------------------------------------------------------------
+</span>        <span class="ActionScriptComment">//
+</span>        <span class="ActionScriptComment">//  Properties
+</span>        <span class="ActionScriptComment">//
+</span>        <span class="ActionScriptComment">//---------------------------------------------------------------------
+</span>
+        <span class="ActionScriptComment">//--------------------------------
+</span>        <span class="ActionScriptComment">//  Properties: ILoginPM
+</span>        <span class="ActionScriptComment">//--------------------------------
+</span>
+        <span class="ActionScriptBracket/Brace">[</span><span class="ActionScriptMetadata">Bindable</span><span class="ActionScriptBracket/Brace">]</span><span class="ActionScriptReserved">public</span> <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">userLogin</span>:<span class="ActionScriptDefault_Text">Login</span>;
+
+        <span class="ActionScriptBracket/Brace">[</span><span class="ActionScriptMetadata">Bindable</span><span class="ActionScriptBracket/Brace">]</span><span class="ActionScriptReserved">public</span> <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">userRegister</span>:<span class="ActionScriptDefault_Text">Register</span>;
+
+        <span class="ActionScriptBracket/Brace">[</span><span class="ActionScriptMetadata">Bindable</span><span class="ActionScriptBracket/Brace">]</span><span class="ActionScriptReserved">public</span> <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">loginErrorString</span>:<span class="ActionScriptDefault_Text">String</span>;
+
+        <span class="ActionScriptBracket/Brace">[</span><span class="ActionScriptMetadata">Bindable</span><span class="ActionScriptBracket/Brace">]</span><span class="ActionScriptReserved">public</span> <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">registerErrorString</span>:<span class="ActionScriptDefault_Text">String</span>;
+
+        <span class="ActionScriptBracket/Brace">[</span><span class="ActionScriptMetadata">Bindable</span><span class="ActionScriptBracket/Brace">]
+</span><span class="ActionScriptMetadata">CommandStatus</span><span class="ActionScriptBracket/Brace">(</span>=<span class="ActionScriptString">"com.backendless.examples.flex.login.application.messages.LoginMessage"</span><span class="ActionScriptBracket/Brace">)</span><span class="ActionScriptBracket/Brace">]</span>
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">isSigningIn</span>:<span class="ActionScriptDefault_Text">Boolean</span>;
+
+        <span class="ActionScriptBracket/Brace">[</span><span class="ActionScriptMetadata">Bindable</span><span class="ActionScriptBracket/Brace">]
+</span><span class="ActionScriptMetadata">CommandStatus</span><span class="ActionScriptBracket/Brace">(</span>=<span class="ActionScriptString">"com.backendless.examples.flex.login.application.messages.RegisterMessage"</span><span class="ActionScriptBracket/Brace">)</span><span class="ActionScriptBracket/Brace">]</span>
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">isRegistering</span>:<span class="ActionScriptDefault_Text">Boolean</span>;
+
+        <span class="ActionScriptComment">//---------------------------------------------------------------------
+</span>        <span class="ActionScriptComment">//
+</span>        <span class="ActionScriptComment">//  Methods
+</span>        <span class="ActionScriptComment">//
+</span>        <span class="ActionScriptComment">//---------------------------------------------------------------------
+</span>
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">reset</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>:<span class="ActionScriptReserved">void</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptReserved">this</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">userLogin</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptReserved">new</span> <span class="ActionScriptDefault_Text">Login</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>;
+
+            <span class="ActionScriptReserved">this</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">userRegister</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptReserved">new</span> <span class="ActionScriptDefault_Text">Register</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">verify</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>:<span class="ActionScriptDefault_Text">Boolean</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptReserved">return</span> <span class="ActionScriptReserved">true</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+
+        <span class="ActionScriptReserved">private</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">verifyRegister</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>:<span class="ActionScriptDefault_Text">Boolean</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptReserved">if</span> <span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptOperator">!</span><span class="ActionScriptDefault_Text">userRegister</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">email</span> <span class="ActionScriptOperator">||</span> <span class="ActionScriptOperator">!</span><span class="ActionScriptDefault_Text">userRegister</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">password</span><span class="ActionScriptBracket/Brace">)</span>
+            <span class="ActionScriptBracket/Brace">{</span>
+                <span class="ActionScriptReserved">this</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">registerErrorString</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptString">"The email and password fields both are required."</span>;
+
+                <span class="ActionScriptReserved">return</span> <span class="ActionScriptReserved">false</span>;
+            <span class="ActionScriptBracket/Brace">}</span>
+
+            <span class="ActionScriptReserved">if</span> <span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">userRegister</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">password</span> <span class="ActionScriptOperator">!=</span> <span class="ActionScriptDefault_Text">userRegister</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">passwordVerify</span><span class="ActionScriptBracket/Brace">)</span>
+            <span class="ActionScriptBracket/Brace">{</span>
+                <span class="ActionScriptReserved">this</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">registerErrorString</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptString">"These passwords don't match."</span>;
+
+                <span class="ActionScriptReserved">return</span> <span class="ActionScriptReserved">false</span>;
+            <span class="ActionScriptBracket/Brace">}</span>
+
+            <span class="ActionScriptReserved">this</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">registerErrorString</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptString">""</span>;
+
+            <span class="ActionScriptReserved">return</span> <span class="ActionScriptReserved">true</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+
+        <span class="ActionScriptReserved">private</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">verifyLogin</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>:<span class="ActionScriptDefault_Text">Boolean</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptReserved">if</span> <span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptOperator">!</span><span class="ActionScriptDefault_Text">userLogin</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">email</span> <span class="ActionScriptOperator">||</span> <span class="ActionScriptOperator">!</span><span class="ActionScriptDefault_Text">userLogin</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">password</span><span class="ActionScriptBracket/Brace">)</span>
+            <span class="ActionScriptBracket/Brace">{</span>
+                <span class="ActionScriptReserved">this</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">loginErrorString</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptString">"The email and password fields are required."</span>;
+
+                <span class="ActionScriptReserved">return</span> <span class="ActionScriptReserved">false</span>;
+            <span class="ActionScriptBracket/Brace">}</span>
+
+            <span class="ActionScriptReserved">this</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">loginErrorString</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptString">""</span>;
+
+            <span class="ActionScriptReserved">return</span> <span class="ActionScriptReserved">true</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">login</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>:<span class="ActionScriptReserved">void</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptReserved">if</span> <span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptOperator">!</span><span class="ActionScriptDefault_Text">verifyLogin</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span><span class="ActionScriptBracket/Brace">)</span>
+                <span class="ActionScriptReserved">return</span>;
+
+            <span class="ActionScriptDefault_Text">dispatcher</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptReserved">new</span> <span class="ActionScriptDefault_Text">LoginMessage</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">userLogin</span><span class="ActionScriptBracket/Brace">)</span><span class="ActionScriptBracket/Brace">)</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">logout</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>:<span class="ActionScriptReserved">void</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptDefault_Text">dispatcher</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptReserved">new</span> <span class="ActionScriptDefault_Text">LogoutMessage</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span><span class="ActionScriptBracket/Brace">)</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">register</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>:<span class="ActionScriptReserved">void</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptReserved">if</span> <span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptOperator">!</span><span class="ActionScriptDefault_Text">verifyRegister</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span><span class="ActionScriptBracket/Brace">)</span>
+                <span class="ActionScriptReserved">return</span>;
+
+            <span class="ActionScriptDefault_Text">dispatcher</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptReserved">new</span> <span class="ActionScriptDefault_Text">RegisterMessage</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">userRegister</span><span class="ActionScriptBracket/Brace">)</span><span class="ActionScriptBracket/Brace">)</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">ok</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>:<span class="ActionScriptReserved">void</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptDefault_Text">reset</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>;
+
+            <span class="ActionScriptDefault_Text">dispatcher</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptReserved">new</span> <span class="ActionScriptDefault_Text">NavigateToMessage</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">Destination</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">LOGIN</span><span class="ActionScriptBracket/Brace">)</span><span class="ActionScriptBracket/Brace">)</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+
+        <span class="ActionScriptBracket/Brace">[</span><span class="ActionScriptMetadata">CommandError</span><span class="ActionScriptBracket/Brace">(</span>=<span class="ActionScriptString">"com.backendless.examples.flex.login.application.messages.LoginMessage"</span><span class="ActionScriptBracket/Brace">)</span><span class="ActionScriptBracket/Brace">]</span>
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">loginError</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">fault</span>:<span class="ActionScriptDefault_Text">Fault</span><span class="ActionScriptOperator">,</span> <span class="ActionScriptDefault_Text">trigger</span>:<span class="ActionScriptDefault_Text">LoginMessage</span><span class="ActionScriptBracket/Brace">)</span>:<span class="ActionScriptReserved">void</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptReserved">this</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">loginErrorString</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptDefault_Text">fault</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">faultString</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+
+        <span class="ActionScriptBracket/Brace">[</span><span class="ActionScriptMetadata">CommandError</span><span class="ActionScriptBracket/Brace">(</span>=<span class="ActionScriptString">"com.backendless.examples.flex.login.application.messages.RegisterMessage"</span><span class="ActionScriptBracket/Brace">)</span><span class="ActionScriptBracket/Brace">]</span>
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">registerError</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">fault</span>:<span class="ActionScriptDefault_Text">Fault</span><span class="ActionScriptOperator">,</span> <span class="ActionScriptDefault_Text">trigger</span>:<span class="ActionScriptDefault_Text">RegisterMessage</span><span class="ActionScriptBracket/Brace">)</span>:<span class="ActionScriptReserved">void</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptReserved">this</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">registerErrorString</span> <span class="ActionScriptOperator">=</span> <span class="ActionScriptDefault_Text">fault</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">faultString</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+    <span class="ActionScriptBracket/Brace">}</span>
+<span class="ActionScriptBracket/Brace">}</span>
+</pre></body>
+</html>

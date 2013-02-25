@@ -1,0 +1,45 @@
+<!-- saved from url=(0014)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>StartupCommand.as</title>
+<link rel="stylesheet" type="text/css" href="../../../../../../../../SourceStyles.css"/>
+</head>
+
+<body><pre><span class="ActionScriptASDoc">/**
+ * Created with IntelliJ IDEA.
+ * User: max
+ * Date: 17.02.13
+ * Time: 12:29
+ * To change this template use File | Settings | File Templates.
+ */</span>
+<span class="ActionScriptpackage">package</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">examples</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">flex</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">login</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">application</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">commands</span>
+<span class="ActionScriptBracket/Brace">{</span>
+<span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">Backendless</span>;
+<span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">examples</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">flex</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">AppSettings</span>;
+<span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">examples</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">flex</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">login</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">application</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">enum</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">Destination</span>;
+<span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">examples</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">flex</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">login</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">application</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">messages</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">NavigateToMessage</span>;
+<span class="ActionScriptReserved">import</span> <span class="ActionScriptDefault_Text">com</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">examples</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">flex</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">login</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">application</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">messages</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">StartupMessage</span>;
+
+<span class="ActionScriptReserved">public</span> <span class="ActionScriptclass">class</span> <span class="ActionScriptDefault_Text">StartupCommand</span>
+    <span class="ActionScriptBracket/Brace">{</span>
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">StartupCommand</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptBracket/Brace">)</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+        <span class="ActionScriptBracket/Brace">}</span>
+
+        <span class="ActionScriptBracket/Brace">[</span><span class="ActionScriptMetadata">MessageDispatcher</span><span class="ActionScriptBracket/Brace">]</span><span class="ActionScriptReserved">public</span> <span class="ActionScriptvar">var</span> <span class="ActionScriptDefault_Text">dispatcher</span>:<span class="ActionScriptDefault_Text">Function</span>;
+
+        <span class="ActionScriptReserved">public</span> <span class="ActionScriptfunction">function</span> <span class="ActionScriptDefault_Text">execute</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">msg</span>:<span class="ActionScriptDefault_Text">StartupMessage</span><span class="ActionScriptBracket/Brace">)</span>:<span class="ActionScriptReserved">void</span>
+        <span class="ActionScriptBracket/Brace">{</span>
+            <span class="ActionScriptDefault_Text">Backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">initApp</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">AppSettings</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">APP_ID</span><span class="ActionScriptOperator">,</span> <span class="ActionScriptDefault_Text">AppSettings</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">DEV_KEY</span><span class="ActionScriptOperator">,</span> <span class="ActionScriptDefault_Text">AppSettings</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">VERSION</span><span class="ActionScriptBracket/Brace">)</span>;
+
+            <span class="ActionScriptReserved">if</span> <span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">Backendless</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">UserService</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">currentUser</span><span class="ActionScriptBracket/Brace">)</span>
+                <span class="ActionScriptDefault_Text">dispatcher</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptReserved">new</span> <span class="ActionScriptDefault_Text">NavigateToMessage</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">Destination</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">LOGGEDIN</span><span class="ActionScriptBracket/Brace">)</span><span class="ActionScriptBracket/Brace">)</span>;
+            <span class="ActionScriptReserved">else</span>
+                <span class="ActionScriptDefault_Text">dispatcher</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptReserved">new</span> <span class="ActionScriptDefault_Text">NavigateToMessage</span><span class="ActionScriptBracket/Brace">(</span><span class="ActionScriptDefault_Text">Destination</span><span class="ActionScriptOperator">.</span><span class="ActionScriptDefault_Text">LOGIN</span><span class="ActionScriptBracket/Brace">)</span><span class="ActionScriptBracket/Brace">)</span>;
+        <span class="ActionScriptBracket/Brace">}</span>
+    <span class="ActionScriptBracket/Brace">}</span>
+<span class="ActionScriptBracket/Brace">}</span>
+</pre></body>
+</html>
