@@ -18,7 +18,11 @@
           <sdk name="4.6.0" />
         </dependencies>
         <compiler-options />
-        <packaging-air-desktop package-file-name="com_backendless_examples_flex_gallery" />
+        <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/src/Main-app.xml" package-file-name="gallery">
+          <files-to-package>
+            <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/images" path-in-package="images" />
+          </files-to-package>
+        </packaging-air-desktop>
         <packaging-android />
         <packaging-ios />
       </configuration>
