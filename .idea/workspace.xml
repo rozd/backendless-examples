@@ -131,7 +131,7 @@
     <file path="/Message.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361743761449" ignored="false" />
     <file path="D:/dev/infovista/svn/vista360/trunk/src/vdb.server/src/com/infovista/vdb/services/InfoVistaService.java" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361796209835" ignored="false" />
     <file path="/InfoVistaService.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361796439571" ignored="false" />
-    <file path="/Main-app.xml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361877370573" ignored="false" />
+    <file path="/Main-app.xml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361879218860" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +203,7 @@
       <file leaf-file-name="Main-app.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/Main-app.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="208" column="32" selection-start="8773" selection-end="8773" vertical-scroll-proportion="0.4392157">
+            <state line="50" column="57" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.33333334">
               <folding />
             </state>
           </provider>
@@ -402,8 +402,8 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1042,7 +1042,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/Main-app.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="208" column="32" selection-start="8773" selection-end="8773" vertical-scroll-proportion="0.4392157">
+        <state line="50" column="57" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
