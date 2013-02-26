@@ -24,7 +24,7 @@ public class StartupCommand
 
     public function execute(msg:StartupMessage):void
     {
-        Backendless.initApp(AppSettings.APP_ID, AppSettings.DEV_KEY, AppSettings.VERSION);
+        Backendless.initApp(AppSettings.appId, AppSettings.devKey, AppSettings.version);
 
         dispatcher(new GetGalleryMessage());
     }

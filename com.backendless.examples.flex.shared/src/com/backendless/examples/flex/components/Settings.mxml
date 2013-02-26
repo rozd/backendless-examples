@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark" addedToStage="addedToStageHandler(event)" show="showHandler(event)">
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark" show="showHandler(event)">
 
     <fx:Metadata>
         [Event(name="close", type="mx.events.CloseEvent")]
@@ -8,6 +8,7 @@
     <fx:Script>
         <![CDATA[
         import com.backendless.Backendless;
+        import com.backendless.examples.flex.AppSettings;
 
         import mx.events.CloseEvent;
         import mx.events.FlexEvent;
@@ -21,23 +22,27 @@
         [Bindable]
         private var version:String;
 
+        private function update():void
+        {
+            AppSettings.appId = appId;
+            AppSettings.devKey = devKey;
+            AppSettings.version = version;
+
+            Backendless.initApp(AppSettings.appId, AppSettings.devKey, AppSettings.version);
+
+            close();
+        }
+
         private function close():void
         {
             dispatchEvent(new CloseEvent(CloseEvent.CLOSE));
         }
 
-        private function addedToStageHandler(event:Event):void
-        {
-//            appId = Backendless.appId;
-//            devKey = Backendless.headers[Backendless.SECRET_KEY_HEADER];
-//            version = Backendless.version;
-        }
-
         private function showHandler(event:FlexEvent):void
         {
-            appId = Backendless.appId;
-            devKey = Backendless.headers[Backendless.SECRET_KEY_HEADER];
-            version = Backendless.version;
+            appId = AppSettings.appId;
+            devKey = AppSettings.devKey;
+            version = AppSettings.version;
         }
         ]]>
     </fx:Script>
@@ -48,7 +53,7 @@
 
     <s:Rect left="0" top="0" right="0" bottom="0">
         <s:fill>
-            <s:RadialGradient scaleX="120.0" scaleY="120.0">
+            <s:RadialGradient scaleX="1.0" scaleY="1.0">
                 <s:GradientEntry color="#000000" ratio="0.00" alpha="0.1"/>
                 <s:GradientEntry color="#000000" ratio="0.35" alpha="0.2"/>
                 <s:GradientEntry color="#000000" ratio="1.00" alpha="0.4"/>
@@ -76,7 +81,7 @@
                 <s:TextInput id="versInput" styleName="settings" width="100%" height="100%" text="@{version}" />
             </s:HGroup>
             <s:HGroup width="100%" height="40" horizontalAlign="center">
-                <s:Button id="submitButton" styleName="btnBlue" width="100%" height="100%" label="Update" click="Backendless.initApp(appId, devKey, version);close();" />
+                <s:Button id="submitButton" styleName="btnBlue" width="100%" height="100%" label="Update" click="update();" />
                 <s:Button styleName="btnPink" width="100%" height="100%" label="Cancel" click="close();" />
             </s:HGroup>
         </s:VGroup>

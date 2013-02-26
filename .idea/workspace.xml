@@ -19,7 +19,7 @@
     </list>
     <ignored path="backendless-examples.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.js2" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361876952442" ignored="false" />
+    <file path="/fragment.js2" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361888358080" ignored="false" />
     <file path="/LoginPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361543549209" ignored="false" />
     <file path="/a.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361549389131" ignored="false" />
     <file path="/Model.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361475597072" ignored="false" />
@@ -32,7 +32,7 @@
     <file path="/Main.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361783963832" ignored="false" />
     <file path="/ILoginPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361542592423" ignored="false" />
     <file path="/FrontController.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361096941500" ignored="false" />
-    <file path="/StartupCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361732650828" ignored="false" />
+    <file path="/StartupCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361887296177" ignored="false" />
     <file path="/NavigateToCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361298405345" ignored="false" />
     <file path="/LogoutCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361544731088" ignored="false" />
     <file path="/Destination.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361475084889" ignored="false" />
@@ -126,12 +126,13 @@
     <file path="/Header.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361783906096" ignored="false" />
     <file path="/font.css" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361617504343" ignored="false" />
     <file path="/TextAreaSkin.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361617900192" ignored="false" />
-    <file path="/Settings.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361783862944" ignored="false" />
+    <file path="/Settings.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361887484973" ignored="false" />
     <file path="/BrowseFileCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361735582519" ignored="false" />
     <file path="/Message.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361743761449" ignored="false" />
     <file path="D:/dev/infovista/svn/vista360/trunk/src/vdb.server/src/com/infovista/vdb/services/InfoVistaService.java" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361796209835" ignored="false" />
     <file path="/InfoVistaService.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361796439571" ignored="false" />
     <file path="/Main-app.xml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361879493118" ignored="false" />
+    <file path="/AppSettings.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361887806655" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +195,7 @@
       <file leaf-file-name="Header.mxml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/components/Header.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="36" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+            <state line="21" column="36" selection-start="512" selection-end="512" vertical-scroll-proportion="-0.64">
               <folding />
             </state>
           </provider>
@@ -203,7 +204,57 @@
       <file leaf-file-name="Main-app.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/Main-app.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="83" selection-start="2991" selection-end="2991" vertical-scroll-proportion="0.3137255">
+            <state line="29" column="44" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.060721062">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppSettings.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/AppSettings.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="58" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartupCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/application/commands/StartupCommand.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="88" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Settings.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/components/Settings.mxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="20" selection-start="256" selection-end="256" vertical-scroll-proportion="6.4">
+              <folding>
+                <marker date="1361887613306" expanded="true" signature="290:450" placeholder="..." />
+                <marker date="1361887613306" expanded="true" signature="664:914" placeholder="{...}" />
+                <marker date="1361887613306" expanded="true" signature="962:1034" placeholder="{...}" />
+                <marker date="1361887613306" expanded="true" signature="1103:1237" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartupCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/StartupCommand.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="86" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StartupCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.login/src/com/backendless/examples/flex/login/application/commands/StartupCommand.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="90" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -228,21 +279,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/logging/Logger.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.login/src/com/backendless/examples/flex/login/presentation/view/LoginView.mxml" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/components/Message.mxml" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/INewItemPM.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/UploadFileCommand.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/view/NewItemView.mxml" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/NewItemPM.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/assets/css/text.css" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/components/Settings.mxml" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/components/Header.mxml" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.login/src/Main.mxml" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/Main.mxml" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/Main.mxml" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.login/src/com/backendless/examples/flex/login/presentation/validators/LoginVallidators.mxml" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/presentation/view/TodoView.mxml" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/StartupCommand.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.login/src/com/backendless/examples/flex/login/application/commands/StartupCommand.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/application/commands/StartupCommand.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/components/Settings.mxml" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/AppSettings.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/Main-app.xml" />
       </list>
     </option>
@@ -375,7 +426,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="backendless" />
+              <option name="myItemId" value="com.backendless.examples.flex.gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backendless-examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.backendless.examples.flex.gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -402,8 +467,8 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -431,7 +496,7 @@
       <recent name="$PROJECT_DIR$/com.backendless.examples.flex.login/src/com/backendless/examples/flex/login/presentation" />
     </key>
   </component>
-  <component name="RunManager" selected="Flash App.com.backendless.examples.flex.todo">
+  <component name="RunManager" selected="Flash App.com.backendless.examples.flex.login">
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -756,24 +821,24 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6081772" sideWeight="0.37651515" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17465389" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4105622" sideWeight="0.4848485" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31175467" sideWeight="0.8212121" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4105622" sideWeight="0.5098485" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6081772" sideWeight="0.37651515" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17465389" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2659091" sideWeight="0.39182281" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29642248" sideWeight="0.8212121" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6081772" sideWeight="0.6181818" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2659091" sideWeight="0.39182281" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26730564" sideWeight="0.4878788" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -951,7 +1016,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="155" />
+      <option name="time" value="160" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -959,41 +1024,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/assets/css/text.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="18" selection-start="694" selection-end="694" vertical-scroll-proportion="1.257353" />
-      </provider>
-    </entry>
-    <entry file="file://D:/sdks/flex/4.6.0/frameworks/projects/spark/src/spark/components/PopUpAnchor.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="508" column="21" selection-start="16086" selection-end="16086" vertical-scroll-proportion="-0.41450778" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/NewItemPM.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="8" selection-start="1687" selection-end="1687" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/presentation/view/NewItemView.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="66" selection-start="968" selection-end="1029" vertical-scroll-proportion="-6.12" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/components/Settings.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="80" selection-start="909" selection-end="909" vertical-scroll-proportion="7.0263157" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.login/src/Main.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="4" selection-start="2430" selection-end="2624" vertical-scroll-proportion="0.91351354" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/Main.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="25" selection-start="1779" selection-end="1779" vertical-scroll-proportion="0.5972973" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.login/src/com/backendless/examples/flex/login/presentation/LoginPM.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="38" selection-start="2319" selection-end="2338" vertical-scroll-proportion="0.31092438">
@@ -1035,14 +1065,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/components/Header.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="36" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0">
+        <state line="21" column="36" selection-start="512" selection-end="512" vertical-scroll-proportion="-0.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/galery/application/commands/StartupCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="86" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.login/src/com/backendless/examples/flex/login/application/commands/StartupCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="90" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.todo/src/main/flex/com/backendless/examples/flex/todo/application/commands/StartupCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="88" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/sdks/flex/4.6.0/frameworks/projects/framework/src/mx/graphics/RadialGradient.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="256" column="24" selection-start="7556" selection-end="7556" vertical-scroll-proportion="0.6755793">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/components/Settings.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="256" selection-end="256" vertical-scroll-proportion="6.4">
+          <folding>
+            <marker date="1361887613306" expanded="true" signature="290:450" placeholder="..." />
+            <marker date="1361887613306" expanded="true" signature="664:914" placeholder="{...}" />
+            <marker date="1361887613306" expanded="true" signature="962:1034" placeholder="{...}" />
+            <marker date="1361887613306" expanded="true" signature="1103:1237" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/sdks/flex/4.6.0/frameworks/libs/player/11.1/playerglobal.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4669" column="38" selection-start="200972" selection-end="200972" vertical-scroll-proportion="0.22627737">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/AppSettings.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="58" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/Main-app.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="83" selection-start="2991" selection-end="2991" vertical-scroll-proportion="0.3137255">
+        <state line="29" column="44" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.060721062">
           <folding />
         </state>
       </provider>
@@ -1100,11 +1184,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>com.backendless.examples.flex.gallery|com.backendless.examples.flex.gallery</last-edited>
+          <last-edited>com.backendless.examples.flex.gallery</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.3065268" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
