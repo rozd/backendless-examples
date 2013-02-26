@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../../as3httpclient/as3httpclient.iml" filepath="$PROJECT_DIR$/../../as3httpclient/as3httpclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../backendless/backendless.iml" filepath="$PROJECT_DIR$/../../backendless/backendless.iml" />
       <module fileurl="file://$PROJECT_DIR$/backendless/backendless.iml" filepath="$PROJECT_DIR$/backendless/backendless.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/com.backendless.examples.flex.chat.iml" filepath="$PROJECT_DIR$/com.backendless.examples.flex.chat/com.backendless.examples.flex.chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/com.backendless.examples.flex.gallery.iml" filepath="$PROJECT_DIR$/com.backendless.examples.flex.gallery/com.backendless.examples.flex.gallery.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.backendless.examples.flex.login/com.backendless.examples.flex.login.iml" filepath="$PROJECT_DIR$/com.backendless.examples.flex.login/com.backendless.examples.flex.login.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/com.backendless.examples.flex.shared.iml" filepath="$PROJECT_DIR$/com.backendless.examples.flex.shared/com.backendless.examples.flex.shared.iml" />

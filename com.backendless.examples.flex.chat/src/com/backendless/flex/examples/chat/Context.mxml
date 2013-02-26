@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<fx:Object xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:parsley="http://www.spicefactory.org/parsley"
+           xmlns:domain="com.backendless.flex.examples.chat.domain.*"
+           xmlns:presentation="com.backendless.flex.examples.chat.presentation.*"
+           xmlns:infrastructure="com.backendless.flex.examples.chat.infrastructure.*">
+
+    <fx:Script>
+        <![CDATA[
+        import com.backendless.flex.examples.chat.application.commands.NavigateToCommand;
+        import com.backendless.flex.examples.chat.application.commands.StartupCommand;
+        ]]>
+    </fx:Script>
+
+    <fx:Declarations>
+
+        <parsley:MapCommand type="{StartupCommand}" />
+
+        <parsley:MapCommand type="{NavigateToCommand}" />
+
+        <domain:Chat />
+
+        <presentation:MainPM />
+
+        <infrastructure:Subscriber />
+
+    </fx:Declarations>
+
+</fx:Object>
