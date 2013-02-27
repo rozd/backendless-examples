@@ -12,5 +12,8 @@ public class Chat
     public function Chat()
     {
     }
+
+    [Bindable]
+    public var currentMember:Member;
 }
 }

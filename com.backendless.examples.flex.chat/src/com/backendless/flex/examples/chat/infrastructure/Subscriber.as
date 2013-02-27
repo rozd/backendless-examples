@@ -8,7 +8,7 @@
 package com.backendless.flex.examples.chat.infrastructure
 {
 import com.backendless.examples.flex.logging.Logger;
-import com.backendless.flex.examples.chat.application.messages.ReceiveMessage;
+import com.backendless.flex.examples.chat.application.messages.HandleMessageMessage;
 import com.backendless.messaging.ISubscriptionResponder;
 import com.backendless.messaging.Message;
 
@@ -29,7 +29,7 @@ public class Subscriber implements ISubscriptionResponder
     {
         for each (var msg:Message in messages)
         {
-            dispatcher(new ReceiveMessage(msg));
+            dispatcher(new HandleMessageMessage(msg));
         }
     }
 

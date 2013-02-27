@@ -7,6 +7,8 @@
  */
 package com.backendless.flex.examples.chat.application
 {
+import com.backendless.flex.examples.chat.application.enum.Destination;
+
 public class Model
 {
     public function Model()
@@ -15,6 +17,6 @@ public class Model
 
     [Bindable]
     [Publish(objectId="destination")]
-    public var destination:String;
+    public var destination:String = Destination.INIT;
 }
 }

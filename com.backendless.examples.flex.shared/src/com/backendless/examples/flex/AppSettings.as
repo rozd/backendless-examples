@@ -4,9 +4,9 @@ import flash.net.SharedObject;
 
 public class AppSettings
 {
-    private static const APP_ID:String = "4B481CD3-6A0B-8239-FFAD-95266D3D7900";
+    private static const APP_ID:String = "8BC1BB76-B134-5333-FFB1-AA4216B80100";
 
-    private static const DEV_KEY:String = "EDBC2500-F2EB-50F7-FFB0-51BB624F7A00";
+    private static const DEV_KEY:String = "458D50BB-D7C5-A4EF-FF1C-17B04127CF00";
 
     private static const VERSION:String = "v1";
 

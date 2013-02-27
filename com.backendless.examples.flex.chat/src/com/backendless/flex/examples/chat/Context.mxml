@@ -1,12 +1,17 @@
 <?xml version="1.0"?>
 <fx:Object xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:parsley="http://www.spicefactory.org/parsley"
            xmlns:domain="com.backendless.flex.examples.chat.domain.*"
+           xmlns:application="com.backendless.flex.examples.chat.application.*"
            xmlns:presentation="com.backendless.flex.examples.chat.presentation.*"
            xmlns:infrastructure="com.backendless.flex.examples.chat.infrastructure.*">
 
     <fx:Script>
         <![CDATA[
+        import com.backendless.flex.examples.chat.application.commands.HandleMessageCommand;
+        import com.backendless.flex.examples.chat.application.commands.JoinChatCommand;
+        import com.backendless.flex.examples.chat.application.commands.LeaveChatCommand;
         import com.backendless.flex.examples.chat.application.commands.NavigateToCommand;
+        import com.backendless.flex.examples.chat.application.commands.HandleMessageCommand;
         import com.backendless.flex.examples.chat.application.commands.StartupCommand;
         ]]>
     </fx:Script>
@@ -17,9 +22,19 @@
 
         <parsley:MapCommand type="{NavigateToCommand}" />
 
+        <parsley:MapCommand type="{JoinChatCommand}" />
+
+        <parsley:MapCommand type="{LeaveChatCommand}" />
+
+        <parsley:MapCommand type="{HandleMessageCommand}" />
+
         <domain:Chat />
 
+        <application:Model />
+
         <presentation:MainPM />
+
+        <presentation:NamePM />
 
         <infrastructure:Subscriber />
 

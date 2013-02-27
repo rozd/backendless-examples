@@ -12,5 +12,8 @@ public class Member
     public function Member()
     {
     }
+
+    [Bindable]
+    public var name:String;
 }
 }

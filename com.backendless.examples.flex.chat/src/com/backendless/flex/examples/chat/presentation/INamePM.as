@@ -12,6 +12,6 @@ public interface INamePM
     function get name():String;
     function set name(value:String):void;
 
-    function ok():void;
+    function join():void;
 }
 }
