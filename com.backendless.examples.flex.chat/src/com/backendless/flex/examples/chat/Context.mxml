@@ -7,34 +7,61 @@
 
     <fx:Script>
         <![CDATA[
+        import com.backendless.flex.examples.chat.application.commands.HandleGoodbyeCommand;
+        import com.backendless.flex.examples.chat.application.commands.HandleHelloCommand;
         import com.backendless.flex.examples.chat.application.commands.HandleMessageCommand;
+        import com.backendless.flex.examples.chat.application.commands.HandleTextCommand;
         import com.backendless.flex.examples.chat.application.commands.JoinChatCommand;
         import com.backendless.flex.examples.chat.application.commands.LeaveChatCommand;
         import com.backendless.flex.examples.chat.application.commands.NavigateToCommand;
         import com.backendless.flex.examples.chat.application.commands.HandleMessageCommand;
+        import com.backendless.flex.examples.chat.application.commands.ReplyHelloCommand;
+        import com.backendless.flex.examples.chat.application.commands.SayGoodbyeCommand;
+        import com.backendless.flex.examples.chat.application.commands.SayHelloCommand;
+        import com.backendless.flex.examples.chat.application.commands.SendMessageCommand;
         import com.backendless.flex.examples.chat.application.commands.StartupCommand;
+        import com.backendless.flex.examples.chat.application.commands.SystemMessageCommand;
         ]]>
     </fx:Script>
 
     <fx:Declarations>
 
-        <parsley:MapCommand type="{StartupCommand}" />
+        <!--Application-->
 
+        <parsley:MapCommand type="{StartupCommand}" />
         <parsley:MapCommand type="{NavigateToCommand}" />
 
         <parsley:MapCommand type="{JoinChatCommand}" />
-
         <parsley:MapCommand type="{LeaveChatCommand}" />
 
+        <parsley:MapCommand type="{SayHelloCommand}" />
+        <parsley:MapCommand type="{SayGoodbyeCommand}" />
+        <parsley:MapCommand type="{ReplyHelloCommand}" />
+
+        <parsley:MapCommand type="{SendMessageCommand}" />
+
+        <parsley:MapCommand type="{SystemMessageCommand}" />
+
+        <parsley:MapCommand type="{HandleTextCommand}" />
+        <parsley:MapCommand type="{HandleHelloCommand}" />
+        <parsley:MapCommand type="{HandleGoodbyeCommand}" />
         <parsley:MapCommand type="{HandleMessageCommand}" />
+
+        <!--Domain-->
 
         <domain:Chat />
 
         <application:Model />
 
+        <!--Presentation-->
+
         <presentation:MainPM />
 
         <presentation:NamePM />
+
+        <presentation:ChatPM />
+
+        <!--Infrastructure-->
 
         <infrastructure:Subscriber />
 

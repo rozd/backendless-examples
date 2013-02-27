@@ -7,13 +7,23 @@
  */
 package com.backendless.flex.examples.chat.domain
 {
+[Bindable]
+[RemoteClass(alias="com.backendless.flex.examples.chat.domain.Member")]
 public class Member
 {
     public function Member()
     {
+        super();
     }
 
-    [Bindable]
+    public var subscriptionId:String;
+
     public var name:String;
+
+    public function copy(that:Object):void
+    {
+        this.subscriptionId = that.subscriptionId;
+        this.name = that.name;
+    }
 }
 }

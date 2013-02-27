@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
+         xmlns:parsley="http://www.spicefactory.org/parsley">
+
+    <fx:Script>
+        <![CDATA[
+        import com.backendless.flex.examples.chat.presentation.IChatPM;
+
+        [Inject]
+        [Bindable]
+        public var model:IChatPM;
+
+        ]]>
+    </fx:Script>
+
+    <fx:Declarations>
+        <parsley:Configure />
+    </fx:Declarations>
+
+    <s:VGroup left="0" top="0" right="0" bottom="0">
+        <s:List width="100%" height="100%">
+            <s:layout>
+                <s:VerticalLayout verticalAlign="bottom" />
+            </s:layout>
+            <s:itemRenderer>
+                <fx:Component>
+                    <s:ItemRenderer>
+
+                    </s:ItemRenderer>
+                </fx:Component>
+            </s:itemRenderer>
+        </s:List>
+        <s:Group width="100%">
+            <s:Rect left="0" top="0" right="0" bottom="0">
+                <s:fill>
+                    <s:SolidColor color="#FFFFFF" />
+                </s:fill>
+            </s:Rect>
+            <s:HGroup left="0" right="0">
+                <s:TextArea width="100%" heightInLines="4" text="@{this.model.message}" prompt="Send a message" />
+                <s:Button styleName="btnBlue" width="100" height="40" label="Send" click="model.send();" />
+            </s:HGroup>
+        </s:Group>
+    </s:VGroup>
+
+</s:Group>
