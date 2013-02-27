@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
+         xmlns:parsley="http://www.spicefactory.org/parsley" xmlns:mx="library://ns.adobe.com/flex/mx">
+
+    <fx:Script>
+        <![CDATA[
+        import com.backendless.examples.flex.gallery.presentation.IGalleryPM;
+
+        [Inject]
+        [Bindable]
+        public var model:IGalleryPM;
+        ]]>
+    </fx:Script>
+
+    <fx:Declarations>
+        <parsley:Configure />
+    </fx:Declarations>
+
+    <s:VGroup width="100%" height="100%" horizontalAlign="right">
+        <s:Button styleName="btnBlue" width="100" height="40" label="Add Photo" click="model.addNew()" />
+        <s:Group>
+            <s:Rect left="0" top="0" right="0" bottom="0">
+                <s:fill>
+                    <s:SolidColor color="#FFFFFF" />
+                </s:fill>
+            </s:Rect>
+            <s:List maxHeight="600" dataProvider="{this.model.gallery}" selectedItem="{this.model.selectedItem}" change="{model.select(event.target.selectedItem)}">
+                <s:layout>
+                    <s:TileLayout rowAlign="justifyUsingHeight" columnWidth="200" rowHeight="150" requestedColumnCount="3" requestedRowCount="2" orientation="rows" paddingLeft="3" paddingTop="3" paddingRight="3" paddingBottom="3" verticalGap="4" horizontalGap="4" />
+                </s:layout>
+                <s:itemRenderer>
+                    <fx:Component>
+                        <s:ItemRenderer autoDrawBackground="false">
+
+                            <s:states>
+                                <s:State name="hovered" />
+                                <s:State name="normal" />
+                            </s:states>
+
+                            <s:Image width="100%" height="100%" source="{this.data.getFileSource()}" fillMode="scale" scaleMode="zoom" horizontalAlign="center" verticalAlign="middle" skinClass="spark.skins.spark.ImageSkin" />
+
+                            <s:Rect width="100%" height="100%" includeIn="hovered">
+                                <s:fill>
+                                    <s:SolidColor color="#000000" alpha="0.2" />
+                                </s:fill>
+                            </s:Rect>
+
+                            <s:Label styleName="iconLabel" horizontalCenter="0" verticalCenter="0" text="&#xf00e;" color="#999999" fontSize="40" includeIn="hovered" />
+
+                            <s:Group bottom="0" width="100%">
+                                <s:Rect width="100%" height="100%" includeIn="hovered">
+                                    <s:fill>
+                                        <s:SolidColor color="#000000" alpha="0.2" />
+                                    </s:fill>
+                                </s:Rect>
+                                <s:Label width="100%" text="{data.description}" />
+                            </s:Group>
+
+                        </s:ItemRenderer>
+                    </fx:Component>
+                </s:itemRenderer>
+            </s:List>
+        </s:Group>
+    </s:VGroup>
+
+</s:Group>

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<fx:Object xmlns:fx="http://ns.adobe.com/mxml/2009"
+           xmlns:presentation="com.backendless.examples.flex.gallery.presentation.*"
+           xmlns:domain="com.backendless.examples.flex.gallery.domain.*"
+           xmlns:parsley="http://www.spicefactory.org/parsley">
+
+    <fx:Script>
+        <![CDATA[
+        import com.backendless.examples.flex.gallery.application.commands.AddNewItemCommand;
+        import com.backendless.examples.flex.gallery.application.commands.BrowseFileCommand;
+        import com.backendless.examples.flex.gallery.application.commands.GetGalleryCommand;
+        import com.backendless.examples.flex.gallery.application.commands.NavigateToCommand;
+        import com.backendless.examples.flex.gallery.application.commands.RemoveItemCommand;
+        import com.backendless.examples.flex.gallery.application.commands.SaveItemCommand;
+        import com.backendless.examples.flex.gallery.application.commands.SelectItemCommand;
+        import com.backendless.examples.flex.gallery.application.commands.StartupCommand;
+        import com.backendless.examples.flex.gallery.application.commands.UploadFileCommand;
+        import com.backendless.examples.flex.gallery.application.messages.SaveItemMessage;
+        ]]>
+    </fx:Script>
+
+    <fx:Declarations>
+
+        <domain:Model />
+
+        <domain:Gallery />
+
+        <parsley:MapCommand type="{StartupCommand}" />
+
+        <parsley:MapCommand type="{NavigateToCommand}" />
+
+        <parsley:MapCommand type="{SelectItemCommand}" />
+
+        <parsley:MapCommand type="{BrowseFileCommand}" />
+
+        <parsley:MapCommand messageType="{SaveItemMessage}">
+            <parsley:CommandSequence>
+                <parsley:Command type="{UploadFileCommand}" />
+                <parsley:Command type="{SaveItemCommand}" />
+                <parsley:Command type="{GetGalleryCommand}" />
+            </parsley:CommandSequence>
+        </parsley:MapCommand>
+
+        <parsley:MapCommand type="{AddNewItemCommand}" />
+
+        <parsley:MapCommand type="{RemoveItemCommand}" />
+
+        <parsley:MapCommand type="{GetGalleryCommand}" />
+
+        <presentation:MainPM />
+
+        <presentation:GalleryPM />
+
+        <presentation:DetailsPM />
+
+        <presentation:NewItemPM />
+
+    </fx:Declarations>
+
+</fx:Object>
