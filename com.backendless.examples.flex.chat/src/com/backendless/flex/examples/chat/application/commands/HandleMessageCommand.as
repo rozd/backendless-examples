@@ -12,6 +12,7 @@ import com.backendless.flex.examples.chat.application.messages.HandleGoodbyeMess
 import com.backendless.flex.examples.chat.application.messages.HandleHelloMessage;
 import com.backendless.flex.examples.chat.application.messages.HandleMessageMessage;
 import com.backendless.flex.examples.chat.application.messages.HandleTextMessage;
+import com.backendless.flex.examples.chat.domain.Chat;
 import com.backendless.flex.examples.chat.domain.enum.MessageHeader;
 import com.backendless.flex.examples.chat.domain.messages.GoodbyeMessage;
 import com.backendless.flex.examples.chat.domain.messages.HelloMessage;
@@ -28,8 +29,14 @@ public class HandleMessageCommand
     [MessageDispatcher]
     public var dispatcher:Function;
 
+    [Inject]
+    public var chat:Chat;
+
     public function execute(msg:HandleMessageMessage):void
     {
+        if (msg.message.publisherId == chat.currentMember.subscriptionId)
+            return;
+
         var message:Message;
 
         switch (msg.message.data.type)

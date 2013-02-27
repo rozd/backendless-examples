@@ -118,7 +118,7 @@
     <file path="/IChatPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361976826489" ignored="false" />
     <file path="/LeaveChatCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361972465620" ignored="false" />
     <file path="/NamePM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361974629868" ignored="false" />
-    <file path="/HandleMessageCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361990079965" ignored="false" />
+    <file path="/HandleMessageCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361990818094" ignored="false" />
     <file path="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/gallery/application/messages/SaveItemMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361962426630" ignored="false" />
     <file path="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/gallery/presentation/view/NewItemView.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361962426914" ignored="false" />
     <file path="$PROJECT_DIR$/com.backendless.examples.flex.gallery/src/com/backendless/examples/flex/gallery/application/messages/StartupMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361962426630" ignored="false" />
@@ -152,11 +152,11 @@
     <file path="/SystemMessageRenderer.mxml" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361986080803" ignored="false" />
     <file path="/ChatPM.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361987341555" ignored="false" />
     <file path="/SendMessageMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361987298061" ignored="false" />
-    <file path="/Message.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361989980577" ignored="false" />
+    <file path="/Message.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361990915834" ignored="false" />
     <file path="/TextMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361989197051" ignored="false" />
     <file path="/HelloMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361989290098" ignored="false" />
     <file path="/GoodbyeMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361988230062" ignored="false" />
-    <file path="/SayHelloCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361989337498" ignored="false" />
+    <file path="/SayHelloCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361990510101" ignored="false" />
     <file path="/ReplyHelloCommand.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361989380601" ignored="false" />
     <file path="/HandleGreetingMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361990011791" ignored="false" />
     <file path="/HandleFarewellMessage.as" changelist="3a6e9076-2239-4f82-99e3-42b8364f2eac" time="1361989869256" ignored="false" />
@@ -222,91 +222,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Message.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/domain/messages/Message.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="8" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#212#268#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextMessage.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/domain/messages/TextMessage.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="8" selection-start="510" selection-end="628" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandleGoodbyeMessage.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/messages/HandleGoodbyeMessage.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="54" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodbyeMessage.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/domain/messages/GoodbyeMessage.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Message.mxml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.shared/src/com/backendless/examples/flex/components/Message.mxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.64">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloMessage.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/domain/messages/HelloMessage.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="4" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#212#268#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandleHelloCommand.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/HandleHelloCommand.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="43" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#217#273#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandleHelloMessage.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/messages/HandleHelloMessage.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="57" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HandleMessageCommand.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/HandleMessageCommand.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="42" selection-start="1786" selection-end="1786" vertical-scroll-proportion="1.6601179">
+            <state line="63" column="59" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.58441556">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#217#269#0" expanded="true" />
@@ -315,11 +234,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HandleTextMessage.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/messages/HandleTextMessage.as">
+      <file leaf-file-name="Message.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/domain/messages/Message.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="36" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="28" column="37" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#212#268#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SayHelloCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/SayHelloCommand.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="65" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#217#252#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendMessageCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/SendMessageCommand.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="84" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#217#252#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SayGoodbyeCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/SayGoodbyeCommand.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="67" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#217#252#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -334,9 +292,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/domain/messages/TextMessage.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/domain/Member.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/SayHelloCommand.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/ReplyHelloCommand.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/messages/HandleGreetingMessage.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/messages/HandleFarewellMessage.as" />
@@ -346,10 +301,13 @@
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/messages/HandleGoodbyeMessage.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/HandleGoodbyeCommand.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/domain/messages/HelloMessage.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/domain/messages/Message.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/messages/HandleHelloMessage.as" />
-        <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/HandleMessageCommand.as" />
         <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/messages/HandleTextMessage.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/SayHelloCommand.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/SayGoodbyeCommand.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/SendMessageCommand.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/domain/messages/Message.as" />
+        <option value="$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/HandleMessageCommand.as" />
       </list>
     </option>
   </component>
@@ -1390,7 +1348,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251318" sideWeight="0.4848485" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40246046" sideWeight="0.58787876" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41300526" sideWeight="0.58787876" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36797273" sideWeight="0.40681818" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28335112" sideWeight="0.23019272" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1398,7 +1356,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17465389" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35099846" sideWeight="0.59753954" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35099846" sideWeight="0.5869947" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.4909091" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1574,14 +1532,14 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="flex">
           <url>file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/HandleMessageCommand.as</url>
-          <line>34</line>
-          <option name="timeStamp" value="133" />
+          <line>36</line>
+          <option name="timeStamp" value="135" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="134" />
+      <option name="time" value="136" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1589,61 +1547,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/SayHelloCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#217#252#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/HandleTextCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#217#298#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/domain/Chat.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="64" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#203#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/presentation/view/ChatView.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="84" selection-start="666" selection-end="666" vertical-scroll-proportion="-5.16">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/HandleGoodbyeCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="43" selection-start="931" selection-end="931" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#217#301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/messages/HandleGoodbyeMessage.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="54" selection-start="382" selection-end="382" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../backendless/src/com/backendless/messaging/Message.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="17" selection-start="2904" selection-end="2904" vertical-scroll-proportion="0.11111111">
           <folding />
         </state>
       </provider>
@@ -1678,25 +1584,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/domain/messages/Message.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="8" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#212#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/HandleHelloCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="43" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#217#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/messages/HandleHelloMessage.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="57" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
@@ -1713,9 +1600,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/HandleHelloCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="43" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#217#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../backendless/src/com/backendless/messaging/PublishOptions.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="45" selection-start="2839" selection-end="2839" vertical-scroll-proportion="0.20779221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../backendless/src/com/backendless/service/_MessagingService.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="240" column="60" selection-start="8086" selection-end="8086" vertical-scroll-proportion="0.3322034">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../backendless/src/com/backendless/messaging/Message.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="17" selection-start="2904" selection-end="2904" vertical-scroll-proportion="0.11363637">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/domain/messages/Message.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="37" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#212#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/SayHelloCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="65" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#217#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/SendMessageCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="84" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#217#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/SayGoodbyeCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="67" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#217#252#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/src/com/backendless/flex/examples/chat/application/commands/HandleMessageCommand.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="42" selection-start="1786" selection-end="1786" vertical-scroll-proportion="1.6601179">
+        <state line="63" column="59" selection-start="2022" selection-end="2022" vertical-scroll-proportion="0.58441556">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#217#269#0" expanded="true" />

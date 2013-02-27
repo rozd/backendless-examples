@@ -22,6 +22,12 @@ public class Message extends EventDispatcher
         this.type = type;
     }
 
+//    public var messageId:String;
+//
+//    public var publisherId:String;
+//
+//    public var timestamp:Number;
+
     public var member:Member;
 
     public var type:String;

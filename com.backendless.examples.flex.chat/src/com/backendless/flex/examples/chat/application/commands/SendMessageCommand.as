@@ -35,11 +35,10 @@ public class SendMessageCommand
 
     public function execute(msg:SendMessageMessage):void
     {
-        const publish:PublishOptions = new PublishOptions();
-        publish.addHeader(MessageHeader.MESSAGE_TYPE, MessageType.PLAIN_TEXT);
-        publish.publisherId = chat.currentMember.subscriptionId;
+        const options:PublishOptions = new PublishOptions();
+        options.publisherId = chat.currentMember.subscriptionId;
 
-        Backendless.MessagingService.publish(msg, publish, null,
+        Backendless.MessagingService.publish(msg, options, null,
             new Responder
             (
                 function(event:ResultEvent):void

@@ -35,11 +35,10 @@ public class SayGoodbyeCommand
 
     public function execute(msg:SayGoodbyeMessage):void
     {
-        const publish:PublishOptions = new PublishOptions();
-        publish.addHeader(MessageHeader.MESSAGE_TYPE, MessageType.GOODBYE);
-        publish.publisherId = chat.currentMember.subscriptionId;
+        const options:PublishOptions = new PublishOptions();
+        options.publisherId = chat.currentMember.subscriptionId;
 
-        Backendless.MessagingService.publish(chat.currentMember, publish);
+        Backendless.MessagingService.publish(chat.currentMember, options);
     }
 }
 }
