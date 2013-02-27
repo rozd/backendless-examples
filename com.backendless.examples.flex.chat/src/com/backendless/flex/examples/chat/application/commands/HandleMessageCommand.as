@@ -34,7 +34,7 @@ public class HandleMessageCommand
 
     public function execute(msg:HandleMessageMessage):void
     {
-        if (msg.message.publisherId == chat.currentMember.subscriptionId)
+        if (msg.message.data.member.subscriptionId == chat.currentMember.subscriptionId)
             return;
 
         var message:Message;

@@ -9,6 +9,10 @@ package com.backendless.flex.examples.chat.domain
 {
 import com.backendless.flex.examples.chat.domain.messages.Message;
 
+import mx.collections.ArrayCollection;
+
+import mx.collections.ArrayList;
+
 import mx.collections.IList;
 
 public class Chat
@@ -23,11 +27,11 @@ public class Chat
     public var currentMember:Member;
 
     [Bindable]
-    public var members:IList;
+    public var members:IList = new ArrayList();
 
     [Bindable]
     [Publish(objectId="messages")]
-    public var messages:IList;
+    public var messages:IList = new ArrayCollection();
 
     public function addTextMessage(message:Message):void
     {
