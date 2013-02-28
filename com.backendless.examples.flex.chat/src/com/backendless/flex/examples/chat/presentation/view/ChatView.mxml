@@ -49,12 +49,12 @@
                     <s:SolidColor color="#134D74" />
                 </s:fill>
             </s:Rect>
-            <s:List width="100%" height="200" dataProvider="{this.model.calls}">
+            <s:List width="100%" height="200" dataProvider="{this.model.calls}" includeInLayout="{this.model.calls.length > 0}">
                 <s:layout>
                     <s:HorizontalLayout horizontalAlign="center" />
                 </s:layout>
             </s:List>
-            <s:HGroup width="100%" paddingLeft="10" paddingTop="10" paddingRight="10" paddingBottom="10">
+            <s:HGroup bottom="0" width="100%" paddingLeft="10" paddingTop="10" paddingRight="10" paddingBottom="10">
                 <s:Button styleName="iconButton" label="&#xf095;" color="#FFFFFF" click="this.model.call();" />
                 <s:Spacer width="100%" />
                 <s:Button styleName="iconButton" label="&#xf00d;" color="#FFFFFF" click="this.model.leave()" />
