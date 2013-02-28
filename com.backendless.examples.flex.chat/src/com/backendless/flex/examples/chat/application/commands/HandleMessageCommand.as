@@ -1,3 +1,13 @@
+/*
+ * Copyright (C) 2013 max.rozdobudko@gmail.com
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
 /**
  * Created with IntelliJ IDEA.
  * User: Max
@@ -8,6 +18,7 @@
 package com.backendless.flex.examples.chat.application.commands
 {
 import com.backendless.examples.flex.logging.Logger;
+import com.backendless.flex.examples.chat.application.helpers.MessageHelper;
 import com.backendless.flex.examples.chat.application.messages.HandleGoodbyeMessage;
 import com.backendless.flex.examples.chat.application.messages.HandleHelloMessage;
 import com.backendless.flex.examples.chat.application.messages.HandleMessageMessage;
@@ -16,7 +27,7 @@ import com.backendless.flex.examples.chat.domain.Chat;
 import com.backendless.flex.examples.chat.domain.enum.MessageHeader;
 import com.backendless.flex.examples.chat.domain.messages.GoodbyeMessage;
 import com.backendless.flex.examples.chat.domain.messages.HelloMessage;
-import com.backendless.flex.examples.chat.domain.messages.Message;
+import com.backendless.flex.examples.chat.domain.ChatMessage;
 import com.backendless.flex.examples.chat.domain.messages.TextMessage;
 
 public class HandleMessageCommand
@@ -34,42 +45,20 @@ public class HandleMessageCommand
 
     public function execute(msg:HandleMessageMessage):void
     {
-        if (msg.message.data.member.subscriptionId == chat.currentMember.subscriptionId)
-            return;
+        const  message:ChatMessage = MessageHelper.convertChatMessage(msg.message);
+        message.member.isCurrent =  message.member.subscriptionId == chat.currentMember.subscriptionId;
 
-        var message:Message;
-
-        switch (msg.message.data.type)
+        if (message is HelloMessage)
         {
-            case HelloMessage.TYPE :
-
-                message = new HelloMessage();
-                message.copy(msg.message.data);
-
-                dispatcher(new HandleHelloMessage(message as HelloMessage));
-
-                break;
-
-            case GoodbyeMessage.TYPE :
-
-                message = new GoodbyeMessage();
-                message.copy(msg.message.data);
-
-                dispatcher(new HandleGoodbyeMessage(message as GoodbyeMessage));
-
-                break;
-
-            case TextMessage.TYPE :
-
-                message = new TextMessage();
-                message.copy(msg.message.data);
-
-                dispatcher(new HandleTextMessage(message as TextMessage));
-                break;
-
-            default :
-                Logger.print("{0} {1}: '{2}'", "[WARNING]", "Unknown message type", msg.message.headers[MessageHeader.MESSAGE_TYPE]);
-                break;
+            dispatcher(new HandleHelloMessage(message as HelloMessage));
+        }
+        else if (message is GoodbyeMessage)
+        {
+            dispatcher(new HandleGoodbyeMessage(message as GoodbyeMessage));
+        }
+        else if (message is TextMessage)
+        {
+            dispatcher(new HandleTextMessage(message as TextMessage));
         }
     }
 }
