@@ -57,7 +57,7 @@
         <s:RichEditableText id="textDisplay" />
     </s:Scroller>
 
-    <s:Label id="promptDisplay" maxDisplayedLines="1" verticalAlign="top" mouseEnabled="false" mouseChildren="false" left="10" right="2" top="2" bottom="1"
+    <s:Label id="promptDisplay" maxDisplayedLines="1" verticalAlign="top" mouseEnabled="false" mouseChildren="false" left="4" right="2" top="4" bottom="2"
              includeIn="normalWithPrompt,disabledWithPrompt"
             />
 

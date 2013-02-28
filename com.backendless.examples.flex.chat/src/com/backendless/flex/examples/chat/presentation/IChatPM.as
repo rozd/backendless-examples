@@ -30,6 +30,8 @@ public interface IChatPM
 
     function messageRendererFunction(item:Object):IFactory;
 
+    function clear():void;
+
     function send():void;
 
     function leave():void;

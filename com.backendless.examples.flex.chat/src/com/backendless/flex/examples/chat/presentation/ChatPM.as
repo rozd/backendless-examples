@@ -19,7 +19,9 @@ package com.backendless.flex.examples.chat.presentation
 {
 import com.backendless.flex.examples.chat.application.messages.LeaveChatMessage;
 import com.backendless.flex.examples.chat.application.messages.SendMessageMessage;
+import com.backendless.flex.examples.chat.domain.messages.SystemMessage;
 import com.backendless.flex.examples.chat.domain.messages.TextMessage;
+import com.backendless.flex.examples.chat.presentation.renderers.SystemMessageRenderer;
 import com.backendless.flex.examples.chat.presentation.renderers.TextMessageRenderer;
 
 import flash.events.EventDispatcher;
@@ -27,6 +29,8 @@ import flash.events.EventDispatcher;
 import mx.collections.IList;
 import mx.core.ClassFactory;
 import mx.core.IFactory;
+
+import spark.skins.spark.DefaultItemRenderer;
 
 public class ChatPM extends EventDispatcher implements IChatPM
 {
@@ -50,7 +54,15 @@ public class ChatPM extends EventDispatcher implements IChatPM
         if (item is TextMessage)
             return new ClassFactory(TextMessageRenderer);
 
-        return null;
+        if (item is SystemMessage)
+            return new ClassFactory(SystemMessageRenderer);
+
+        return new ClassFactory(DefaultItemRenderer);
+    }
+
+    public function clear():void
+    {
+        this.message = null;
     }
 
     public function send():void
@@ -60,7 +72,7 @@ public class ChatPM extends EventDispatcher implements IChatPM
 
         dispatcher(new SendMessageMessage(this.message));
 
-        this.message = null;
+        this.clear();
     }
 
     public function leave():void

@@ -53,9 +53,7 @@
 
     <view:NameView width="400" horizontalCenter="0" verticalCenter="0" includeIn="name" />
 
-    <s:Group left="0" top="60" right="0" bottom="0" includeIn="chat">
-        <view:ChatView width="80%" height="80%" maxWidth="800" horizontalCenter="0" verticalCenter="0" />
-    </s:Group>
+    <view:ChatView left="0" top="40" right="0" bottom="40" includeIn="chat" />
 
     <s:RichText styleName="h5" bottom="20" horizontalCenter="0">
         <s:textFlow>

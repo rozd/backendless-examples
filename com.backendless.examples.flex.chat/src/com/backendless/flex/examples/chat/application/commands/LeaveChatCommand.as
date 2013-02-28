@@ -18,7 +18,9 @@
 package com.backendless.flex.examples.chat.application.commands
 {
 import com.backendless.Backendless;
+import com.backendless.flex.examples.chat.application.enum.Destination;
 import com.backendless.flex.examples.chat.application.messages.LeaveChatMessage;
+import com.backendless.flex.examples.chat.application.messages.NavigateToMessage;
 import com.backendless.flex.examples.chat.application.messages.SayGoodbyeMessage;
 
 public class LeaveChatCommand
@@ -36,6 +38,8 @@ public class LeaveChatCommand
         Backendless.MessagingService.unsubscribe();
 
         dispatcher(new SayGoodbyeMessage());
+
+        dispatcher(new NavigateToMessage(Destination.NAME));
     }
 }
 }
