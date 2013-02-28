@@ -29,8 +29,10 @@
         import com.backendless.flex.examples.chat.application.commands.SayGoodbyeCommand;
         import com.backendless.flex.examples.chat.application.commands.SayHelloCommand;
         import com.backendless.flex.examples.chat.application.commands.SendMessageCommand;
+        import com.backendless.flex.examples.chat.application.commands.StartCallCommand;
         import com.backendless.flex.examples.chat.application.commands.StartupCommand;
         import com.backendless.flex.examples.chat.application.commands.SystemMessageCommand;
+        import com.backendless.flex.examples.chat.application.messages.SayCallMessage;
         ]]>
     </fx:Script>
 
@@ -56,6 +58,13 @@
         <parsley:MapCommand type="{HandleHelloCommand}" />
         <parsley:MapCommand type="{HandleGoodbyeCommand}" />
         <parsley:MapCommand type="{HandleMessageCommand}" />
+
+        <parsley:MapCommand messageType="{SayCallMessage}">
+            <parsley:CommandSequence>
+                <parsley:Command type="{StartCallCommand}" />
+                <parsley:Command type="{SayCallMessage}" />
+            </parsley:CommandSequence>
+        </parsley:MapCommand>
 
         <!--Domain-->
 

@@ -43,6 +43,8 @@ public interface IChatPM
 
     function mic():void;
 
+    function call():void;
+
     function clear():void;
 
     function send():void;

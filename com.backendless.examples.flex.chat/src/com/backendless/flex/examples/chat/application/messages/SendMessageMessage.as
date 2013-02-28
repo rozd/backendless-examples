@@ -18,16 +18,22 @@
 package com.backendless.flex.examples.chat.application.messages
 {
 import com.backendless.flex.examples.chat.domain.ChatMessage;
+import com.backendless.messaging.DeliveryOptions;
+import com.backendless.messaging.PublishOptions;
 
 public class SendMessageMessage
 {
-    public function SendMessageMessage(message:ChatMessage)
+    public function SendMessageMessage(message:ChatMessage, options:PublishOptions=null, delivery:DeliveryOptions=null)
     {
         super();
 
+        this.options = options;
         this.message = message;
+        this.delivery = delivery;
     }
 
     public var message:ChatMessage;
+    public var options:PublishOptions;
+    public var delivery:DeliveryOptions;
 }
 }

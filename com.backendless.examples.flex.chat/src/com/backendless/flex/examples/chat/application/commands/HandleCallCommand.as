@@ -39,6 +39,9 @@ public class HandleCallCommand
         if (msg.message.member.isCurrent)
             return;
 
+        if (chat.hasCallFrom(msg.message.member))
+            return;
+
         chat.addMessage(msg.message);
 
         Backendless.MediaService.playLive("com.backendless.examples.flex", msg.message.member.subscriptionId,

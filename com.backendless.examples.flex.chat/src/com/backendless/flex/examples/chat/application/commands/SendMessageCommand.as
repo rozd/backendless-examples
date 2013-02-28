@@ -25,6 +25,7 @@ import com.backendless.flex.examples.chat.domain.Chat;
 import com.backendless.flex.examples.chat.domain.ChatMessage;
 import com.backendless.flex.examples.chat.domain.enum.MessageHeader;
 import com.backendless.flex.examples.chat.domain.enum.MessageType;
+import com.backendless.messaging.DeliveryOptions;
 import com.backendless.messaging.PublishOptions;
 
 import mx.rpc.Responder;
@@ -48,12 +49,12 @@ public class SendMessageCommand
 
     public function execute(msg:SendMessageMessage):void
     {
-        const options:PublishOptions = new PublishOptions();
+        const options:PublishOptions = msg.options || new PublishOptions();
         options.publisherId = chat.currentMember.subscriptionId;
 
         msg.message.member = chat.currentMember;
 
-        Backendless.Messaging.publishToChannel("com.backendless.examples.flex.chat", msg.message, options, null,
+        Backendless.Messaging.publishToChannel("com.backendless.examples.flex.chat", msg.message, options, msg.delivery,
             new Responder
             (
                 function(event:ResultEvent):void

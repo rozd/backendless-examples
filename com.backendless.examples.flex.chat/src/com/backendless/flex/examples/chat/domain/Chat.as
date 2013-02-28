@@ -37,6 +37,9 @@ public class Chat
     public var currentMember:ChatMember;
 
     [Bindable]
+    public var currentCall:ChatCall;
+
+    [Bindable]
     public var members:IList = new ArrayList();
 
     [Bindable]
@@ -92,6 +95,17 @@ public class Chat
         membersMap[id] = null;
 
         return true;
+    }
+
+    public function hasCallFrom(member:ChatMember):Boolean
+    {
+        for each (var call:ChatCall in calls)
+        {
+            if (call.member.subscriptionId == member.subscriptionId)
+                return true;
+        }
+
+        return false;
     }
 }
 }
