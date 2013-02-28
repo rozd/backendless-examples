@@ -45,14 +45,14 @@
         </s:Rect>
         <s:VGroup width="100%" height="100%" paddingLeft="10" paddingTop="10" paddingRight="10" paddingBottom="10">
             <s:HGroup width="100%">
-                <s:TextInput width="100%" height="40" text="{this.model.item.fileName}" prompt="Click Browse to select image." />
+                <s:TextInput width="100%" height="40" text="{this.model.item.fileName}" prompt="Browse to select image" />
                 <s:Button styleName="btnPink" label="Browse" height="40" click="model.browse()" />
             </s:HGroup>
-            <s:TextArea width="100%" heightInLines="2" prompt="Otinal Description" text="@{this.model.item.description}" />
-            <s:HGroup width="100%" height="40" verticalAlign="middle">
-                <s:Label styleName="iconLabel" text="&#xf0c1;" />
-                <s:TextInput width="100%" height="100%" text="@{this.model.item.reference}" />
-            </s:HGroup>
+            <s:TextArea width="100%" heightInLines="2" prompt="Description (optional)" text="@{this.model.item.description}" />
+            <!--<s:HGroup width="100%" height="40" verticalAlign="middle">-->
+                <!--<s:Label styleName="iconLabel" text="&#xf0c1;" />-->
+                <!--<s:TextInput width="100%" height="100%" text="@{this.model.item.reference}" />-->
+            <!--</s:HGroup>-->
             <s:HGroup width="100%" height="40">
                 <s:Button styleName="btnBlue" width="50%" height="100%" label="Save" click="model.submit()" />
                 <s:Button styleName="btnPink" width="50%" height="100%" label="Back" click="model.cancel()" />

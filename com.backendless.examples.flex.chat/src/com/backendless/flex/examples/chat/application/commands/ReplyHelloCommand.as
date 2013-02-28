@@ -49,7 +49,7 @@ public class ReplyHelloCommand
         message.member = chat.currentMember;
         message.isReply = true;
 
-        Backendless.MessagingService.publish(message);
+        Backendless.Messaging.publish(message);
     }
 }
 }

@@ -17,15 +17,17 @@
  */
 package com.backendless.flex.examples.chat.application.messages
 {
+import com.backendless.flex.examples.chat.domain.ChatMessage;
+
 public class SendMessageMessage
 {
-    public function SendMessageMessage(text:String)
+    public function SendMessageMessage(message:ChatMessage)
     {
         super();
 
-        this.text = text;
+        this.message = message;
     }
 
-    public var text:String;
+    public var message:ChatMessage;
 }
 }

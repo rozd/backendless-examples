@@ -43,9 +43,23 @@ public class Chat
     [Publish(objectId="messages")]
     public var messages:IList = new ArrayCollection();
 
+    [Bindable]
+    [Publish(objectId="calls")]
+    public var calls:IList = new ArrayList();
+
     public function addMessage(message:ChatMessage):void
     {
         messages.addItem(message);
+    }
+
+    public function addCall(call:ChatCall):void
+    {
+        calls.addItem(call);
+    }
+
+    public function removeCall(call:ChatCall):void
+    {
+
     }
 
     public function addMember(member:ChatMember):Boolean

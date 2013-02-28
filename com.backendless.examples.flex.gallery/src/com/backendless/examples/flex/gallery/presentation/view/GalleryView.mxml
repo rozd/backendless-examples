@@ -57,13 +57,13 @@
 
                             <s:Label styleName="iconLabel" horizontalCenter="0" verticalCenter="0" text="&#xf00e;" color="#999999" fontSize="40" includeIn="hovered" />
 
-                            <s:Group bottom="0" width="100%">
+                            <s:Group bottom="0" width="100%" visible="{data.description}" includeInLayout="{data.description}">
                                 <s:Rect width="100%" height="100%" includeIn="hovered">
                                     <s:fill>
                                         <s:SolidColor color="#000000" alpha="0.2" />
                                     </s:fill>
                                 </s:Rect>
-                                <s:Label width="100%" text="{data.description}" />
+                                <s:Label styleName="caption" width="100%" text="{data.description}" />
                             </s:Group>
 
                         </s:ItemRenderer>

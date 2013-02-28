@@ -51,10 +51,9 @@ public class SendMessageCommand
         const options:PublishOptions = new PublishOptions();
         options.publisherId = chat.currentMember.subscriptionId;
 
-        const message:ChatMessage = MessageHelper.createChatMessage(msg.text);
-        message.member = chat.currentMember;
+        msg.message.member = chat.currentMember;
 
-        Backendless.MessagingService.publish(message, options, null,
+        Backendless.Messaging.publishToChannel("com.backendless.examples.flex.chat", msg.message, options, null,
             new Responder
             (
                 function(event:ResultEvent):void

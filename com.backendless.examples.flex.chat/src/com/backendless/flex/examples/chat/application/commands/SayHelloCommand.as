@@ -45,13 +45,7 @@ public class SayHelloCommand
 
     public function execute(msg:SayHelloMessage):void
     {
-        const options:PublishOptions = new PublishOptions();
-        options.publisherId = chat.currentMember.subscriptionId;
-
-        const message:HelloMessage = new HelloMessage();
-        message.member = chat.currentMember;
-
-        Backendless.MessagingService.publish(message, options);
+        dispatcher(new SendMessageMessage(new HelloMessage()));
     }
 }
 }

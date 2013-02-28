@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="Flex" version="4">
-  <component name="FlexBuildConfigurationManager" active="com.backendless.examples.flex.gallery">
+  <component name="FlexBuildConfigurationManager" active="com.backendless.examples.flex.gallery.AIR">
     <configurations>
-      <configuration name="com.backendless.examples.flex.gallery" target-platform="Desktop" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/../out/production/com.backendless.examples.flex.gallery">
+      <configuration name="com.backendless.examples.flex.gallery.AIR" target-platform="Desktop" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/../out/production/com.backendless.examples.flex.gallery">
         <dependencies>
           <entries>
             <entry library-id="491b8dec-bbb6-484f-878c-ceb67ecc9c07">
               <dependency linkage="Merged" />
             </entry>
             <entry module-name="com.backendless.examples.flex.shared" build-configuration-name="com.backendless.examples.flex.shared">
-              <dependency linkage="Merged" />
-            </entry>
-            <entry module-name="backendless" build-configuration-name="backendless">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -23,6 +20,23 @@
             <FilePathAndPathInPackage file-path="$MODULE_DIR$/assets/images" path-in-package="images" />
           </files-to-package>
         </packaging-air-desktop>
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+      <configuration name="com.backendless.examples.flex.gallery.WEB" main-class="Main" output-file="gallery.swf" output-folder="$MODULE_DIR$/../out/production/com.backendless.examples.flex.gallery">
+        <dependencies target-player="11.1">
+          <entries>
+            <entry module-name="com.backendless.examples.flex.shared" build-configuration-name="com.backendless.examples.flex.shared">
+              <dependency linkage="Merged" />
+            </entry>
+            <entry library-id="2f6eedbc-d22e-4e90-af9b-6e64c9fd87cd">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="4.6.0" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
         <packaging-android />
         <packaging-ios />
       </configuration>
@@ -49,7 +63,17 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="com.backendless.examples.flex.shared" exported="" />
-    <orderEntry type="module" module-name="backendless" exported="" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="2f6eedbc-d22e-4e90-af9b-6e64c9fd87cd" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/libs" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
 

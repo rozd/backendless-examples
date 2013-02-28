@@ -18,10 +18,15 @@
 package com.backendless.flex.examples.chat.application.commands
 {
 import com.backendless.Backendless;
+import com.backendless.examples.flex.logging.Logger;
 import com.backendless.flex.examples.chat.application.enum.Destination;
 import com.backendless.flex.examples.chat.application.messages.LeaveChatMessage;
 import com.backendless.flex.examples.chat.application.messages.NavigateToMessage;
 import com.backendless.flex.examples.chat.application.messages.SayGoodbyeMessage;
+
+import mx.rpc.Responder;
+import mx.rpc.events.FaultEvent;
+import mx.rpc.events.ResultEvent;
 
 public class LeaveChatCommand
 {
@@ -33,11 +38,26 @@ public class LeaveChatCommand
     [MessageDispatcher]
     public var dispatcher:Function;
 
+    public var callback:Function;
+
     public function execute(msg:LeaveChatMessage):void
     {
-        Backendless.MessagingService.unsubscribe();
-
         dispatcher(new SayGoodbyeMessage());
+
+        Backendless.Messaging.unsubscribe(
+            new Responder(
+                function (event:ResultEvent):void
+                {
+                    callback(event.result);
+                },
+                function (event:FaultEvent):void
+                {
+                    Logger.error(event.toString());
+
+                    callback(event);
+                }
+            )
+        );
 
         dispatcher(new NavigateToMessage(Destination.NAME));
     }

@@ -49,6 +49,16 @@
 	fontSize: 14;
 }
 
+.caption
+{
+    color: #FFFFFF;
+
+    fontFamily: MyriadProEmbedded;
+    fontStyle: normal;
+    fontWeight: normal;
+    fontSize: 12;
+}
+
 .log
 {
     color: #666666;

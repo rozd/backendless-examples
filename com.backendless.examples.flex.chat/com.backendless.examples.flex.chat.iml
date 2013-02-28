@@ -5,9 +5,6 @@
       <configuration name="com.backendless.examples.flex.chat" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/../out/production/com.backendless.examples.flex.chat">
         <dependencies target-player="11.1">
           <entries>
-            <entry module-name="backendless" build-configuration-name="backendless">
-              <dependency linkage="Merged" />
-            </entry>
             <entry module-name="com.backendless.examples.flex.shared" build-configuration-name="com.backendless.examples.flex.shared">
               <dependency linkage="Merged" />
             </entry>
@@ -32,7 +29,6 @@
     </content>
     <orderEntry type="jdk" jdkName="4.6.0" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="backendless" exported="" />
     <orderEntry type="module" module-name="com.backendless.examples.flex.shared" exported="" />
     <orderEntry type="module-library" exported="">
       <library type="flex">

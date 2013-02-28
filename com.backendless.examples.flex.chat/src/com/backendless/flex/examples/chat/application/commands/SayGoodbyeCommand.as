@@ -24,6 +24,7 @@ import com.backendless.flex.examples.chat.application.messages.SendMessageMessag
 import com.backendless.flex.examples.chat.domain.Chat;
 import com.backendless.flex.examples.chat.domain.enum.MessageHeader;
 import com.backendless.flex.examples.chat.domain.enum.MessageType;
+import com.backendless.flex.examples.chat.domain.messages.GoodbyeMessage;
 import com.backendless.messaging.PublishOptions;
 
 import mx.rpc.Responder;
@@ -45,10 +46,7 @@ public class SayGoodbyeCommand
 
     public function execute(msg:SayGoodbyeMessage):void
     {
-        const options:PublishOptions = new PublishOptions();
-        options.publisherId = chat.currentMember.subscriptionId;
-
-        Backendless.MessagingService.publish(chat.currentMember, options);
+        dispatcher(new SendMessageMessage(new GoodbyeMessage()));
     }
 }
 }

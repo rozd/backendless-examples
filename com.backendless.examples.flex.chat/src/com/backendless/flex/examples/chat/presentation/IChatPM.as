@@ -25,10 +25,23 @@ public interface IChatPM
     function get messages():IList;
     function set messages(value:IList):void;
 
+    function get calls():IList;
+    function set calls(value:IList):void;
+
     function get message():String;
     function set message(value:String):void;
 
+    function get isCamMuted():Boolean;
+    function set isCamMuted(value:Boolean):void;
+
+    function get isMicMuted():Boolean;
+    function set isMicMuted(value:Boolean):void;
+
     function messageRendererFunction(item:Object):IFactory;
+
+    function cam():void;
+
+    function mic():void;
 
     function clear():void;
 

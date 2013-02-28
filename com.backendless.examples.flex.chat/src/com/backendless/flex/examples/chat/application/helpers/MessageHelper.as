@@ -19,6 +19,7 @@ package com.backendless.flex.examples.chat.application.helpers
 {
 import com.backendless.examples.flex.logging.Logger;
 import com.backendless.flex.examples.chat.domain.ChatMessage;
+import com.backendless.flex.examples.chat.domain.messages.CallMessage;
 import com.backendless.flex.examples.chat.domain.messages.GoodbyeMessage;
 import com.backendless.flex.examples.chat.domain.messages.HelloMessage;
 import com.backendless.flex.examples.chat.domain.messages.TextMessage;
@@ -45,6 +46,10 @@ public class MessageHelper
                 message = new TextMessage();
                 break;
 
+            case CallMessage.TYPE :
+                message = new CallMessage();
+                break;
+
             default :
                 Logger.print("{0} {1}: '{2}'", "[WARNING]", "Unknown message type", source.data.type);
                 break;
@@ -53,19 +58,6 @@ public class MessageHelper
         message.messageId = source.messageId;
         message.timestamp = source.timestamp;
         message.copy(source.data);
-
-        return message;
-    }
-
-    public static function createChatMessage(source:Object):ChatMessage
-    {
-        var message:ChatMessage;
-
-        if (source is String /* is plain text */)
-        {
-            message = new TextMessage();
-            TextMessage(message).text = source as String;
-        }
 
         return message;
     }

@@ -5,7 +5,7 @@
       <configuration name="com.backendless.examples.flex.shared" output-type="Library" output-file="com_backendless_examples_flex_shared.swc" output-folder="$MODULE_DIR$/../out/production/com.backendless.examples.flex.shared">
         <dependencies target-player="11.1">
           <entries>
-            <entry module-name="backendless" build-configuration-name="backendless">
+            <entry library-id="ea5dd5c7-ecbd-4995-8422-b56f839c4b76">
               <dependency linkage="Merged" />
             </entry>
           </entries>
@@ -29,7 +29,17 @@
     </content>
     <orderEntry type="jdk" jdkName="4.6.0" jdkType="Flex SDK Type (new)" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="backendless" exported="" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="ea5dd5c7-ecbd-4995-8422-b56f839c4b76" />
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/libs" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/libs" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
 

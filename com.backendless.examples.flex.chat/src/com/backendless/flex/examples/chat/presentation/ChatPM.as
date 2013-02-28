@@ -18,7 +18,7 @@
 package com.backendless.flex.examples.chat.presentation
 {
 import com.backendless.flex.examples.chat.application.messages.LeaveChatMessage;
-import com.backendless.flex.examples.chat.application.messages.SendMessageMessage;
+import com.backendless.flex.examples.chat.application.messages.SayTextMessage;
 import com.backendless.flex.examples.chat.domain.messages.SystemMessage;
 import com.backendless.flex.examples.chat.domain.messages.TextMessage;
 import com.backendless.flex.examples.chat.presentation.renderers.SystemMessageRenderer;
@@ -47,7 +47,17 @@ public class ChatPM extends EventDispatcher implements IChatPM
     public var messages:IList;
 
     [Bindable]
+    [Subscribe(objectId="calls")]
+    public var calls:IList;
+
+    [Bindable]
     public var message:String;
+
+    [Bindable]
+    public var isCamMuted:Boolean = true;
+
+    [Bindable]
+    public var isMicMuted:Boolean = true;
 
     public function messageRendererFunction(item:Object):IFactory
     {
@@ -70,7 +80,7 @@ public class ChatPM extends EventDispatcher implements IChatPM
         if (!this.message)
             return;
 
-        dispatcher(new SendMessageMessage(this.message));
+        dispatcher(new SayTextMessage(this.message));
 
         this.clear();
     }
@@ -78,6 +88,16 @@ public class ChatPM extends EventDispatcher implements IChatPM
     public function leave():void
     {
         dispatcher(new LeaveChatMessage());
+    }
+
+    public function cam():void
+    {
+
+    }
+
+    public function mic():void
+    {
+
     }
 }
 }
