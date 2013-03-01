@@ -8,6 +8,7 @@
 package com.backendless.flex.examples.chat.application.commands
 {
 import com.backendless.Backendless;
+import com.backendless.errors.MediaError;
 import com.backendless.examples.flex.logging.Logger;
 import com.backendless.flex.examples.chat.application.messages.PublishCallMessage;
 import com.backendless.flex.examples.chat.domain.Chat;
@@ -41,13 +42,9 @@ public class PublishCallCommand
             return;
         }
 
-        chat.currentCall = new ChatCall();
-        chat.currentCall.member =  chat.currentMember;
-
         const settings:StreamSettings = new StreamSettings();
         settings.camera = Camera.getCamera();
         settings.microphone = Microphone.getEnhancedMicrophone();
-
 
         try
         {
@@ -55,13 +52,16 @@ public class PublishCallCommand
                 new Responder(
                     function(control:RecordingControl):void
                     {
+                        chat.currentCall = new ChatCall();
+                        chat.currentCall.member =  chat.currentMember;
+
                         callback(control);
                     },
-                    function(info:Object):void
+                    function(error:MediaError):void
                     {
-                        callback(new Error(info.code));
+                        callback(error);
 
-                        Logger.error(info.code);
+                        Logger.error(error.getStackTrace());
                     }
                 ),
                 settings
