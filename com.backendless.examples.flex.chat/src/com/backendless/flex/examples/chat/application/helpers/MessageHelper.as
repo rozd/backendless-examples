@@ -19,7 +19,7 @@ package com.backendless.flex.examples.chat.application.helpers
 {
 import com.backendless.examples.flex.logging.Logger;
 import com.backendless.flex.examples.chat.domain.ChatMessage;
-import com.backendless.flex.examples.chat.domain.messages.CallMessage;
+import com.backendless.flex.examples.chat.domain.messages.CallInviteMessage;
 import com.backendless.flex.examples.chat.domain.messages.GoodbyeMessage;
 import com.backendless.flex.examples.chat.domain.messages.HelloMessage;
 import com.backendless.flex.examples.chat.domain.messages.TextMessage;
@@ -46,8 +46,8 @@ public class MessageHelper
                 message = new TextMessage();
                 break;
 
-            case CallMessage.TYPE :
-                message = new CallMessage();
+            case CallInviteMessage.TYPE :
+                message = new CallInviteMessage();
                 break;
 
             default :

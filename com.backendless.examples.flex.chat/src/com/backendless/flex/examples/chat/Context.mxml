@@ -25,14 +25,18 @@
         import com.backendless.flex.examples.chat.application.commands.LeaveChatCommand;
         import com.backendless.flex.examples.chat.application.commands.NavigateToCommand;
         import com.backendless.flex.examples.chat.application.commands.HandleMessageCommand;
+        import com.backendless.flex.examples.chat.application.commands.PublishCallCommand;
         import com.backendless.flex.examples.chat.application.commands.ReplyHelloCommand;
         import com.backendless.flex.examples.chat.application.commands.SayGoodbyeCommand;
         import com.backendless.flex.examples.chat.application.commands.SayHelloCommand;
         import com.backendless.flex.examples.chat.application.commands.SendMessageCommand;
-        import com.backendless.flex.examples.chat.application.commands.StartCallCommand;
+        import com.backendless.flex.examples.chat.application.commands.PublishCallCommand;
+        import com.backendless.flex.examples.chat.application.commands.PublishCallCommand;
         import com.backendless.flex.examples.chat.application.commands.StartupCommand;
         import com.backendless.flex.examples.chat.application.commands.SystemMessageCommand;
-        import com.backendless.flex.examples.chat.application.messages.SayCallMessage;
+        import com.backendless.flex.examples.chat.application.messages.SayCallInviteMessage;
+        import com.backendless.flex.examples.chat.application.messages.SayCallInviteMessage;
+        import com.backendless.flex.examples.chat.application.messages.SayCallInviteMessage;
         ]]>
     </fx:Script>
 
@@ -59,10 +63,10 @@
         <parsley:MapCommand type="{HandleGoodbyeCommand}" />
         <parsley:MapCommand type="{HandleMessageCommand}" />
 
-        <parsley:MapCommand messageType="{SayCallMessage}">
+        <parsley:MapCommand messageType="{SayCallInviteMessage}">
             <parsley:CommandSequence>
-                <parsley:Command type="{StartCallCommand}" />
-                <parsley:Command type="{SayCallMessage}" />
+                <parsley:Command type="{PublishCallCommand}" />
+                <parsley:Command type="{SayCallInviteMessage}" />
             </parsley:CommandSequence>
         </parsley:MapCommand>
 

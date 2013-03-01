@@ -76,3 +76,19 @@
     fontWeight: normal;
     fontSize: 10;
 }
+
+.iconicFontAwesome
+{
+    fontFamily: FontAwesomeEmbedded;
+    fontStyle: normal;
+    fontWeight: normal;
+    fontSize: 20px;
+}
+
+.iconicEntypo
+{
+    fontFamily: EntypoEmbedded;
+    fontStyle: normal;
+    fontWeight: normal;
+    fontSize: 20px;
+}

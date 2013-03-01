@@ -1,27 +1,33 @@
 /**
  * Created with IntelliJ IDEA.
  * User: Max
- * Date: 2/28/13
- * Time: 7:57 PM
+ * Date: 3/1/13
+ * Time: 10:41 AM
  * To change this template use File | Settings | File Templates.
  */
 package com.backendless.flex.examples.chat.application.commands
 {
 import com.backendless.Backendless;
 import com.backendless.examples.flex.logging.Logger;
-import com.backendless.flex.examples.chat.application.messages.HandleCallMessage;
+import com.backendless.flex.examples.chat.application.messages.HandleCallInfoMessage;
+import com.backendless.flex.examples.chat.application.messages.SystemMessageMessage;
 import com.backendless.flex.examples.chat.domain.Chat;
 import com.backendless.flex.examples.chat.domain.ChatCall;
-import com.backendless.flex.examples.chat.domain.ChatMember;
+import com.backendless.flex.examples.chat.domain.messages.CallInfoMessage;
+import com.backendless.flex.examples.chat.domain.messages.SystemMessage;
 import com.backendless.media.MediaControl;
 
 import mx.rpc.Responder;
+
 import mx.rpc.events.FaultEvent;
+
 import mx.rpc.events.ResultEvent;
 
-public class HandleCallCommand
+import mx.utils.StringUtil;
+
+public class HandleCallInfoCommand
 {
-    public function HandleCallCommand()
+    public function HandleCallInfoCommand()
     {
         super();
     }
@@ -34,15 +40,17 @@ public class HandleCallCommand
 
     public var callback:Function;
 
-    public function execute(msg:HandleCallMessage):void
+    public function execute(msg:HandleCallInfoMessage):void
     {
-        if (msg.message.member.isCurrent)
+        const message:CallInfoMessage = msg.message;
+
+        if (message.member.isCurrent)
             return;
 
-        if (chat.hasCallFrom(msg.message.member))
+        if (chat.hasCallFrom(message.member))
             return;
 
-        chat.addMessage(msg.message);
+        dispatcher(new SystemMessageMessage(StringUtil.substitute("Received call from {0}", message.member.name)));
 
         Backendless.MediaService.playLive("com.backendless.examples.flex", msg.message.member.subscriptionId,
             new Responder(

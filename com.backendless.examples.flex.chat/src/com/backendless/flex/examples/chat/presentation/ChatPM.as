@@ -18,7 +18,7 @@
 package com.backendless.flex.examples.chat.presentation
 {
 import com.backendless.flex.examples.chat.application.messages.LeaveChatMessage;
-import com.backendless.flex.examples.chat.application.messages.SayCallMessage;
+import com.backendless.flex.examples.chat.application.messages.SayCallInviteMessage;
 import com.backendless.flex.examples.chat.application.messages.SayTextMessage;
 import com.backendless.flex.examples.chat.domain.messages.SystemMessage;
 import com.backendless.flex.examples.chat.domain.messages.TextMessage;
@@ -93,7 +93,7 @@ public class ChatPM extends EventDispatcher implements IChatPM
 
     public function call():void
     {
-        dispatcher(new SayCallMessage());
+        dispatcher(new SayCallInviteMessage());
     }
 
     public function cam():void

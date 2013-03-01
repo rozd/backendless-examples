@@ -18,9 +18,9 @@
 package com.backendless.flex.examples.chat.application.commands
 {
 import com.backendless.flex.examples.chat.application.messages.ReplyHelloMessage;
+import com.backendless.flex.examples.chat.application.messages.SayCallInfoMessage;
 import com.backendless.flex.examples.chat.application.messages.SendMessageMessage;
 import com.backendless.flex.examples.chat.domain.Chat;
-import com.backendless.flex.examples.chat.domain.messages.CallMessage;
 import com.backendless.flex.examples.chat.domain.messages.HelloMessage;
 
 public class ReplyHelloCommand
@@ -46,7 +46,7 @@ public class ReplyHelloCommand
 
         if (chat.currentCall)
         {
-            dispatcher(new SendMessageMessage(new CallMessage()));
+            dispatcher(new SayCallInfoMessage());
         }
     }
 }

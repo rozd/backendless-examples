@@ -9,13 +9,19 @@ package com.backendless.flex.examples.chat.domain.messages
 {
 import com.backendless.flex.examples.chat.domain.ChatMessage;
 
-public class CallMessage extends ChatMessage
+public class CallInviteMessage extends ChatMessage
 {
-    public static const TYPE:String = "CallMessage";
+    public static const TYPE:String = "CallInviteMessage";
 
-    public function CallMessage()
+    public function CallInviteMessage()
     {
         super(TYPE);
     }
+
+    override public function copy(that:Object):void
+    {
+        super.copy(that);
+    }
+
 }
 }

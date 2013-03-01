@@ -20,5 +20,14 @@ public class ChatCall
 
     public var member:ChatMember;
     public var control:MediaControl;
+
+    public function copy(that:Object):void
+    {
+        this.member = new ChatMember();
+        this.member.copy(that.member);
+
+        this.control = that.control;
+    }
+
 }
 }

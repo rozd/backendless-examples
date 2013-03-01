@@ -56,6 +56,8 @@
             </s:List>
             <s:HGroup bottom="0" width="100%" paddingLeft="10" paddingTop="10" paddingRight="10" paddingBottom="10">
                 <s:Button styleName="iconButton" label="&#xf095;" color="#FFFFFF" click="this.model.call();" />
+                <s:Button styleName="iconButton" label="&#127908;" fontSize="48" fontFamily="EntypoEmbedded" color="#FFFFFF" click="" />
+                <s:Button styleName="iconButton" label="&#128247;" fontSize="48" fontFamily="EntypoEmbedded" color="#FFFFFF" click="" />
                 <s:Spacer width="100%" />
                 <s:Button styleName="iconButton" label="&#xf00d;" color="#FFFFFF" click="this.model.leave()" />
             </s:HGroup>

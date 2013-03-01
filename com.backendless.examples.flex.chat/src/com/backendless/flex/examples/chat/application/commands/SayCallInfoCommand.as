@@ -1,22 +1,20 @@
 /**
  * Created with IntelliJ IDEA.
  * User: Max
- * Date: 2/28/13
- * Time: 7:45 PM
+ * Date: 3/1/13
+ * Time: 10:12 AM
  * To change this template use File | Settings | File Templates.
  */
 package com.backendless.flex.examples.chat.application.commands
 {
-import com.backendless.Backendless;
-import com.backendless.flex.examples.chat.application.messages.SayCallMessage;
+import com.backendless.flex.examples.chat.application.messages.SayCallInfoMessage;
 import com.backendless.flex.examples.chat.application.messages.SendMessageMessage;
 import com.backendless.flex.examples.chat.domain.Chat;
-import com.backendless.flex.examples.chat.domain.messages.CallMessage;
-import com.backendless.messaging.PublishOptions;
+import com.backendless.flex.examples.chat.domain.messages.CallInfoMessage;
 
-public class SayCallCommand
+public class SayCallInfoCommand
 {
-    public function SayCallCommand()
+    public function SayCallInfoCommand()
     {
         super();
     }
@@ -27,9 +25,10 @@ public class SayCallCommand
     [Inject]
     public var chat:Chat;
 
-    public function execute(msg:SayCallMessage):void
+    public function execute(msg:SayCallInfoMessage):void
     {
-        const message:CallMessage = new CallMessage();
+        const message:CallInfoMessage = new CallInfoMessage();
+        message.call = chat.currentCall;
 
         dispatcher(new SendMessageMessage(message));
     }

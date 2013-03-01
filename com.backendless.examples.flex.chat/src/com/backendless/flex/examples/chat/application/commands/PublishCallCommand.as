@@ -9,10 +9,10 @@ package com.backendless.flex.examples.chat.application.commands
 {
 import com.backendless.Backendless;
 import com.backendless.examples.flex.logging.Logger;
-import com.backendless.flex.examples.chat.application.messages.SayCallMessage;
-import com.backendless.flex.examples.chat.application.messages.StartCallMessage;
+import com.backendless.flex.examples.chat.application.messages.PublishCallMessage;
 import com.backendless.flex.examples.chat.domain.Chat;
 import com.backendless.flex.examples.chat.domain.ChatCall;
+import com.backendless.media.RecordingControl;
 import com.backendless.media.StreamSettings;
 
 import flash.media.Camera;
@@ -22,9 +22,9 @@ import mx.rpc.Responder;
 import mx.rpc.events.FaultEvent;
 import mx.rpc.events.ResultEvent;
 
-public class StartCallCommand
+public class PublishCallCommand
 {
-    public function StartCallCommand()
+    public function PublishCallCommand()
     {
         super();
     }
@@ -34,7 +34,7 @@ public class StartCallCommand
 
     public var callback:Function;
 
-    public function execute(msg:SayCallMessage):void
+    public function execute(msg:PublishCallMessage):void
     {
         if (chat.currentCall)
         {
@@ -51,17 +51,17 @@ public class StartCallCommand
 
         try
         {
-            Backendless.MediaService.publishLive(null, "asdsad",
+            Backendless.MediaService.publishLive("default", "asdsad",
                 new Responder(
-                    function(event:ResultEvent):void
+                    function(control:RecordingControl):void
                     {
-                        callback(event.result);
+                        callback(control);
                     },
-                    function(event:FaultEvent):void
+                    function(info:Object):void
                     {
-                        callback(event);
+                        callback(new Error(info.code));
 
-                        Logger.error(event.toString());
+                        Logger.error(info.code);
                     }
                 ),
                 settings
@@ -69,7 +69,7 @@ public class StartCallCommand
         }
         catch (e:Error)
         {
-            trace(e);
+            trace(e.getStackTrace());
         }
     }
 

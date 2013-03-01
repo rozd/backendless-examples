@@ -7,9 +7,9 @@
  */
 package com.backendless.flex.examples.chat.application.messages
 {
-public class SayCallMessage
+public class SayCallInviteMessage implements PublishCallMessage
 {
-    public function SayCallMessage()
+    public function SayCallInviteMessage()
     {
     }
 }

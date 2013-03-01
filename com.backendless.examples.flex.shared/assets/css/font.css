@@ -73,6 +73,14 @@
 
 @font-face
 {
+    src: url("fonts/Entypo.ttf");
+    fontFamily: EntypoEmbedded;
+    fontStyle: normal;
+    fontWeight: normal;
+}
+
+@font-face
+{
     src: url("fonts/MesloLGS-Regular.ttf");
     fontFamily: MesloEmbedded;
     fontStyle: normal;

@@ -1,16 +1,17 @@
 /**
  * Created with IntelliJ IDEA.
  * User: Max
- * Date: 2/28/13
- * Time: 7:31 PM
+ * Date: 3/1/13
+ * Time: 10:12 AM
  * To change this template use File | Settings | File Templates.
  */
 package com.backendless.flex.examples.chat.application.messages
 {
-public class StartCallMessage
+public class SayCallInfoMessage
 {
-    public function StartCallMessage()
+    public function SayCallInfoMessage()
     {
+        super();
     }
 }
 }
