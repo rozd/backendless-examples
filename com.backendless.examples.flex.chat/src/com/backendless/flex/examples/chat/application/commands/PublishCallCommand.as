@@ -53,6 +53,9 @@ public class PublishCallCommand
             return;
         }
 
+        chat.currentCall = new ChatCall();
+        chat.currentCall.member =  chat.currentMember;
+
         const settings:StreamSettings = new StreamSettings();
         settings.camera = Camera.getCamera();
         settings.microphone = Microphone.getEnhancedMicrophone();
@@ -63,8 +66,6 @@ public class PublishCallCommand
                 new Responder(
                     function(control:RecordingControl):void
                     {
-                        chat.currentCall = new ChatCall();
-                        chat.currentCall.member =  chat.currentMember;
                         chat.currentCall.recordControl = control;
                         control.start();
 

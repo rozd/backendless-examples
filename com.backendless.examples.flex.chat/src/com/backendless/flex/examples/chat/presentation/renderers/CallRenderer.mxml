@@ -1,25 +1,59 @@
 <?xml version="1.0"?>
 <s:ItemRenderer xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
-                xmlns:elements="org.osmf.elements.*">
+                xmlns:elements="org.osmf.elements.*" xmlns:media="com.backendless.media.*"
+                xmlns:components="com.backendless.flex.examples.chat.presentation.components.*"
+                xmlns:filters="org.gonta.filters.*">
+
+
+    <fx:Script>
+        <![CDATA[
+        import com.backendless.Backendless;
+        import com.backendless.service._MediaService;
+
+//        override public function set data(value:Object):void
+//        {
+//            super.data = value;
+//
+//            content.removeChildren();
+//
+//            if (data.control)
+//            {
+//                var video:Video = data.control.video;
+//
+//                video.width = 160;
+//                video.height = 120;
+//
+//                content.addChild(video);
+//            }
+//        }
+
+        ]]>
+    </fx:Script>
+
 
     <s:Rect left="0" top="0" right="0" bottom="0">
         <s:fill>
-            <s:SolidColor color="#FFFFFF" />
+            <s:SolidColor color="#FFFFFF" alpha="0.1" />
         </s:fill>
     </s:Rect>
 
-    <s:VideoDisplay width="160" height="120">
-        <s:source>
-            <s:DynamicStreamingVideoSource host="{_MediaService.BACKENDLESS_MEDIA_STREAMING_URL}" >
-                <s:streamItems>
-                    <s:DynamicStreamingVideoItem streamName="{data.member.subscriptionId}" />
-                </s:streamItems>
-            </s:DynamicStreamingVideoSource>
-        </s:source>
-    </s:VideoDisplay>
+    <components:SpriteVideoElement width="160" height="120" video="{this.data.control.video}">
+        <components:filters>
+            <filters:WetFloorFilter y="{120}" height="20" alpha="0.4" />
+        </components:filters>
+    </components:SpriteVideoElement>
 
-    <fx:Script><![CDATA[
-        import com.backendless.Backendless;
-        import com.backendless.service._MediaService;
-        ]]></fx:Script>
+    <media:BackendlessVideoDisplay width="160" height="120" autoPlay="true">
+        <media:source>
+            <media:BackendlessVideoSource id="videoSource" tube="default" streamType="live" >
+                <media:streamItems>
+                    <s:DynamicStreamingVideoItem id="videoItem" streamName="{this.data.member.subscriptionId}"/>
+                </media:streamItems>
+            </media:BackendlessVideoSource>
+        </media:source>
+        <media:filters>
+            <filters:WetFloorFilter y="{120}" height="20" alpha="0.4" />
+        </media:filters>
+    </media:BackendlessVideoDisplay>
+
 </s:ItemRenderer>

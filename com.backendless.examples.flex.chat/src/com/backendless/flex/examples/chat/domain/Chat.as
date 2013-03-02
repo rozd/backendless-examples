@@ -33,6 +33,8 @@ public class Chat
 
     private var membersMap:Object = {};
 
+    private var callsMap:Object = {};
+
     [Bindable]
     public var currentMember:ChatMember;
 
@@ -48,7 +50,7 @@ public class Chat
 
     [Bindable]
     [Publish(objectId="calls")]
-    public var calls:IList = new ArrayList();
+    public var calls:IList = new ArrayCollection();
 
     public function addMessage(message:ChatMessage):void
     {
@@ -57,12 +59,24 @@ public class Chat
 
     public function addCall(call:ChatCall):void
     {
+        callsMap[call.member.subscriptionId] = call;
+
         calls.addItem(call);
     }
 
-    public function removeCall(call:ChatCall):void
+    public function removeCallFrom(member:ChatMember):void
     {
+        var id:String = member.subscriptionId;
 
+        const n:int = calls.length;
+        for (var i:int = 0; i < n; i++)
+        {
+            if (calls.getItemAt(i).member.subscriptionId == id)
+            {
+                calls.removeItemAt(i);
+                break;
+            }
+        }
     }
 
     public function addMember(member:ChatMember):Boolean
@@ -81,6 +95,11 @@ public class Chat
     {
         if (!membersMap[id])
             return false;
+
+        const member:ChatMember = membersMap[id] as ChatMember;
+
+        if (hasCallFrom(member))
+            removeCallFrom(member);
 
         const n:int = members.length;
         for (var i:int = 0; i < n; i++)

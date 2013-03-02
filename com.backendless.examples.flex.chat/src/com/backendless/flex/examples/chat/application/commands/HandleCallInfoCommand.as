@@ -61,18 +61,19 @@ public class HandleCallInfoCommand
         if (chat.hasCallFrom(message.member))
             return;
 
+        var call:ChatCall = new ChatCall();
+        call.member = msg.message.member;
+
+        chat.addCall(call);
+
         dispatcher(new SystemMessageMessage(StringUtil.substitute("Received call from {0}", message.member.name)));
 
         Backendless.MediaService.playLive("default", msg.message.member.subscriptionId,
             new Responder(
                 function(control:MediaControl):void
                 {
-                    var call:ChatCall = new ChatCall();
-                    call.member = msg.message.member;
                     call.control = control;
                     control.start();
-
-                    chat.addCall(call);
 
                     callback(call);
                 },

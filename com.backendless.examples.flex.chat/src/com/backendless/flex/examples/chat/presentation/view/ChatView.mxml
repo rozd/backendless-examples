@@ -43,21 +43,20 @@
         <parsley:Configure />
     </fx:Declarations>
 
-    <s:VGroup left="0" top="0" right="0" bottom="0" horizontalAlign="center" paddingTop="20">
-        <s:Group width="80%" maxWidth="800">
+    <s:VGroup left="0" top="0" right="0" bottom="0" horizontalAlign="center" paddingTop="{this.model.calls.length > 0 ? 0 : 20}">
+        <s:Group percentWidth="{this.model.calls.length > 0 ? 100 : 80}" maxWidth="{this.model.calls.length > 0 ? NaN : 800}">
             <s:Rect left="0" top="0" right="0" bottom="0">
                 <s:fill>
-                    <s:SolidColor color="#999999" />
-                    <!--<s:SolidColor color="#134D74" />-->
+                    <s:SolidColor color="#134D74" />
                 </s:fill>
             </s:Rect>
             <s:List width="100%" height="200" dataProvider="{this.model.calls}" itemRenderer="{new ClassFactory(CallRenderer)}" includeInLayout="{this.model.calls.length > 0}">
                 <s:layout>
-                    <s:HorizontalLayout horizontalAlign="center" />
+                    <s:HorizontalLayout horizontalAlign="center"  paddingTop="20" />
                 </s:layout>
             </s:List>
             <s:HGroup bottom="0" width="100%" paddingLeft="10" paddingTop="10" paddingRight="10" paddingBottom="10">
-                <!--<s:Button styleName="iconButton" label="&#128222;" fontSize="32" fontFamily="EntypoEmbedded" color="#FFFFFF" click="this.model.call();" />-->
+                <s:Button styleName="iconButton" label="&#xf095;" color="#FFFFFF" visible="{this.model.calls.length == 0}" click="this.model.call();" />
                 <!--<s:Button styleName="iconButton" label="&#127908;" fontSize="32" fontFamily="EntypoEmbedded" color="#FFFFFF" click="" />-->
                 <!--<s:Button styleName="iconButton" label="&#128247;" fontSize="32" fontFamily="EntypoEmbedded" color="#FFFFFF" click="" />-->
                 <s:Spacer width="100%" />
