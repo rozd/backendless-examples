@@ -54,7 +54,7 @@ public class SendMessageCommand
 
         msg.message.member = chat.currentMember;
 
-        Backendless.Messaging.publishToChannel("com.backendless.examples.flex.chat", msg.message, options, msg.delivery,
+        Backendless.Messaging.publishToChannel("default", msg.message, options, msg.delivery,
             new Responder
             (
                 function(event:ResultEvent):void

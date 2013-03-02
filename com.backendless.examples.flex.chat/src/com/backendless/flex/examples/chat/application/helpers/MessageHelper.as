@@ -19,6 +19,7 @@ package com.backendless.flex.examples.chat.application.helpers
 {
 import com.backendless.examples.flex.logging.Logger;
 import com.backendless.flex.examples.chat.domain.ChatMessage;
+import com.backendless.flex.examples.chat.domain.messages.CallInfoMessage;
 import com.backendless.flex.examples.chat.domain.messages.CallInviteMessage;
 import com.backendless.flex.examples.chat.domain.messages.GoodbyeMessage;
 import com.backendless.flex.examples.chat.domain.messages.HelloMessage;
@@ -48,6 +49,10 @@ public class MessageHelper
 
             case CallInviteMessage.TYPE :
                 message = new CallInviteMessage();
+                break;
+
+            case CallInfoMessage.TYPE :
+                message = new CallInfoMessage();
                 break;
 
             default :

@@ -38,23 +38,19 @@ public class LeaveChatCommand
     [MessageDispatcher]
     public var dispatcher:Function;
 
-    public var callback:Function;
-
     public function execute(msg:LeaveChatMessage):void
     {
         dispatcher(new SayGoodbyeMessage());
 
         Backendless.Messaging.unsubscribe(
             new Responder(
-                function (event:ResultEvent):void
+                function (event:Object):void
                 {
-                    callback(event.result);
+
                 },
                 function (event:FaultEvent):void
                 {
                     Logger.error(event.toString());
-
-                    callback(event);
                 }
             )
         );

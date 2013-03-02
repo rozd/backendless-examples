@@ -19,6 +19,7 @@ package com.backendless.flex.examples.chat.application.commands
 {
 import com.backendless.examples.flex.logging.Logger;
 import com.backendless.flex.examples.chat.application.helpers.MessageHelper;
+import com.backendless.flex.examples.chat.application.messages.HandleCallInfoMessage;
 import com.backendless.flex.examples.chat.application.messages.HandleCallInviteMessage;
 import com.backendless.flex.examples.chat.application.messages.HandleGoodbyeMessage;
 import com.backendless.flex.examples.chat.application.messages.HandleHelloMessage;
@@ -26,6 +27,7 @@ import com.backendless.flex.examples.chat.application.messages.HandleMessageMess
 import com.backendless.flex.examples.chat.application.messages.HandleTextMessage;
 import com.backendless.flex.examples.chat.domain.Chat;
 import com.backendless.flex.examples.chat.domain.enum.MessageHeader;
+import com.backendless.flex.examples.chat.domain.messages.CallInfoMessage;
 import com.backendless.flex.examples.chat.domain.messages.CallInviteMessage;
 import com.backendless.flex.examples.chat.domain.messages.GoodbyeMessage;
 import com.backendless.flex.examples.chat.domain.messages.HelloMessage;
@@ -65,6 +67,10 @@ public class HandleMessageCommand
         else if (message is CallInviteMessage)
         {
             dispatcher(new HandleCallInviteMessage(message as CallInviteMessage));
+        }
+        else if (message is CallInfoMessage)
+        {
+            dispatcher(new HandleCallInfoMessage(message as CallInfoMessage));
         }
     }
 }

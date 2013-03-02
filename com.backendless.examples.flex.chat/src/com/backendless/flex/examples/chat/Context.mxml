@@ -17,6 +17,8 @@
 
     <fx:Script>
         <![CDATA[
+        import com.backendless.flex.examples.chat.application.commands.HandleCallInfoCommand;
+        import com.backendless.flex.examples.chat.application.commands.HandleCallInviteCommand;
         import com.backendless.flex.examples.chat.application.commands.HandleGoodbyeCommand;
         import com.backendless.flex.examples.chat.application.commands.HandleHelloCommand;
         import com.backendless.flex.examples.chat.application.commands.HandleMessageCommand;
@@ -27,13 +29,19 @@
         import com.backendless.flex.examples.chat.application.commands.HandleMessageCommand;
         import com.backendless.flex.examples.chat.application.commands.PublishCallCommand;
         import com.backendless.flex.examples.chat.application.commands.ReplyHelloCommand;
+        import com.backendless.flex.examples.chat.application.commands.SayCallInfoCommand;
+        import com.backendless.flex.examples.chat.application.commands.SayCallInviteCommand;
         import com.backendless.flex.examples.chat.application.commands.SayGoodbyeCommand;
         import com.backendless.flex.examples.chat.application.commands.SayHelloCommand;
+        import com.backendless.flex.examples.chat.application.commands.SayTextCommand;
         import com.backendless.flex.examples.chat.application.commands.SendMessageCommand;
         import com.backendless.flex.examples.chat.application.commands.PublishCallCommand;
         import com.backendless.flex.examples.chat.application.commands.PublishCallCommand;
         import com.backendless.flex.examples.chat.application.commands.StartupCommand;
         import com.backendless.flex.examples.chat.application.commands.SystemMessageCommand;
+        import com.backendless.flex.examples.chat.application.messages.HandleCallInfoMessage;
+        import com.backendless.flex.examples.chat.application.messages.HandleCallInviteMessage;
+        import com.backendless.flex.examples.chat.application.messages.SayCallInfoMessage;
         import com.backendless.flex.examples.chat.application.messages.SayCallInviteMessage;
         import com.backendless.flex.examples.chat.application.messages.SayCallInviteMessage;
         import com.backendless.flex.examples.chat.application.messages.SayCallInviteMessage;
@@ -53,6 +61,7 @@
         <parsley:MapCommand type="{SayHelloCommand}" />
         <parsley:MapCommand type="{SayGoodbyeCommand}" />
         <parsley:MapCommand type="{ReplyHelloCommand}" />
+        <parsley:MapCommand type="{SayTextCommand}" />
 
         <parsley:MapCommand type="{SendMessageCommand}" />
 
@@ -62,13 +71,23 @@
         <parsley:MapCommand type="{HandleHelloCommand}" />
         <parsley:MapCommand type="{HandleGoodbyeCommand}" />
         <parsley:MapCommand type="{HandleMessageCommand}" />
+        <parsley:MapCommand type="{HandleCallInfoCommand}" />
 
         <parsley:MapCommand messageType="{SayCallInviteMessage}">
             <parsley:CommandSequence>
                 <parsley:Command type="{PublishCallCommand}" />
-                <parsley:Command type="{SayCallInviteMessage}" />
+                <parsley:Command type="{SayCallInviteCommand}" />
             </parsley:CommandSequence>
         </parsley:MapCommand>
+
+        <parsley:MapCommand messageType="{HandleCallInviteMessage}">
+            <parsley:CommandSequence>
+                <parsley:Command type="{PublishCallCommand}" />
+                <parsley:Command type="{HandleCallInviteCommand}" />
+            </parsley:CommandSequence>
+        </parsley:MapCommand>
+
+        <parsley:MapCommand type="{SayCallInfoCommand}" />
 
         <!--Domain-->
 

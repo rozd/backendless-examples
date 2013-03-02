@@ -2,7 +2,24 @@
 <s:ItemRenderer xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
                 xmlns:elements="org.osmf.elements.*">
 
-    <s:VideoDisplay source="{data.control.video}">
+    <s:Rect left="0" top="0" right="0" bottom="0">
+        <s:fill>
+            <s:SolidColor color="#FFFFFF" />
+        </s:fill>
+    </s:Rect>
+
+    <s:VideoDisplay width="160" height="120">
+        <s:source>
+            <s:DynamicStreamingVideoSource host="{_MediaService.BACKENDLESS_MEDIA_STREAMING_URL}" >
+                <s:streamItems>
+                    <s:DynamicStreamingVideoItem streamName="{data.member.subscriptionId}" />
+                </s:streamItems>
+            </s:DynamicStreamingVideoSource>
+        </s:source>
     </s:VideoDisplay>
 
+    <fx:Script><![CDATA[
+        import com.backendless.Backendless;
+        import com.backendless.service._MediaService;
+        ]]></fx:Script>
 </s:ItemRenderer>

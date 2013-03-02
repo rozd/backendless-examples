@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$USER_HOME$/as3httpclient/as3httpclient.iml" filepath="$USER_HOME$/as3httpclient/as3httpclient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../backendless/backendless.iml" filepath="$PROJECT_DIR$/../../backendless/backendless.iml" />
       <module fileurl="file://$PROJECT_DIR$/backendless/backendless.iml" filepath="$PROJECT_DIR$/backendless/backendless.iml" />
+      <module fileurl="file://$USER_HOME$/backendless/backendless.iml" filepath="$USER_HOME$/backendless/backendless.iml" />
       <module fileurl="file://$USER_HOME$/backendless/backendless.iml" filepath="$USER_HOME$/backendless/backendless.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.backendless.examples.flex.chat/com.backendless.examples.flex.chat.iml" filepath="$PROJECT_DIR$/com.backendless.examples.flex.chat/com.backendless.examples.flex.chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/com.backendless.examples.flex.gallery/com.backendless.examples.flex.gallery.iml" filepath="$PROJECT_DIR$/com.backendless.examples.flex.gallery/com.backendless.examples.flex.gallery.iml" />

@@ -59,7 +59,7 @@ public class JoinChatCommand
 
         const options:SubscriptionOptions = new SubscriptionOptions();
 
-        Backendless.Messaging.subscribeToChannel("com.backendless.examples.flex.chat", subscriber, options,
+        Backendless.Messaging.subscribeToChannel("default", subscriber, options,
             new Responder(
                 function (event:ResultEvent):void
                 {

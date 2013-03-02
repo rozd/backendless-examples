@@ -51,7 +51,7 @@
                     </s:fill>
                 </s:Path>
                 <s:filters>
-                    <s:DropShadowFilter blurX="4" blurY="4" alpha="0.2" distance="0" quality="{BitmapFilterQuality.HIGH}" />
+                    <s:DropShadowFilter blurX="4" blurY="4" alpha="0.1" distance="0" quality="{BitmapFilterQuality.HIGH}" />
                 </s:filters>
             </s:Group>
             <s:HGroup left="10" top="10" right="10" bottom="10">
