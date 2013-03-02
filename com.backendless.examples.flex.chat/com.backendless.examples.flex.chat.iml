@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="com.backendless.examples.flex.chat">
     <configurations>
-      <configuration name="com.backendless.examples.flex.chat" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/../out/production/com.backendless.examples.flex.chat" wrapper-template-path="$MODULE_DIR$/html-template">
+      <configuration name="com.backendless.examples.flex.chat" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/../out/production/com.backendless.examples.flex.chat" use-html-wrapper="true" wrapper-template-path="$MODULE_DIR$/html-template">
         <dependencies target-player="11.1">
           <entries>
             <entry module-name="com.backendless.examples.flex.shared" build-configuration-name="com.backendless.examples.flex.shared">
