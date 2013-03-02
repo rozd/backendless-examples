@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="com.backendless.examples.flex.login">
     <configurations>
-      <configuration name="com.backendless.examples.flex.login" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/../out/production/com.backendless.examples.flex.login">
+      <configuration name="com.backendless.examples.flex.login" main-class="Main" output-file="Main.swf" output-folder="$MODULE_DIR$/../out/production/com.backendless.examples.flex.login" use-html-wrapper="true" wrapper-template-path="$MODULE_DIR$/html-template">
         <dependencies target-player="11.1">
           <entries>
             <entry library-id="4dc85c52-c46d-4984-a01a-7caa18800f92">

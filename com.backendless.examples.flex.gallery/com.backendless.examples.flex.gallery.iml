@@ -23,7 +23,7 @@
         <packaging-android />
         <packaging-ios />
       </configuration>
-      <configuration name="com.backendless.examples.flex.gallery.WEB" main-class="Main" output-file="gallery.swf" output-folder="$MODULE_DIR$/../out/production/com.backendless.examples.flex.gallery">
+      <configuration name="com.backendless.examples.flex.gallery.WEB" main-class="Main" output-file="gallery.swf" output-folder="$MODULE_DIR$/../out/production/com.backendless.examples.flex.gallery" use-html-wrapper="true" wrapper-template-path="$MODULE_DIR$/html-template">
         <dependencies target-player="11.1">
           <entries>
             <entry module-name="com.backendless.examples.flex.shared" build-configuration-name="com.backendless.examples.flex.shared">
