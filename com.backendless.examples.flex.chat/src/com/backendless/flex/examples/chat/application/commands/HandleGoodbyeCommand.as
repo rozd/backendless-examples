@@ -43,6 +43,8 @@ public class HandleGoodbyeCommand
 
         chat.removeMember(msg.message.member.subscriptionId);
 
+        // TODO: Remove call if exists
+
         dispatcher(new SystemMessageMessage(StringUtil.substitute("User {0} has left the chat.", [msg.message.member.name])))
     }
 }
