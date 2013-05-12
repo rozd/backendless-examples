@@ -14,9 +14,9 @@ import flash.net.SharedObject;
 
 public class AppSettings
 {
-    private static const APP_ID:String = "899595ED-AB25-669A-FFBC-ECDC1B8BDB00";
+    private static const APP_ID:String = "9862EF7C-D8F4-330B-FF0B-2AB316A08800";
 
-    private static const DEV_KEY:String = "8361D25E-53AA-D0E9-FFB5-644DEA1F0E00";
+    private static const DEV_KEY:String = "E0AC2160-8126-9BB9-FF9B-8CB61CF27300";
 
     private static const VERSION:String = "v1";
 
